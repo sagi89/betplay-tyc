@@ -1,0 +1,18 @@
+<div class="card animate__animated animate__fadeIn">
+  <div class="card-body-isComponenet" *ngIf="data.isComponent; else imageBlock">
+    <span class="example-image-message">Imagen de Ejemplo</span>
+    <img class="image-isComponent" src="{{ data.img ? data.img : 'assets/logo-Betplay_Cut.jpg' }}" alt="Sport Logo"/>
+  </div>
+  <ng-template #imageBlock>
+    <img src="{{ data.img ? data.img : 'assets/logo-Betplay_Cut.jpg' }}" class="image" alt="Sport Logo"/>
+  </ng-template>
+  <div class="card-body" name="content">
+    <h5 class="card-title">{{ data.title }}</h5>
+    <p *ngIf="!data.isComponent; else componentBlock"  class="card-text" [innerHTML]="data.content"></p>
+    <ng-template #componentBlock>
+      <p class="card-text" >
+        <ng-template *ngComponentOutlet="data.content"></ng-template>
+      </p>
+    </ng-template>
+  </div>
+</div>

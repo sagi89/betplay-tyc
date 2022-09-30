@@ -1,0 +1,105 @@
+mark {
+  background: yellow;
+}
+
+mark.current {
+  background: orange;
+}
+
+*{
+    color: #001849;
+}
+.card {
+  border-radius: 10.277778vw;
+  align-items: center;
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 0 5vw 24.44444vw;
+}
+
+.image {
+  margin: 9.1666777vw 0 8.0555556vw 0;
+  max-width: 34.729vw;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  max-width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: justify;
+  color: #001849;
+  font-size: 3.888889vw;
+  max-width: 100%;
+}
+
+.example-image-message {
+  justify-self: end;
+  font-size: 2.5vw;
+  padding-right: 1.11111vw;
+}
+
+.card-body-isComponenet {
+  margin: 9.1666777vw 0 8.0555556vw 0;
+  display: grid;
+  place-items: center;
+}
+
+.image-isComponent {
+  max-width: 100%;
+}
+@media screen and (min-width: 991px) {
+
+
+  .card {
+    margin-bottom: 6.0416667vw;
+    padding: 0;
+    border-radius: 1.927083333vw;
+  }
+  .example-image-message {
+    font-size: 1.2vw;
+    margin-bottom: 1%;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+
+  .image {
+    margin: 4.21875vw 0 3.020833vw 0;
+    max-height: 14.2708vw;
+    max-width: 11.97917vw;
+  }
+
+  .card-title {
+    text-align: center;
+    margin: 0 3.5rem 2rem 3.5rem;
+    padding-bottom: 0.5%;
+    color: #001849;
+  }
+  .card-text {
+    text-align: justify;
+    padding: 0 7.23958vw 8.4375vw;
+    color: #001849;
+    font-size: 0.833333vw;
+  }
+
+  .card-text-component {
+    width: 100%;
+  }
+
+  table {
+    border-collapse: collapse;
+    text-align: center;
+  }
+  table td {
+    text-align: center;
+  }
+}

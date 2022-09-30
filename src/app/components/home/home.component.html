@@ -1,0 +1,17 @@
+<div class="search-message animate__animated animate__fadeIn" *ngIf="haveFilterData">
+  La búsqueda relacionada se encuentra en los siguientes contenidos
+</div>
+<div class="card-container animate__animated animate__fadeIn">
+    <div *ngFor="let sport of sports" class="card animate__animated animate__fadeIn">
+        <img  src='{{ sport.img ? sport.img : "assets/logo-Betplay_Cut.jpg" }}' class="card-img-top" alt="Sport Logo">
+        <div  class="card-body">
+          <h5 class="card-title">{{sport.title}}</h5>
+          <p class="card-text" 
+          [innerHTML]="sport.title !== 'Críquet' ? sport.content.slice(0,120).replace('<br>', '') + '...' :
+          sport.content.slice(0,205).replace('<br>', '').replace('<ol type=\'a\'><li>Reglas generales del críquet.', '') + '...'"
+          >
+        </p>
+          <a routerLink="/info/{{(sport.title).split(' ').join('_')}}" class="btn btn-success">Ver mas</a>
+        </div>
+    </div>
+  </div>

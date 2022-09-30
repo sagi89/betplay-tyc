@@ -1,0 +1,14 @@
+<nav class="navbar navbar-light">
+    <div class="container-fluid">
+      
+      <form class="d-flex" #searchWord="ngForm" (ngSubmit)="filtrar(searchWord.value.searchWord)">
+        <input ngModel name="searchWord" class="form-control" type="text" placeholder="Buscar" aria-label="Search"/>
+        <button class="btn btn-outline-success">
+          <img  src="assets/icons/search.svg">
+        </button>
+      </form>
+
+      
+      
+    </div>
+  </nav>

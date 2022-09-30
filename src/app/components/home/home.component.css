@@ -1,0 +1,136 @@
+.btn:hover {
+  background-color: #008332;
+  color: white;
+  border-color: unset;
+}
+
+.btn {
+  background: #00ae42 0% 0% no-repeat padding-box;
+  border-color: unset;
+  border-radius: 5.2777778vw;
+  color: #ffffff;
+  width: 45.277778vw;
+  min-height: 10.2777778vw;
+  margin-bottom: 1.579vw;
+  font-size: 3.88888889vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10vw 0;
+}
+
+.card {
+  box-shadow: 0px 3px 6px #00000029;
+  align-items: center;
+  border-radius: 37px;
+  width: 83.3333333vw;
+  height: 111.111111vw;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  max-width: 34.722222vw;
+  max-height: 40.555556vw;
+  margin: 9.166667vw 0 1% 0;
+}
+
+.card-text {
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 3.78889vw;
+  width: 65.5555556vw;
+  margin-bottom: 0;
+  color: #001849;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.card-title {
+  font-size: 3.88889vw;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.search-message {
+  text-align: center;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 4.44444444vw;
+  font-weight: bold;
+  color: #042a7a;
+}
+
+@media screen and (min-width: 991px) {
+  .card {
+    border-radius: 1.9271vw;
+    width: 15.625vw;
+    height: 20.833333vw;
+    justify-content: space-between;
+  }
+  .btn {
+    border-radius: 0.9896vw;
+    width: 8.4896vw;
+    min-height: 1.93vw;
+    margin-bottom: 1.579vw;
+    font-size: 0.729vw;
+  }
+
+  .card-title {
+    font-size: 0.78125vw;
+    font-weight: bold;
+    margin: 0;
+    max-width: 13.54166667vw;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2.604vw;
+    padding-bottom: 7.29166667vw;
+  }
+  .card-text {
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 0.72916vw;
+    width: 12.29167vw;
+    margin-bottom: 0;
+    height: 5.10417vw;
+    color: #001849;
+    opacity: 1;
+  }
+  .card-body {
+    text-align: -webkit-center;
+    height: 60%;
+    padding: 0.41666667vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 90%;
+    justify-content: space-between;
+    max-height: 55%;
+  }
+  .card-img-top {
+    max-width: 6.5625vw;
+    max-height: 7.2916667vw;
+    margin: 10% 0 1% 0;
+  }
+
+  .search-message {
+    font-size: 1.04166667vw;
+  }
+}

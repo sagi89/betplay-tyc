@@ -1,0 +1,211 @@
+* {
+  font-family: "Montserrat";
+  
+}
+
+#menu{
+  display: none;
+}
+
+.offcanvas {
+  width: 100vw;
+  background-color: #001849;
+  padding-top: 16.388889vw;
+  display: flex;
+}
+.offcanvas-body {
+  padding: 3.333333vw;
+}
+
+.offcanvas-header {
+  padding: 0 6.333333vw;
+}
+
+.btn-group-vertical {
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.dataContainer {
+  color: #fff;
+  display: flex;
+  width: -webkit-fill-available;
+  justify-content: space-evenly;
+}
+
+.accordion-body {
+  padding: 0;
+}
+
+.accordion-collapse {
+  width: 100%;
+  margin-top: 11.94444vw;
+  margin-left: -0.99166667vw;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-item {
+  background-color: #001849;
+  color: #fff;
+  margin: 0 11.9277778vw 8.452778vw 8.452778vw;
+    border: 0;
+
+}
+
+.iconMenuContainer {
+  width: 10.575vw;
+  display: flex;
+  justify-content: center;
+  margin-right: 3.527778vw;
+}
+
+.accordion-button::after {
+  background-image: url("../../../assets/icons/chevron-down.svg");
+}
+.descargar-button::after{
+  background-image: none;
+}
+
+.accordion-button {
+  padding: 0;
+  background-color: #001849;
+  color: #fff;
+}
+
+.navbar-nav {
+  flex-direction: column;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.menu-item {
+  list-style: none;
+  padding: 0 0 6% 0;
+  
+}
+
+.btn-group-vertical {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  width: 72.22222vw;
+  text-decoration: none;
+  color: #fff;
+  padding: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.dropdown-header{
+  font-size: 3.333333vw;
+}
+
+@media screen and (min-width: 991px) {
+
+  *{
+    font-size: 0.72916667vw;
+  }
+  #movile{
+    display: none;
+  }
+
+  #menu{
+    display: flex;
+    justify-content:flex-start;
+  }
+
+  .dropdown-header{
+    font-size: 0.72916667vw;
+    color: #646464;
+  }
+  
+  .btn-menu {
+    background-color: #001849;
+  }
+
+  .btn-menu:hover {
+    background: #1a3971;
+  }
+
+  .btn {
+    font-size: 0.7vw;
+    width: 16.172339vw;
+    border-radius: 1.302083vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .dropdown-item {
+    width: 100%;
+    color: #001849;
+    padding: 0.25rem 1.92708333vw;
+  }
+
+  .icon-menu {
+    margin-right: 1.041667vw;
+    max-width: 1.5vw;
+    max-height: 1.5vw;
+  }
+
+  .dropend {
+    padding: 0.57291667vw 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aside-contend {
+    padding: 3.90625vw 1.25vw 0;
+    width: 20.052vw;
+  }
+
+  .dropdown-menu {
+    border-radius: 1.197917vw;
+    box-shadow: 0px 3px 6px #00000029;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    color: #001849;
+    padding: 0.885416667vw 0;
+  }
+
+  .dropdown-menu li {
+    padding-top: 0.229167vw;
+    padding-bottom: 0.229167vw;
+  }
+
+  span{
+    color: #FFFFFF;
+  }
+
+  
+
+  .dropend:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(171.2px, 5.6px, 0px);
+
+ }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+}

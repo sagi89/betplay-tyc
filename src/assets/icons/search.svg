@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="search" d="M7.8,0a7.8,7.8,0,1,0,5.072,13.728l.332.328v.951l6,5.992L21,19.21l-5.989-6h-.953l-.332-.33A7.8,7.8,0,0,0,7.8,0Zm0,13.207a5.4,5.4,0,1,1,5.4-5.4A5.409,5.409,0,0,1,7.8,13.207Z" transform="translate(-0.047)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="search-2" data-name="search" transform="translate(0.047)" opacity="0.424">
+    <path id="search-3" data-name="search" d="M7.8,0a7.8,7.8,0,1,0,5.072,13.728l.332.328v.951l6,5.992L21,19.21l-5.989-6h-.953l-.332-.33A7.8,7.8,0,0,0,7.8,0Zm0,13.207a5.4,5.4,0,1,1,5.4-5.4A5.409,5.409,0,0,1,7.8,13.207Z" transform="translate(-0.047)" fill="#fff"/>
+  </g>
+</svg>
