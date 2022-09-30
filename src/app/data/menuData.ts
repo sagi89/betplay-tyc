@@ -7,8 +7,8 @@ export const menuData: Array<IMenuData> = [
     options: [
       'Introducción',
       'Definiciones',
-      'Aceptación de Apuesta',
-      'Limitaciones en apuestas y pagos',
+      'Aceptación de Apuestas',
+      'Limitaciones de apuestas y pagos',
       'Cancelación (Anulación) de Apuestas',
       'Descargo de Responsabilidad y Prioridad',
     ],

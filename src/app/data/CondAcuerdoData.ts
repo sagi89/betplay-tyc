@@ -4,169 +4,171 @@ export const CondAcuerdoData: Array<IDocumentData> = [
     {
         id: 1,
         title: 'Introducción',
-        content: `1) Este conjunto de términos y condiciones rige el uso del sitio de apuestas deportivas de BetPlay. Al
-        realizar una apuesta con BetPlay, el titular de la cuenta acepta haber leído, comprendido y cumplir en
-        todo momento con estos Términos y condiciones, incluyendo las Condiciones generales en cualquier
-        momento aplicable a BetPlay, haga clic
-        <a href="https://apicrm.betplay.com.co/terms/Terminos%20y%20condiciones%20201906.pdf">https://apicrm.betplay.com.co/terms/Terminos%20y%20condiciones%20201906.pdf</a>.<br><br>
-        2) El uso de este sitio de apuestas deportivas está sujeto a las reglas impuestas por Coljuegos.
-        Cualquier decisión dictada por Coljuegos suprime cualquier cláusula aquí recogida.<br><br>
-        3) Cualquier conflicto que esté relacionado de alguna manera con el uso de este sitio de apuestas
-        deportivas debe contactarse a los canales habilitados de Servicio Al Cliente en la página
-        <a href="www.betplay.com.co">www.betplay.com.co</a>. Si la respuesta no te resulta satisfactoria, puedes enviar una solicitud de 
-        arbitraje confidencial a la Coljuegos. La decisión de los árbitros será vinculante y podrá dictarse 
-        como sentencia en cualquier tribunal de la jurisdicción competente.<br><br>
-        4) BetPlay se reserva el derecho a realizar cambios en el sitio, las restricciones de apuestas, las
-        restricciones de pagos y las ofertas.<br><br>
-        5) BetPlay puede actualizar, modificar, editar y complementar estos Términos y condiciones en
-        cualquier momento.<br><br>
-        6) Las referencias a palabras/objetos que aparezcan en singular en estos Términos y condiciones
-        también se aplican a la forma plural. Las referencias al género no son vinculantes y únicamente tendrán
-        fines informativos.<br><br>
-        7) De ser aplicable cualquier referencia al sitio web de [the Opeartor] y a su contenido, también sería
-        aplicable al Casino/medios offline/espacios físicos, incluyendo no solamente las terminales
-        autoservicio [Self-Service Terminals (SST)], servicio de mostrador [Over The Counter (OTC)] y uso
-        de dispositivo propio [Bring Your Own Device (BYOD)].`
+        content: `1) [the Operator] rige las Apuestas mediante el presente pliego de términos y condiciones ("Normas de las Apuestas").
+        A la hora de realizar una Apuesta con [the Operator], el Titular de la cuenta admite haber leído, comprendido y aceptado el
+        vínculo que los presentes Términos y condiciones suponen además de los Términos y condiciones generales de
+        [the Operator] aplicables en todo momento, haga clic <here>.<br><br>
+        2) El uso de las Apuestas de [the Operator] está sujeto a las normas impuestas por [the Stipulated Regulator].
+        Esto se aplica de tal modo que ante cualquier decisión adoptada por [the Stipulated Regulator] que entrase en conflicto
+        o no fuese consistente con las presentes Normas de las Apuestas, la decisión adoptada por [the Stipulated Regulator] se
+        antepondría a cualquier cláusula de las presentes Normas de las Apuestas. <br><br>
+        3) [the Operator] se reserva el derecho a realizar cambios a los límites y ofertas de las apuestas.<br><br>
+        4) Cualquier referencia en las presentes Normas de las Apuestas a sujetos/objetos que aparezcan en singular también se
+        considerarán en plural. El género gramatical empleado de manera genérica no es vinculante y tendrá únicamente fines informativos.
+        Todo uso de "incluido" significará "incluido sin excepción".<br><br>
+        5) Si procediese, cualquier referencia al sitio web de [the Operator] y a su contenido se aplicará también a los ambientes
+        in-situ/sin conexión/Casino, incluidos los terminales de autoservicio (SST), mostrador (OTC) y de dispositivo propio (BYOD).`
     },
     {
         id: 2,
         title: 'Definiciones',
-        content: `1) "Error" es un fallo, una errata, una confusión, una mala interpretación, una lectura o traducción
-        errónea, una falta de ortografía, un problema técnico, un error de registro, un error de transacción, un
-        error manifiesto, una causa de fuerza mayor y/o similar. Ejemplos de errores, no exclusivos:<br><br>
+        content: `1)	"Error" es un [fallo, errata, interpretación errónea, fallo de compresión, error de lectura, falta ortográfica,
+          problema técnico, registro incorrecto, transacción fallida, fallo manifiesto, fallo de fuerza mayor y similares] que pudiera ser
+          o no ser aparente para el Operador y/o el Titular de la cuenta en un momento concreto [que ha tenido apuestas [ofertadas y/o
+          aceptadas] como consecuencia o resultado]. Algunos ejemplos de errores son:<br><br>
         <ul>
             <li>
-         Las apuestas aceptadas por un problema técnico, pero que no habrían sido aceptadas en
-        condiciones normales;</li>
+          Resultado del fallo en los controles de gestión de riesgo establecidos. </li>
         <li>
-         Las apuestas realizadas en eventos/ofertas de apuestas cuyo el resultado ya es conocido;
+        Resultado de una manipulación inapropiada de ofertas o procedimientos de resolución, así como actividades fraudulentas.
         </li>
         <li>
-         Las apuestas realizadas en mercados/eventos cuyos participantes son incorrectos o no están
-        permitidos en la jurisdicción aplicable;
+        Pagos incorrectos.
         </li>
         <li>
-         Las apuestas realizadas en cuotas que son sustancialmente diferentes a las disponibles en los
-        eventos cuando las apuestas han sido realizadas.
+        Ciberataques.
         </li>
         <li>
-         Oferta de apuestas cuyas cuotas reflejan un marcador incorrecto, o de otra manera,
+        Apuestas aceptadas: <br>
+        Durante el transcurso de problemas técnicos y que en otras circunstancias no habrían sido aceptadas; con cuotas/precios
+        que se han visto aumentados, mejorados o destacados en relación con las cuotas/precios ofertados.
         </li>
         <li>
-         Cuotas claramente incorrectas de acuerdo a la probabilidad de que un evento ocurra en el
-        momento que se realizó la apuesta.
+         En eventos/ofertas ya decididos o finalizados o en aquellos en los que [the Operator] haya suspendido las apuestas.
+        </li>
+        <li>
+        En eventos/ofertas una vez el evento/encuentro/oferta ya hubiera comenzado (excepto los tipos de apuestas en vivo).
+        </li>
+        <li>
+        En mercados/eventos que incluyan participantes que no forman parte del evento.
+        </li>
+        <li>
+        De modo diferente a lo considerado conforme con la legislación vigente y aplicable.
+        </li>
+        <li>
+        En cuotas materialmente diferentes a aquellas disponibles en la industria generalista del juego en el momento en el
+        que se acepte la apuesta, cuando [the Operator] haga uso de una mayoría de operadores de la industria del juego para
+        determinar si las cuotas ofertadas eran "materialmente diferentes".
+        </li>
+        <li>
+        En cuotas que reflejen un resultado, clasificación, ránking incorrecto, incluidos los casos en los que se oferten
+        cuotas correctas como resultado de cualquier error u omisión en relación con el anuncio, publicación o información
+        relativa a un resultado, clasificación o ránking.
+        </li>
+        <li>
+        En cuotas incorrectas en las que sea patente que las posibilidades reales de que ocurra un evento en el momento de
+        aceptación de la apuesta fueran materialmente diferentes, o
+        </li>
+        <li>
+        que la apuesta la haya realizado otra persona diferente al Titular de la cuenta (incluido el caso en el que alguien se haya hecho con
+        el acceso a la cuenta del Titular de la cuenta) o en el caso de que el Titular de la cuenta sea víctima de actividades fraudulentas.
         </li>
         </ul>
         <br>
-        2) "Influir en las apuestas" es un acto prohibido por BetPlay en el que el titular de una cuenta, u otras
-        partes que actúan en asociación con el titular de una cuenta, pueden influir en el resultado de un partido
-        o evento, tanto directa como indirectamente.<br><br>
-        3) "Apuesta sindicada" es un acto prohibido por BetPlay, en el que el titular de una cuenta, u otras
-        partes que actúan en asociación con el titular de una cuenta, eluden las reglas de BetPlay, tanto directa
-        como indirectamente. Cuando sea evidente que los titulares de cuentas actúan de esta manera, BetPlay
-        se reserva el derecho de cancelar las apuestas y/o diferir el pago de las apuestas hasta las conclusiones
-        de la investigación.`
+        2)	"Apuestas por influencia" es un acto prohibido por [the Operator] en el que el Titular de la cuenta o aquellas partes que actúen asociadas
+        con el Titular de la cuenta puedan influir o hayan influido en el resultado de un encuentro o un evento de manera directa o indirecta.<br><br>
+        3)	"Apuestas sindicadas" es un acto prohibido por [the Operator] en el que Titulares de cuentas actúan de manera conjunta para realizar una
+        apuesta o una serie de apuestas en el mismo evento o competición o en el que el Titular de la cuenta actúe en nombre o beneficio de otra persona
+        o personas. Si hubiera pruebas de que Titulares de cuentas actúen de manera conjunta de este modo, [the Operator] se reserva el derecho de anular
+        las apuestas en cuestión y/o bloquear el pago de beneficios a la espera de los resultados de las consiguientes investigaciones para determinar si
+        (en opinión de [the Operator]) se han realizado Apuestas sindicadas.`
     },
     {
         id: 3,
-        title: 'Aceptación de Apuesta',
-        content: `1) Una apuesta no será válida hasta que se haya validado y aparezca en el historial de apuestas del
-        titular de la cuenta. En caso de duda sobre la validez de una apuesta, el titular de la cuenta deberá
-        consultar las apuestas abiertas (pendientes) o ponerse en contacto con el servicio de atención al cliente.<br><br>
-        2) A menos que se acepten por error, una vez aceptadas, las apuestas serán válidas y no podrán
-        retirarse. Es responsabilidad del cliente asegurarse en todo momento de que los detalles de las apuestas
-        realizadas son correctos. En ningún caso, BetPlay acepta la responsabilidad por cualquier error
-        (percibido y real), derivando de los errores enumerados en (Section A, Para 2, Cláusula 1), o por otras
-        razones, las entradas incorrectas de cuotas/eventos.<br><br>
-        3) Si se produce un conflicto referente a la aceptación de una transacción (o a la falta de la misma) en la
-        cuenta del titular de la cuenta, la base de datos del registro de transacciones será la autoridad suprema a
-        la hora de decidir dichos asuntos.`
+        title: 'Aceptación de Apuestas',
+        content: `1)	Toda apuesta constituye un contrato legalmente vinculante entre el Titular de la cuenta y [the Operator]. La celebración de
+        dicho contrato requiere de las siguientes fases:<br>
+        &ensp; i.	El anuncio del mercado de la apuesta.<br>
+        &ensp; ii.	La solicitud por parte del Titular de la cuenta de realización de la apuesta en el mercado de la apuesta. <br>
+        &ensp; iii.	La aceptación y confirmación de la apuesta por parte de [the Operator].<br><br>
+        2)	No se considerará que una apuesta ha sido aceptada y confirmada mientras no aparezca en el historial de apuestas del Titular de la cuenta.
+        Una vez aparezca, se considerará que el contrato se ha celebrado de manera debida. En casos de incertidumbre en relación con la aceptación de una
+        apuesta, el Titular de la cuenta deberá comprobar las apuestas en curso (pendientes) o deberá ponerse en contacto con el Servicio de Atención al
+        Cliente para recibir la confirmación al respecto. <br>Excepto en casos de confirmación en el historial del Titular de la cuenta o por parte del Servicio
+        de Atención al Cliente, se considerará que la apuesta no se ha realizado. Excepto en casos de error aceptado, el Titular de la cuenta no podrá anular
+        una apuesta una vez cursada. El Titular de la cuenta será el responsable de asegurarse que los detalles de la apuesta son correctos. <br><br>
+        3)	En caso de disputa derivada de la aceptación (o su ausencia) de cualquier apuesta o en relación con el momento de su realización, la base
+        de datos del registro de transacciones de [the Operator] será la autoridad máxima para esclarecer dichas desavenencias.<br><br>
+        4)	[the Operator] podrá rechazar la realización de cualquier apuesta en cualquier momento y por cualquier motivo, incluidos aquellos con el fin de:<br>
+        <ol><li>Preservar la viabilidad del mercado ofertado (por ejemplo, y sin restricciones, en relación con aquellos eventos en los que haya un número
+        extraordinario o desigual de apuestas en el mismo mercado).</li>
+        <li>Proteger al Titular de la cuenta (por ejemplo, y sin restricciones, en relación con el evento en el que el Titular de la cuenta muestre un
+        comportamiento patológico y rechace la autoexclusión).</li>
+        <li>Proteger a otros usuarios (por ejemplo, y sin restricciones, en relación con el evento en el que el Titular de la cuenta muestre un patrón
+        de apuestas que podría afectar de manera adversa a la actividad apostante de otros usuarios).</li>
+        <li>Proteger a [the Operator] (por ejemplo, y sin restricciones, en el caso de que el Titular de la cuenta realice lavado de capitales, muestre
+        un comportamiento fraudulento o colusorio, se sospeche que el Titular de la cuenta está usando la cuenta de terceros, esté permitiendo que terceros usen
+        su cuenta o esté empleando medios automatizados, bots, programas informáticos o semejantes, o esté realizando arbitraje).</li></ol><br>
+        5)	[the Operator], dependiendo del nivel de riesgo, en lugar de rechazar una apuesta, podrá aceptar la solicitud de apuesta presentada por el Titular
+        de la cuenta limitando la cantidad de esta.`
     },
     {
         id: 4,
-        title: 'Limitaciones en apuestas y pagos',
-        content:`1) [el Operador] se reserva el derecho a limitar el pago neto (el pago resultante tras deducir la cantidad
-            apostada) de cualquier apuesta o combinaciones de apuesta realizadas por un poseedor de cuenta a a
-            200 000 EURpor las apuestas realizadas o establecidas en una franja de 24 horas. Este límite puede ser
-            más bajo según el deporte, liga y tipo de oferta de apuesta en cuestión. Para obtener más información se
-            recomienda consultar las Limitaciones específicas de deportes en la (Sección C, párrafo 32).<br><br>
-            2) Todas las selecciones de apuestas están sujetas a límites impuestos con anterioridad establecidos a la
-            única discreción de BetPlay, límites que pueden ser inferiores a los que se mencionan en (Section A,
-            Para 4.1) y (Section C, Para 28). Si se alcanza este límite, el titular de la cuenta tiene derecho a
-            solicitar su ampliación a través de una solicitud que deberá presentar a través de las plataformas de
-            BetPlay. BetPlay se reserva el derecho a aceptar (total o parcialmente) o rechazar dicha solicitud sin
-            previo aviso y sin dar más explicaciones.<br><br>
-            3) BetPlay se reserva el derecho a rechazar, a su única discreción, las apuestas solicitadas, en parte o en
-            su totalidad. Esto incluye la posibilidad que una "apuesta de sistema" como se define en el (Section B,
-            Para 4), no es aceptada en su totalidad, ya sea en términos de apuestas o combinaciones incluido en esa
-            “apuesta de sistema”.<br><br>
-            4) BetPlay se reserva el derecho a restringir o denegar el acceso, total o parcialmente, a la cuenta del
-            usuario, a su única discreción.<br><br>
-            5) Todas las apuestas realizadas a través de cualquier plataforma de BetPlay, incluyendo las apuestas
-            que solicitan la aprobación manual, están sujetas a retrasos en el tiempo previos a la aceptación, por lo
-            que su duración puede variar. Dichos retrasos serán establecidos por BetPlay a su única discreción.<br><br>
-            6) BetPlay se reserva el derecho a retener cualquier pago y/o cancelar apuestas en un evento (o serie de
-            eventos), si hay suficiente evidencia que cualquieras de los siguientes eventos ocurrieron:<br><br>
-            <ul>
-            a.&nbsp;&nbsp;  la integridad del evento ha sido cuestionada;<br>
-            b.&nbsp;&nbsp;  el precio(s) o la quiniela ha sido manipulado;<br>
-            c.&nbsp;&nbsp;  el partido estaba amañado, y el partido está siendo investigado por tales;<br>
-            d.&nbsp;&nbsp;  es necesario comprobar los resultados con teceros, no solo los organizadores o el órganor
-            regulador correspondiente.
-            </ul>
-            Prueba de lo anterior se puede basar en el tamaño, el volumen o el tipo de apuestas colocados con
-            BetPlay en la totalidad o una parte de sus canales de apuestas, así como las informaciones de otros
-            proveedores o organizaciones de apuestas oficialmente reconocidos.<br><br>
-            7) Todas las cuotas ofrecidas están sujetas a cambios. Esta fluctuación es determinada únicamente a la
-            discreción del BetPlay. Las apuestas están aceptadas únicamente en las cuotas de la red de apuestas
-            cuando la apuesta fue aceptada por BetPlay, independientemente de cualquier otro reclamo o
-            publicación previa en el sitio o en cualquier otro medio.<br><br>
-            8) Todos los cálculos relativos a los pagos a la hora de realizar las apuestas se harán con probabilidades
-            decimales, al margen de cualquier otro tipo de formato elegido/indicado a la hora de realizar la apuesta.`
+        title: 'Limitaciones de apuestas y pagos',
+        content:`1)	Con el fin de garantizar la viabilidad de cada mercado, para evitar posibles casos de fraude o de amaño de resultados y para poder
+            realizar una estimación correcta de los riesgos que implica cada producto ofertado, [the Operator] limitará el pago neto (el pago tras la deducción
+            de la apuesta) o cualquier apuesta o combinación de apuestas de un Titular de la cuenta en {Currency Value} para apuestas realizadas o resueltas
+            en un plazo de 24 horas.<br><br>
+            2)	[the Operator] determinará que el valor mínimo de una apuesta aceptada será de {Currency Value} y el valor máximo de una apuesta aceptada será
+            de {Currency Value}, al margen de posibles excepciones dependiendo de los mercados y apuestas propuestas. <br><br>
+            3)	[the Operator] se reserva del derecho a rechazar total o parcialmente cualquier solicitud de apuesta. Se incluye aquí la posibilidad de que
+            una "Apuestas de sistema" tal y como se define en la &lt;Section B, Para 4&gt; no sea plenamente aceptada o bien en lo relativo a la cantidad o bien en
+            las combinaciones incluidas en dicha "Apuestas de sistema". Todas las apuestas realizadas mediante cualquier plataforma de [the Operator],
+            incluyendo también aquellas apuestas que requieran de una aprobación manual, podrán estar sujetas a un retraso de duración variable previo
+            a su aceptación.<br><br>
+            4)	Todas las cuotas ofertadas están sujetas a variaciones. Estas fluctuaciones estarán determinadas por [the Operator]. Se aceptarán las
+            apuestas únicamente con las cuotas disponibles en el listado de apuestas en el momento en el que [the Operator] acepte la apuesta al margen
+            de cualquier reclamación o publicación previa presente en el sitio web u otro medio que indicase otra cuota.<br><br>
+            5)	Todos los cálculos de pagos a la hora de resolver las apuestas se basarán en cuotas decimales al margen del formato mostrado/elegido
+            en el momento de realizar la apuesta.`
     },
     {
         id: 5,
         title: 'Cancelación (Anulación) de Apuestas',
-        content:`1) Una apuesta puede declararse nula, en cuyo caso se establecerá con cuotas de 1,00.<br><br>
-        2) Las apuestas realizadas como apuestas acumulativas seguirán siendo válidas a pesar de que se anulen
-        partidos o eventos que formen parte de las apuestas acumulativas.<br><br>
-        3) BetPlay, a su única discreción, se reserva el derecho a declarar una apuesta nula, total o
-        parcialmente, si resulta obvio que se ha producido alguna de las siguientes circunstancias:<br><br>
+        content:`1)	Se podrá considerar una apuesta como nula atendiendo a las circunstancias enumeradas en la cláusula 3.
+        Si una apuesta fuera anulada, se resolverá con una cuota de 1,00.<br><br>
+        2)	Una apuesta parte de una apuesta acumulativa seguirá siendo válida al margen de un encuentro o evento que sea
+        parte de una apuesta acumulativa declarado nulo.<br><br>
+        3) [the Operator] se reserva el derecho de declarar una apuesta como total o parcialmente nula si se produjera
+        una circunstancia idéntica o similar a las descritas a continuación:<br><br>
         <ol type="a">
         <li>
-        Las apuestas han sido propuestas, realizadas y/o aceptada debido a un error y/o a cantidades que
-        difieren significantemente de aquellas actualmente presentes en otro lugar del mercado.
+        Se han ofertado, realizado y/o aceptado apuestas debido a un error y/o con una cuota que difiera significativamente
+        de las demás ofertadas en el mercado de la industria del juego (cfr. Sección A, Para 2, punto 1).
         </li>
         <li>
-        Las apuestas se realizaron mientras el sitio web tenía problemas técnicos, de lo contrario, no se
-        habrían aceptado;
+        Se han realizado apuestas cuando el sitio web padecía problemas técnicos y que en otras circunstancias no se aceptarían;
         </li>
         <li>
-        Se ha influido en las apuestas;
+        Apuestas por influencia;
         </li>
         <li>
-        Se han realizado apuestas sindicadas;
+        Apuestas sindicadas;
         </li>
         <li>
-        El resultado se ha visto afectado por acciones fraudulentas, tanto directa como indirectamente;
+        Un resultado se ha visto influido -directa o indirectamente- por actuaciones criminales;
         </li>
         <li>
-        Se ha publicado un aviso con relación a la apuesta que modifica enormemente las cuotas.
+        Se ha realizado un anuncio público en relación con la apuesta que altera de manera significativa las cuotas de dicha apuesta.
+        </li>
+        <li>
+        Se ha ofertado una apuesta en un mercado concreto que supone una violación de la legislación del juego en una jurisdicción determinada.
         </li>
         </ol>
-        4) Contingencias asociadas: a no ser que se haya realizado mediante la funcionalidad de combinadas del
-        evento de BetPlay, u ofertada de manera explícita en una oferta, BetPlay prohibe la acumulación de
-        apuestas que incluyan dos o más resultados que podrían estar relacionados (ej. Equipo X se proclama
-        campeón y el Jugador Y es el máximo goleador de esa misma liga). A pesar de que BetPlay toma todas
-        las medidas necesarias para prevenir dichas posibilidades, en caso de que se produjesen, BetPlay se
-        reserve el derecho, de manera discreccional, de declarar nula todas las partes de la apuesta acumulada
-        que pudieran incluir resultados relaciones cuyas cuotas no sean indicativas de la contingencia indicada.<br><br>
-        5) Una apuesta puede declararse nula sin necesidad de que el evento se haya disputado.<br><br>
-        6) Publicaciones pasadas y otras cancelaciones: los empleados de BetPlay velan por proporcionar la
-        mejor experiencia al usuario, pero en el caso de que un mercado estuviera disponible para la realización
-        de apuestas cuando no debería o si presentara cuotas incorrectas, BetPlay se reserva el derecho de
-        anular todas las apuestas aceptadas en el marco de esas circunstancias en conformidad con (Section A,
-        Para 5.3). Se incluyen no solo casos semejantes como:<br><br>
+        4)	Indicaciones previas y otras cancelaciones: A pesar de que [the Operator] hace todo lo posible para asegurarle a los usuarios la
+        mejor experiencia posible, si un mercado estuviera disponible cuando debería haber sido eliminado o presentase cuotas incorrectas,
+        [the Operator] se reserva el derecho de anular todas las apuestas aceptadas en dichas circunstancias en conformidad con &lt;Section A,
+        Para 5.3&gt;. Algunos ejemplos de errores son:<br><br>
         <ol type="i">
         <li>
         Apuestas 'prepartido' realizadas/aceptadas una vez haya dado comienzo el evento;

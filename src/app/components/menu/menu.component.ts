@@ -17,7 +17,7 @@ export class MenuComponent implements OnInit {
   DescargarPdf(): void {
     document.getElementById('closeCanvasButton')?.click();
     window.open(
-      '/assets/documento_TyC/TYC_Betplay.pdf',
+      '/assets/descarga_documento_TYC/TYC_Betplay.pdf',
       '_blank',
       'toolbar=0,menubar=0'
     );
