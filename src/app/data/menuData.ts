@@ -17,10 +17,10 @@ export const menuData: Array<IMenuData> = [
     title: 'Gral Reglas De Apuestas',
     icon: 'assets/icons/paper.svg',
     options: [
-      'Terminos Comunes de Referencia',
+      'Términos Comunes de Referencia',
       'Tipos de Apuestas',
       'Apuestas de Proposiciones',
-      'Apuesta de Sistema',
+      'Apuestas de Sistema',
       'Determinación del Resultado',
       // 'Regla 4 de Tattersall',
       // 'Quinielas',

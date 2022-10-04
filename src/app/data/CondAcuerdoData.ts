@@ -87,10 +87,12 @@ export const CondAcuerdoData: Array<IDocumentData> = [
         id: 3,
         title: 'Aceptación de Apuestas',
         content: `1)	Toda apuesta constituye un contrato legalmente vinculante entre el Titular de la cuenta y [the Operator]. La celebración de
-        dicho contrato requiere de las siguientes fases:<br>
-        &ensp; i.	El anuncio del mercado de la apuesta.<br>
-        &ensp; ii.	La solicitud por parte del Titular de la cuenta de realización de la apuesta en el mercado de la apuesta. <br>
-        &ensp; iii.	La aceptación y confirmación de la apuesta por parte de [the Operator].<br><br>
+        dicho contrato requiere de las siguientes fases:
+        <ol type="i">
+        <li>El anuncio del mercado de la apuesta.</li>
+        <li>La solicitud por parte del Titular de la cuenta de realización de la apuesta en el mercado de la apuesta.</li>
+        <li>La aceptación y confirmación de la apuesta por parte de [the Operator].</li>
+        </ol>
         2)	No se considerará que una apuesta ha sido aceptada y confirmada mientras no aparezca en el historial de apuestas del Titular de la cuenta.
         Una vez aparezca, se considerará que el contrato se ha celebrado de manera debida. En casos de incertidumbre en relación con la aceptación de una
         apuesta, el Titular de la cuenta deberá comprobar las apuestas en curso (pendientes) o deberá ponerse en contacto con el Servicio de Atención al
@@ -100,7 +102,8 @@ export const CondAcuerdoData: Array<IDocumentData> = [
         3)	En caso de disputa derivada de la aceptación (o su ausencia) de cualquier apuesta o en relación con el momento de su realización, la base
         de datos del registro de transacciones de [the Operator] será la autoridad máxima para esclarecer dichas desavenencias.<br><br>
         4)	[the Operator] podrá rechazar la realización de cualquier apuesta en cualquier momento y por cualquier motivo, incluidos aquellos con el fin de:<br>
-        <ol><li>Preservar la viabilidad del mercado ofertado (por ejemplo, y sin restricciones, en relación con aquellos eventos en los que haya un número
+        <ol>
+        <li>Preservar la viabilidad del mercado ofertado (por ejemplo, y sin restricciones, en relación con aquellos eventos en los que haya un número
         extraordinario o desigual de apuestas en el mismo mercado).</li>
         <li>Proteger al Titular de la cuenta (por ejemplo, y sin restricciones, en relación con el evento en el que el Titular de la cuenta muestre un
         comportamiento patológico y rechace la autoexclusión).</li>
@@ -108,7 +111,8 @@ export const CondAcuerdoData: Array<IDocumentData> = [
         de apuestas que podría afectar de manera adversa a la actividad apostante de otros usuarios).</li>
         <li>Proteger a [the Operator] (por ejemplo, y sin restricciones, en el caso de que el Titular de la cuenta realice lavado de capitales, muestre
         un comportamiento fraudulento o colusorio, se sospeche que el Titular de la cuenta está usando la cuenta de terceros, esté permitiendo que terceros usen
-        su cuenta o esté empleando medios automatizados, bots, programas informáticos o semejantes, o esté realizando arbitraje).</li></ol><br>
+        su cuenta o esté empleando medios automatizados, bots, programas informáticos o semejantes, o esté realizando arbitraje).</li>
+        </ol>
         5)	[the Operator], dependiendo del nivel de riesgo, en lugar de rechazar una apuesta, podrá aceptar la solicitud de apuesta presentada por el Titular
         de la cuenta limitando la cantidad de esta.`
     },
@@ -171,71 +175,53 @@ export const CondAcuerdoData: Array<IDocumentData> = [
         Para 5.3&gt;. Algunos ejemplos de errores son:<br><br>
         <ol type="i">
         <li>
-        Apuestas 'prepartido' realizadas/aceptadas una vez haya dado comienzo el evento;
+        Apuestas "pre-partido" realizadas/aceptadas una vez haya comenzado el evento;
         </li>
         <li>
-        Apuestas 'en directo' realizadas/aceptadas con cuotas incorrectas debdio al retraso o a
-        fallos en la transmission en directo o con cuotas relativas a un resultado diferente al
-        actual;
+        Apuestas "en directo" realizadas/aceptadas con cuotas incorrectas debido a un retraso o debido a errores en la retransmisión
+        "en directo" o con cuotas relativas a un resultado diferente al actual;
         </li>
         <li>
-        Se delcarán nulas las apuestas realizadas de manera posterior al ultimo momento en el que
-        un participante/resultado podría afectar a la anotación del partido/evento en cuestion
-        relacionado con el mercado incumbente y a un posible
-        empate/descalificación/cancelación/cambio de formato o cualquier eventualidad que
-        limite la capacidad del participante/resultado para influenciar dicho resultado;
+        Se declararán como nulas las apuestas realizadas tras la última instancia en la que un participante/resultado hubiera tenido la
+        posibilidad de influenciar el encuentro/evento de anotación correspondiente al mercado en cuestión y un posible
+        abandono/descalificación/cancelación/cambio de formato o cualquier otro particular que imposibilite la capacidad del participante/resultado
+        correspondiente de influenciar dicho resultado.
         </li>
         <li>
-        Las apuestas realizadas con cuotas que no reflejen que se estaba disputando un evento
-        relacionado en el que las condiciones podrían haber sido alteradas de manera directa e
-        incuestionable o, en caso contrario, tras un evento cuyo resultado podría ser considerado
-        como consecuencia de un evento en disputa o ya disputado.
+        Apuestas realizadas con cuotas que no reflejen que se estaba celebrando un evento relacionado y en el que las condiciones podrían haberse
+        visto alteradas de un modo directo e indiscutible o en caso de que un evento que, por lo general, debería derivar en el resultado se esté
+        celebrando o se haya celebrado.
         </li>
-        </ol>`
+        </ol>
+        5)	Contingencias asociadas: [the Operator] prohíbe las apuestas acumulativas que incluyan dos o más resultados que puedan estar relaciones
+        (por ejemplo, el equipo X se proclama campeón y el jugador Y es el máximo goleador de ese mismo campeonato) a no ser que se realicen
+        mediante la función de combinación de [the Operator] en un evento o se oferte de manera explícita como una oferta específica. A pesar de
+        que [the Operator] realizará todo lo que esté en su mano para evitarlo, en el caso de que se produzca, [the Operator] se reserva el derecho
+        a declarar nulas las partes de la apuesta acumulativa que incluyan los resultados correlativos cuyas cuotas no sean indicativas de
+        las contingencias asociadas.<br><br>
+        6)	Se podrán anular las apuestas al margen de la resolución de un evento. `
     },
     {
         id: 6,
         title: 'Descargo de Responsabilidad y Prioridad',
-        content:`1) BetPlay se reserva el derecho, a su única discreción, a ajustar un pago ingresado en la cuenta de un
-        titular de la cuenta si resulta obvio que el pago se ha ingresado en dicha cuenta debido a un error.<br><br>
-        2) Con el fin de ajustar cualquier imprecisión que se haya producido en el saldo del titular de la cuenta
-        tras el ingreso de alguna cantidad por error, BetPlay se reserva el derecho a tomar todas las medidas
-        necesarias, sin previo aviso y dentro de los límites razonables, para ajustar el saldo del cliente a través
-        del cambio, la modificación o la cancelación de cualquier transacción realizada con posterioridad en la
-        cuenta del cliente.<br><br>
-        3) Para poder investigar el tema a fondo, las reclamaciones o los desacuerdos relacionados con el pago
-        de una oferta de apuesta deben comunicarse a BetPlay en un plazo máximo de 14 días a partir del pago
-        inicial. Las demás reclamaciones solo se tendrán en cuenta si el titular de la cuenta presenta pruebas
-        irrefutables de que se ha producido un error en el pago. Dichas pruebas solo se tendrán en cuenta si
-        pueden atribuirse de algún modo a las situaciones que se describen en (Section B, Para 5.2).<br><br>
-        4) BetPlay se reserva el derecho a suspender el acceso a la cuenta hasta que finalicen las
-        investigaciones que estime oportunas.<br><br>
-        5) Estas reglas se aplican a todas las transacciones realizadas con el sitio de apuestas deportivas de
-        BetPlay y pueden complementarse con otras reglas. En caso de duda, el orden de prioridad es el
-        siguiente:<br>
+        content:`1)	[the Operator] se reserva el derecho a ajustar el balance de los Pagos efectuados a la Cuenta
+        del Titular si dichos pagos han sido realizados fruto de un Error.<br><br>
+        2)	Para ajustar cualquier incorrección en el balance de la Cuenta del Titular tras el pago efectuado por Error,
+        [the Operator] se reserva el derecho de poner en práctica las medidas necesarias sin previo aviso y dentro de unos límites
+        razonables para ajustar el balance de la Cuenta del Titular mediante el anulación, modificación o cancelación de cualquier
+        transacción realizada en la Cuenta del Titular de la cuenta.<br><br>
+        3)	Estas normas serán aplicadas a todas las transacciones de las Apuestas de [the Operator] y se verán complementadas con
+        otras Normas. En caso de ambigüedad, el orden de relevancia será el siguiente:<br><br>
         <ol type="a">
-        <li>
-        Las reglas y las condiciones publicadas con una oferta y/o campaña;
-        </li>
-        <li>
-        Si no son concluyentes, se hará alusión a las reglas generales del sitio de apuestas deportivas, a
-        menos que las reglas específicas de deportes especifiquen lo contrario.
-        </li>
+        <li>Normas y condiciones publicadas junto con una oferta y/o campaña. </li>
+        <li>Normas específicas de deportes concretos. </li>
+        <li>Normas generales de apuestas.</li>
         </ol>
-        6) En el caso de que considere que estas reglas no son concluyentes, BetPlay, a discreción, se reserva el
-        derecho a establecer ofertas de forma individual partiendo de la equidad, ateniéndose a normas, leyes y
-        definiciones de apuestas generalmente aceptadas.<br><br>
-        7) Las adaptaciones a otros idiomas de estos Términos y condiciones, o de cualquier otro texto que
-        pueda estar relacionado con ofertas de apuesta, tienen únicamente fines informativos. Aunque se han
-        tomado todas las precauciones necesarias para garantizar la interpretación más fiel posible de estos
-        términos en el idioma especificado, BetPlay no se responsabilizará de posibles incompatibilidades entre
-        la versión en inglés y la versión en cualquier otro idioma. Por lo tanto, en el caso de que se produzcan
-        discrepancias entre la edición en inglés y la traducción, la primera se considerará vinculante y se
-        convertirá en la base sobre la que se establecerán las ofertas.<br><br>
-        8) Cualquier dato facilitado o accesible en o desde el Sitio de apuestas deportivas, o relacionado con él,
-        solo podrá ser utilizado por el Titular de la cuenta de forma privada y sin un fin comercial, y está
-        terminantemente prohibido todo uso o intento de uso de dichos datos con fines comerciales.<br><br>
-        9) BetPlay tiene el derecho de exigir a cualquier Titular de cuenta el cumplimiento de un término del
-        contrato relacionado con el Sitio de apuestas deportivas.`
+        4) Si por circunstancias imprevistas la resolución no se viese amparada en dichas normas, [the Operator] se reserva el derecho
+        a resolver las apuestas que se hayan visto afectadas de manera individual y de forma equitativa, respetando las normas,
+        costumbres y definiciones aceptadas de manera general y relativas a las apuestas.<br><br>
+        5) Cualquier dato proporcionado o accesible en las Apuestas, derivado de estas o relacionado con estas podrá ser usado por el
+        Titular de la cuenta para usos privados sin finalidad comercial, estando terminantemente prohibido su uso con fines comerciales.<br><br>
+        6) [the Operator] ser reserva el derecho a hacer valer ante el Titular de la cuenta cualquier término del contracto relativo a las Apuestas.`
     }
 ];
