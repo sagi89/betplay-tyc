@@ -24,8 +24,8 @@ export const sportsData:Array<ISportsData> = [
             resultado ganador. Donde ningún gol está/están marcados (o no más goles, según el caso) y que no son goles en
             su propia meta, y cumplir con los demás parámetros de la oferta de apuestas, todas las apuestas se considerarán
             perdidas.<br><br>
-            3) "Scorecast" es un tipo de apuesta en el que es posible apostar por un acontecimiento en concreto (por ejemplo, 
-            Primer goleador) y, al mismo tiempo, por otro acontecimiento del mismo evento o de un evento relacionado (por 
+            3) "Scorecast" es un tipo de apuesta en el que es posible apostar por un acontecimiento en concreto (por ejemplo,
+            Primer goleador) y, al mismo tiempo, por otro acontecimiento del mismo evento o de un evento relacionado (por
             ejemplo, Resultado correcto). Si las apuestas se refieren al primer o último goleador, los términos y condiciones
             establecidos en (Section C, Para 14.1) y (Section C, Para 14.2) se aplican, si los hubiere. Las apuestas serán
             reembolsadas en los jugadores que no participan en el partido en absoluto. En todos los demás casos, las
@@ -37,7 +37,7 @@ export const sportsData:Array<ISportsData> = [
             Las apuestas de tipo similar realizadas cuando el partido en cuestión ha comenzado se considerarán nulas si los
             jugadores mencionados no participan en el partido por cualquier motivo tras la aceptación de apuestas. Los goles
             en propia puerta no contarán como goles marcados por el jugador seleccionado.<br><br>
-            5) En todas las apuestas relacionadas con tarjetas amarillas/rojas, puntos por tarjeta, etc., solo serán válidas 
+            5) En todas las apuestas relacionadas con tarjetas amarillas/rojas, puntos por tarjeta, etc., solo serán válidas
             las tarjetas que se muestren a los jugadores que en ese momento estén en el campo. Las tarjetas, las medidas
             disciplinarias o las suspensiones que se impongan a otras personas que en el momento de la sanción no estén, o
             no deberían estar, jugando en el campo, así como las medidas disciplinarias que se tomen una vez finalizado el
@@ -113,7 +113,7 @@ export const sportsData:Array<ISportsData> = [
             Las apuestas seguirán siendo válidas en caso de que se mande repetir el penalti, siendo válido el resultado del
             nuevo lanzamiento.<br><br>
             Como norma general, el resultado se basará en el principio según el cual a no ser que el penalti se transforme y
-            se conceda el tanto (y resuelta la apuesta consecuentemente), la primera persona/objeto/ubicación (si procediese) 
+            se conceda el tanto (y resuelta la apuesta consecuentemente), la primera persona/objeto/ubicación (si procediese)
             que el balón toque en primer lugar tras el golpeo se considerará el resultado ganador al margen de las demás
             personas/objetos que el balón pudiere tocar en su trayectoria tras el primer contacto. Los siguientes ejemplos
             sirven como norma general para resolver las apuestas:<br><br>
@@ -145,7 +145,7 @@ export const sportsData:Array<ISportsData> = [
             determinadas por cualquier jugada entre el momento del incidente original y la decisión tomada tras consultar el
             VAR que no se viesen influidas/alteradas por el VAR seguirán siendo válidas.<br><br>
             En lo relativo a los resultados, las revisiones del VAR y las decisiones derivadas de estas se considerarán que
-            ocurrieron en el momento original en el que el VAR hubiera sido empleado incluso si la jugada no se hubiera visto 
+            ocurrieron en el momento original en el que el VAR hubiera sido empleado incluso si la jugada no se hubiera visto
             interrumpida de manera inmediata. (El Operador) se reserva el derecho, en conformidad con la (Sección
             A, Párrafo 6.2) de modificar las ofertas previamente resueltas si dicho resultado fuera inexacto tras la revisión
             final del árbitro teniendo en cuenta que dicha decisión se toma y comunica antes de la conclusión del encuentro
@@ -192,56 +192,56 @@ export const sportsData:Array<ISportsData> = [
             o jugadores mencionados comiencen el partido para ser válidas. Para establecer la validez, las apuestas solo se
             resolverán como SÍ si los jugadores mencionados no son sustituidos o expulsados durante el tiempo
             reglamentario. El tiempo añadido si existe no cuenta.`,
-      
+
     },
     {
       id: 2,
       title: 'Baloncesto',
       img: 'assets/logo_Deportes/logo_Baloncesto_Cut.jpg',
-      content: `1) Una apuesta a baloncesto se determina en base al resultado obtenido tras la prórroga, a menos que se indique
-            lo contrario.<br><br>
-            2) Las apuestas referentes al resultado del partido (también denominadas apuestas a “Victoria”) con empates que
-            se deciden en dos o más enfrentamientos anularán la oferta “Incluyendo prórroga” en el caso de que el partido
-            acabe en empate y no vuelva a jugarse ni un minuto más de dicho partido.<br><br>
-            3) En un partido con varias vueltas, todos los puntos obtenidos durante la prórroga se tendrán en cuenta para el
-            resultado final de dicho partido en concreto.<br><br>
-            4) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total
-            de puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el
-            curso de un partido (por ejemplo: Cuál de entre el jugador X y el jugador Y conseguirá más rebotes), requieren
-            que todos los involucrados jueguen una parte activa avanzada en el partido aplicable para que las apuestas sean
-            válidas.<br><br>
-            5) Todas las ofertas referentes a Totales del torneo (como Puntos, Rebotes, Asistencias, etc.) se establecerán en
-            base a las estadísticas oficiales de la autoridad competente. A menos que se indique lo contrario, las cantidades
-            acumulativas de dichas apuestas incluirán las prolongaciones posteriores (por ejemplo, la prórroga).<br><br>
-            6) Todas las ofertas de "partido" de NBA y NCAA solo se considerarán válidas si hay menos de 5 minutos
-            restantes de partido programado en el 4.º cuarto/2.ª parte, lo que aplique. Se efectuará la excepción de aquellas cuyos 
-            resultados se hayan decidido antes de la suspensión y que posiblemente no puedan modificarse
-            independientemente de los eventos futuros, que se establecerán según el resultado decidido.<br><br>
-            7) A menos que se establezca específicamente o sea implícito en las características de la oferta, las decisiones de
-            las apuestas de temporada se basarán en las clasificaciones, definiciones y reglas de resoluciones a seguir según
-            la NBA.com, o la página web oficial de la competición (como sea aplicable).<br><br>
-            8) Las Apuestas de temporada, sin importar que incluyan resultados obtenidos durante los Playoffs o demás, así
-            como las ofertas referidas a equipos en particular o actuaciones de jugador seguirán siendo válidas sin que
-            interfieran los eventuales cambios en los intercambios de jugadores, movimientos del equipo, cambios de
-            nombre, duración de la temporada o formato de playoff en cualquier momento de la temporada.<br><br>
-            9) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de puntos conseguidos
-            por el jugador X durante los Playoffs) o comparar actuaciones de 2 jugadores individuales durante un
-            periodo/torneo/temporada en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y ganará más
-            rebotes durante la temporada normal), requiere que todos los jugadores individuales sean participantes activos en
-            como mínimo una función más aplicable a la oferta tras aceptar la apuesta para que las apuestas sean válidas. Las
-            apuestas realizadas tras o cualquier novedad que pueda reducir el número de funciones potencialmente sobre un
-            jugador involucrado para que sea apto para la competición (como lesiones/intercambios/novedades de cambios)
-            y por lo tanto afecte las cuotas incluso si solo es teóricamente a favor de cualquier resultado individual sin que
-            esas cuotas se hayan ajustado para reflejar el estado actual de la apuesta, serán declaradas nulas.<br><br>
-            10) Las apuestas con doble resultado (como predecir el marcador en el primer tiempo combinado con el
-            resultado al final del 4º cuarto) no tendrán en cuenta los resultados derivados del tiempo añadido.<br><br>
-            11) A menos que se especifique en conjunción con la oferta de la apuesta, las apuestas a los resultados
-            relacionados con la 2.ª parte, solo considerarán los puntos y ocurrencias generadas/obtenidas durante el periodo
-            de tiempo especificado y no considerarán puntos y ocurrencias generadas/obtenidas durante el tiempo extra.<br><br>
-            12) En términos de resolución, un "doble-doble" es considerado cuando el jugador registra 10 o más en como
-            mínimo 2 de estas categorías en un solo partido (incluyendo el tiempo extra si lo hay): Los puntos conseguidos,
-            los rebotes ganados, asistencias, robos y/o tapones. Un "triple-doble" es considerado cuando el jugador registra
-            10 o más en como mínimo 3 de estas categorías en un solo partido (incluyendo el tiempo extra si lo hay):`,
+      content: `1) Todas las apuestas referidas a "partidos" de baloncesto se determinan atendiendo al resultado final alcanzado,
+            tras la prórroga si fuera necesaria, a menos que se indique lo contrario.<br><br>
+            2) Las apuestas referentes al resultado del partido (también denominadas apuestas a "Victoria") con empates que se
+            deciden en dos o más enfrentamientos anularán la oferta "Incluyendo prórroga" en el caso de que el partido acabe en
+            empate y no vuelva a jugarse ni un minuto más de dicho partido. El resto de los mercados (Totales, Hándicap, etc.)
+            se resolverán de manera normal, según el resultado al final del encuentro.<br><br>
+            3) En un partido con varias vueltas, todos los puntos obtenidos durante la prórroga se tendrán en cuenta para el resultado
+            final de dicho partido en concreto.<br><br>
+            4) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total de puntos
+            conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el curso de un partido (por
+            ejemplo: Cuál de entre el jugador X y el jugador Y conseguirá más rebotes), requieren que todos los involucrados participen
+            al menos en una jugada más en el partido para que las apuestas sean válidas.<br><br>
+            5) Todas las ofertas referentes a Totales del torneo (como Puntos, Rebotes, Asistencias, etc.) se establecerán en base a las
+            estadísticas oficiales de el órgano competente. A menos que se indique lo contrario, las cantidades acumulativas de dichas
+            apuestas incluirán las prolongaciones posteriores (por ejemplo, la prórroga).<br><br>
+            6) Todas las ofertas de "partido" de NBA y NCAA solo se considerarán válidas si hay menos de 5 minutos restantes de partido
+            programado en el 4.º cuarto/2.ª parte, lo que aplique. Se efectuará la excepción de aquellas cuyos resultados se hayan decidido
+            antes de la suspensión y que posiblemente no puedan modificarse independientemente de los eventos futuros, que se establecerán
+            según el resultado decidido. <br><br>
+            7) Las Apuestas de temporada, sin importar que incluyan resultados obtenidos durante los Playoffs o demás, así como las ofertas
+            referidas a equipos en particular o actuaciones de jugador seguirán siendo válidas sin que interfieran los eventuales cambios en
+            los intercambios de jugadores, movimientos del equipo, cambios de nombre, duración de la temporada o formato de playoff en
+            cualquier momento de la temporada. <br><br>
+            8) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de puntos conseguidos por el jugador
+            X durante los Playoffs) o comparar actuaciones de 2 jugadores individuales durante un periodo/torneo/temporada en particular,
+            (por ejemplo: Qué jugador entre el jugador X y el jugador Y ganará más rebotes durante la temporada normal), requiere que todos
+            los jugadores individuales sean participantes activos en como mínimo una función más aplicable a la oferta tras aceptar la
+            apuesta para que las apuestas sean válidas.<br><br>
+            9) Las apuestas con doble resultado (como predecir el marcador en el primer tiempo combinado con el resultado al final del 4º
+            cuarto) no tendrán en cuenta los resultados derivados del tiempo añadido. <br><br>
+            10) A menos que se especifique en conjunción con la oferta de la apuesta, las apuestas a los resultados relacionados con la 2.ª
+            parte solo considerarán los puntos y ocurrencias generadas/obtenidas durante el periodo de tiempo especificado y no considerarán
+            puntos y ocurrencias generadas/obtenidas durante el tiempo extra.<br><br>
+            11) En términos de resolución, un "doble-doble" es considerado cuando el jugador registra 10 o más en como mínimo 2 de estas
+            categorías en un solo partido (incluyendo el tiempo extra si lo hay): Los puntos conseguidos, los rebotes ganados, asistencias,
+            robos y/o tapones. Un "triple-doble" es considerado cuando el jugador registra 10 o más en como mínimo 3 de estas categorías en
+            un solo partido (incluyendo el tiempo extra si lo hay).<br><br>
+            12) Para el baloncesto 3 x 3: las ofertas "más/menos" y "hándicap" relativas a partidos no finalizados cuyo resultado ya haya
+            quedado decidido antes de la interrupción y/o cuya continuación no modificaría el resultado ya establecido para dichas ofertas,
+            se resolverán atendiendo al resultado alcanzado hasta el momento de la interrupción. Para calcular dichas resoluciones, la cantidad
+            mínima de hechos que se debería haber producido para que la oferta llegase a una conclusión natural se añadirán como necesarios
+            dependiendo del número de sets previstos para el partido. Si dicho cálculo tuviese derivase una situación en la que ninguna
+            alteración pudiese alterar de modo alguno el resultado de dicha oferta, esta será resuelta de ese modo. Los ejemplos de la sección
+            de tenis sirven de referencia.`,
     },
     {
       id: 3,
@@ -320,7 +320,7 @@ export const sportsData:Array<ISportsData> = [
         será reembolsado si el participante enumerado no toma parte en el torneo. Se realiza una excepción para los
         participantes aún involucrados en las fases de clasificación ya que estos serán considerados como participantes
         activos.`
-      
+
     },
     {
       id: 4,
@@ -328,472 +328,357 @@ export const sportsData:Array<ISportsData> = [
       img: 'assets/logo_Deportes/logo_Beisbol_Cut.jpg',
       content: `1) A menos que se indique lo contrario, las apuestas de béisbol se determinarán en función del resultado
             obtenido teniendo en cuenta las entradas adicionales finales e independientemente de la cantidad de entradas
-            jugadas, según lo que indique la respectiva autoridad competente.<br><br>
-            2) Las apuestas se declararán nulas en los partidos cancelados o pospuestos que no hayan comenzado, o en el
-            caso de un resultado que no se haya publicado doce horas después de la hora de inicio programada.<br><br>
-            3) Las apuestas a "Partido", (también llamadas "Moneyline") precisan una cantidad mínima de innings (entradas)
-            jugadas, según las normas de la autoridad competente para que la apuesta sea válida y serán nulas en el caso de
-            que se produzca un empate después de las entradas adicionales finales. Las demás ofertas que puedan
-            establecerse razonablemente (por ejemplo, "Más/Menos de", "Hándicap" y "Par/Impar") se establecerán según el
-            resultado obtenido tras las entradas adicionales.<br><br>
-            4) Para las apuestas "Más/Menos de", "Hándicap" y "Par/Impar" es necesario que se disputen todos los innings o
-            al menos la mitad de los innings previstas si el equipo local lleva ventaja para que las apuestas sean válidas. Esto
-            mismo se aplica a todas las ofertas a excepción de aquellas cuyos resultados se hayan decidido antes de la
-            suspensión y no puedan modificarse independientemente de los eventos futuros. Se establecerán según el
-            resultado decidido.<br><br>
-            5) El nombre del lanzador inicial no afecta a la forma en la que se establecen las ofertas.<br><br>
-            6) Para establecer las apuestas, las que van dirigidas a la "Primera parte" harán referencia a los resultados
-            obtenidos en las primeras 5 entradas. Las 5 entradas deben completarse para que las apuestas sean válidas, a
-            excepción de aquellas ofertas cuyos resultados se hayan decidido antes de la suspensión y que posiblemente no
-            puedan modificarse independientemente de los eventos futuros, que se establecerán según el resultado decidido.
-            Para los encuentros disputados, de manera prevista, en un formato acortado, la primera mitad de los innings se
-            acortará, por exemplo las apuestas “primera mitad” en un partido a 7 innings se referirán a los resultados de las
-            primeras 4 innings.<br><br>
-            7) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total
-            golpes conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el curso
-            de un partido (por ejemplo: Cuál de entre el jugador X y el jugador Y conseguirá más golpes), requieren que
-            todos los involucrados jueguen una parte activa avanzada en el partido aplicable para que las apuestas sean
-            válidas.<br><br>
-            8) A menos que se establezca específicamente o sea implícito en las características de la oferta, las decisiones de
-            las apuestas de temporada y torneo o totales de los Playoffs se basarán en las clasificaciones, definiciones y
-            reglas de resoluciones a seguir según la MLB.com, o la página web oficial de la competición (como sea
-            aplicable). A menos que se indique lo contrario, las cantidades acumulativas de dichas apuestas incluirán las
-            prolongaciones posteriores (por ejemplo, entradas adicionales).<br><br>
-            9) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de runs conseguidos
-            por el jugador X durante los Playoffs) o comparar actuaciones de 2 jugadores individuales durante un
-            periodo/torneo/temporada en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y conseguirá
-            más golpes durante la temporada normal), requiere que todos los jugadores individuales sean participantes
-            activos en como mínimo una función más aplicable a la oferta tras aceptar la apuesta para que las apuestas sean
-            válidas. Las apuestas realizadas tras o cualquier novedad que pueda reducir el número de funciones
-            potencialmente sobre un jugador involucrado para que sea apto para la competición (como
-            lesiones/intercambios/novedades de cambios) y por lo tanto afecte las cuotas incluso si solo es teóricamente a
-            favor de cualquier resultado individual sin que esas cuotas se hayan ajustado para reflejar el estado actual de la
-            apuesta, serán declaradas nulas.<br><br>
-            10) Las Apuestas de temporada, sin importar que incluyan resultados obtenidos durante los Playoffs o demás, así
-            como las ofertas referidas a equipos en particular o actuaciones de jugador seguirán siendo válidas sin que
-            interfieran los eventuales cambios en los intercambios de jugadores, movimientos del equipo, cambios de
-            nombre, duración de la temporada o formato de playoff en cualquier momento de la temporada.<br><br>
-            11) Las apuestas sobre el resultado de un periodo de tiempo en particular (por ejemplo, Inning X) o ocurrencias
-            conseguidas durante un periodo de tiempo limitado precisan que el periodo especificado se haya completado con
-            la excepción de aquellas ofertas cuyo resultado ya ha sido determinado antes de cualquier interrupción y/o la
-            continuación del juego no puede provocar cambios en el resultado de las ofertas, que serán resueltas
-            correspondientemente. En términos de resolución, un inning (incluidos los innings extra eventuales) que no
-            precisa que el equipo local batee más, o no batee, se considera como terminado de manera natural y todas las
-            apuestas relacionadas con el inning (por ejemplo: Resultado del inning X, Hándicap (Spread) del inning X,
-            Más/Menos Runs (Total) permanecen con la excepción de aquellos que se refieran específicamente a la
-            actuación única del equipo local en el inning especificado (por ejemplo: Más/menos Runs (Total) conseguidos por el 
-            equipo local en el inning X), que será establecido como nulo si el equipo local no batea durante el inning
-            especificado.<br><br>
-            12) Durante ciertos eventos [el Operador] puede decidir ofrecer mercados relacionados con el resultado de una
-            serie de partidos de la temporada normal consecutivos entre los equipos enumerados durante periodos de tiempo
-            específicos. La resolución incluirá los resultados derivados de cualquier "Doubleheader" siempre que se juegue
-            dentro del periodo de tiempo especificado. En casos donde no hay disponible la opción de empate para las
-            apuestas, estas se declaran nulas si ambos equipos alistados ganan el mismo número de partidos. Todos los
-            partidos/eventos programados deben completarse según las reglas de la asociación que los rige para que las
-            apuestas sean válidas, a excepción de aquellos cuyos resultados se hayan decidido antes de la suspensión y que
-            posiblemente no puedan modificarse independientemente de los eventos futuros, que se establecerán según el
-            resultado decidido.<br><br>
-            13) Las ofertas que reflejan o confrontan resultados y ocurrencias obtenidas/conseguidas por los equipos o
-            jugadores que participan en diferentes partidos que no se enfrentan entre sí (por ejemplo: Equipo que consigue
-            más runs en su partido correspondiente), deben completarse según las reglas de la asociación que los rige para
-            que las apuestas sean válidas, a excepción de aquellos cuyos resultados se hayan decidido antes de la suspensión
-            y que posiblemente no puedan modificarse independientemente de los eventos futuros, que se establecerán según
-            el resultado decidido. En casos donde no hay disponible la opción de empate para las apuestas, estas se declaran
-            nulas si ambos equipos/participantes alistados obtienen/consigue la misma cantidad.`,
-      
+            jugadas, según lo que indique el respectivo órgano competente. En caso de empate tras las entradas adicionales,
+            las apuestas de encuentro serán consideradas como nulas.<br><br>
+            2) Las apuestas se declararán nulas en los partidos cancelados o pospuestos que no hayan comenzado, o en el caso
+            de un resultado que no se haya publicado doce horas después de la hora de inicio programada.<br><br>
+            3) En caso de un partido abreviado, las apuestas a "Partido", (también llamadas "Moneyline") se resolverán según
+            las normas del órgano competente.<br><br>
+            4) Para todos los mercados, incluidos "Más/Menos de", "Hándicap", "Par/Impar" y aquellos que incluyan actuaciones
+            de jugadores, excepto "moneyline", será necesario que se disputen todas las entradas o al menos 8,5 innings previstas
+            si el equipo local lleva ventaja para que las apuestas sean válidas. Esto mismo se aplica a todas las ofertas a
+            excepción de aquellas cuyos resultados se hayan decidido antes de la suspensión y no puedan modificarse
+            independientemente de los eventos futuros. Se establecerán según el resultado decidido.<br><br>
+            5) Excepto en aquellas ofertas en las que, de manera específica, se indique la participación/inicio de lanzador(es)
+            concretos para que el mercado sea válido, (por ejemplo: Moneyline lanzador indicado), no tendrá relevancia para
+            la resolución de las apuestas quién es el lanzador inicial de cada equipo.<br><br>
+            6) Para establecer las apuestas, las que van dirigidas a la "Primera parte" harán referencia a los resultados obtenidos
+            en las primeras 5 entradas. Las 5 entradas deben completarse para que las apuestas sean válidas, a excepción de aquellas
+            ofertas cuyos resultados se hayan decidido antes de la suspensión y que posiblemente no puedan modificarse independientemente
+            de los eventos futuros, que se establecerán según el resultado decidido. Para los encuentros disputados, de manera prevista,
+            en un formato acortado, la primera mitad de los innings se acortará, por ejemplo las apuestas "primera mitad" en un partido a
+            7 innings se referirán a los resultados de las primeras 4 innings.<br><br>
+            7) Las ofertas en vivo relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total
+            golpes conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el curso de un partido
+            (por ejemplo: Cuál de entre el jugador X y el jugador Y conseguirá más golpes), requieren que todos los involucrados participen
+            en al menos una jugada del encuentro, tras la aceptación de la apuesta, para que las apuestas sean válidas. Todos los mercados
+            pre-partido que incluyan a bateadores requieren que el jugador esté incluido en el equipo de inicio y deberá hacer acto de
+            aparición al menos una vez para batera para que la apuesta tenga validez. Las ofertas que hagan referencia a la actuación de
+            uno o más jugadores en un encuentro determino requerirán que todos los jugadores enumerado estén en el equipo inicial para que
+            las apuestas tengan validez.<br><br>
+            8) A menos que se establezca específicamente o sea implícito en las características de la oferta, las decisiones de las
+            apuestas de temporada y torneo o totales de los Playoffs se basarán en las clasificaciones, definiciones y reglas de
+            resoluciones a seguir según la MLB.com, o la página web oficial de la competición (como sea aplicable). A menos que se
+            indique lo contrario, las cantidades acumulativas de dichas apuestas incluirán las prolongaciones posteriores (por ejemplo,
+            entradas adicionales). Las apuestas "Head to head" y "Más/Menos de" que incluyan la actuación de más de un jugador en el
+            torneo será consideradas válidas si todos los jugadores enumerados participan en algún momento del torneo.<br><br>
+            9) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de runs conseguidos por el jugador
+            X durante los Playoffs) o comparar actuaciones de 2 jugadores individuales durante un periodo/torneo/temporada en particular,
+            (por ejemplo: Qué jugador entre el jugador X y el jugador Y conseguirá más golpes durante la temporada normal), requiere
+            que todos los jugadores individuales sean participantes activos en como mínimo una función más aplicable a la oferta tras
+            aceptar la apuesta para que las apuestas sean válidas.<br><br>
+            10) Las Apuestas de temporada, sin importar que incluyan resultados obtenidos durante los Playoffs o demás, así como las
+            ofertas referidas a equipos en particular o actuaciones de jugador seguirán siendo válidas sin que interfieran los eventuales
+            cambios en los intercambios de jugadores, movimientos del equipo, cambios de nombre, duración de la temporada o formato de
+            playoff en cualquier momento de la temporada. <br><br>
+            11) Las apuestas sobre el resultado de un periodo de tiempo en particular (por ejemplo, Inning X) o ocurrencias conseguidas
+            durante un periodo de tiempo limitado precisan que el periodo especificado se haya completado con la excepción de aquellas
+            ofertas cuyo resultado ya ha sido determinado antes de cualquier interrupción y/o la continuación del juego no puede provocar
+            cambios en el resultado de las ofertas, que serán resueltas correspondientemente. En términos de resolución, un inning
+            (incluidos los innings extra eventuales) que no precisa que el equipo local batee más, o no batee, se considera como terminado
+            de manera natural y todas las apuestas relacionadas con el inning (por ejemplo: Resultado del inning X, Hándicap (Spread) del
+            inning X, Más/Menos Runs (Total) permanecen con la excepción de aquellos que se refieran específicamente a la actuación única
+            del equipo local en el inning especificado (por ejemplo: Más/menos Runs (Total) conseguidos por el equipo local en el inning X),
+            que será establecido como nulo si el equipo local no batea durante el inning especificado.<br><br>
+            12) Durante ciertos eventos [the Operator] puede decidir ofrecer mercados relacionados con el resultado de una serie de partidos
+            de la temporada normal consecutivos entre los equipos enumerados durante periodos de tiempo específicos. La resolución incluirá
+            los resultados derivados de cualquier "Doubleheader" siempre que se juegue dentro del periodo de tiempo especificado. En casos
+            donde no hay disponible la opción de empate para las apuestas, estas se declaran nulas si ambos equipos alistados ganan el mismo
+            número de partidos. Todos los partidos/eventos programados deben completarse según las reglas del órgano que los rige para que
+            las apuestas sean válidas, a excepción de aquellos cuyos resultados se hayan decidido antes de la suspensión y que posiblemente
+            no puedan modificarse independientemente de los eventos futuros, que se establecerán según el resultado decidido.<br><br>
+            13) Las ofertas que reflejan o confrontan resultados y ocurrencias obtenidas/conseguidas por los equipos o jugadores que participan
+            en diferentes partidos que no se enfrentan entre sí (por ejemplo: Equipo que consigue más runs en su partido correspondiente),
+            deben completarse según las reglas de la asociación que los rige para que las apuestas sean válidas, a excepción de aquellos cuyos
+            resultados se hayan decidido antes de la suspensión y que posiblemente no puedan modificarse independientemente de los eventos
+            futuros, que se establecerán según el resultado decidido. En casos donde no hay disponible la opción de empate para las apuestas,
+            estas se declaran nulas si ambos equipos/participantes alistados obtienen/consigue la misma cantidad.<br><br>
+            14) Los resultados de ganadores de series serán resueltos según qué equipo ganó el mayor número de encuentros en las series de
+            encuentros (incluidas opciones dobles) disputados en el periodo de tiempo indicado. Las apuestas serán consideradas nulas si los
+            equipos ganan el mismo número de encuentros. Todos los encuentros previstos se deberán completar según las normas del órgano
+            competente para que las apuestas tengan validez, excepto para aquellas cuyos resultados se hayan decidido antes de la suspensión
+            y no puedan modificarse independientemente de los eventos futuros. Se establecerán según el resultado decidido.`,
+
     },
     {
       id: 5,
       title: 'Fútbol americano',
       img: 'assets/logo_Deportes/logo_FutbolAmericano_Cut.jpg',
-      content: `1) A menos que se indique lo contrario, todas las apuestas a fútbol americano se determinarán en base al
-            resultado obtenido una vez transcurrida la prórroga.<br><br>
+      content: `1) A menos que se indique lo contrario, todas las apuestas a fútbol americano se determinarán en base
+            al resultado obtenido una vez transcurrida la prórroga.<br><br>
             2) Todas las ofertas de "partido" solo se considerarán válidas si hay menos de 5 minutos restantes de partido
-            programado en el 4.º cuarto/2.ª parte, lo que aplique. Se efectuará la excepción de aquellas cuyos resultados se
-            hayan decidido antes de la suspensión y que posiblemente no puedan modificarse independientemente de los
-            eventos futuros, que se establecerán según el resultado decidido.<br><br>
-            3) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total
-            de yardas aéreas lanzadas por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el
-            curso de un partido (por ejemplo: Cuál de entre el jugador X y el jugador Y lanzará Más yardas aéreas),
-            requieren que todos los involucrados jueguen una parte activa avanzada aplicable al partido para que las apuestas
-            sean válidas.<br><br>
-            4) A menos que se establezca específicamente o sea implícito en las características de la oferta, las decisiones de
-            las apuestas de temporada se basarán en las clasificaciones, definiciones y reglas de resoluciones a seguir según
-            la NFL.com, o la página web oficial de la competición (como sea aplicable).<br><br>
-            5) A menos que se especifique lo contrario, una semana/ronda de la NFL programada se considera activa de
-            jueves al miércoles siguiente, según los horarios del estadio local. Los eventos/ofertas no completados en el
-            periodo mencionado anteriormente se anularán, a excepción de aquellas ofertas cuyos resultados se hayan
-            decidido antes de la decisión y que posiblemente no puedan modificarse independientemente de los eventos
-            futuros, que se establecerán según el resultado decidido. Las apuestas relacionadas a eventos que han sido programados 
-            de nuevo en la misma semana/ronda seguirán siendo válidas siempre que dichos eventos se
-            jueguen en el periodo de tiempo descrito anteriormente.<br><br>
-            6) Las propuestas del día/semana de partido es donde se puede apostar en las actuaciones y resultados de una
-            selección predefinida de equipos y/o jugadores individuales que se produzcan en una gama de partidos/eventos
-            en una semana/ronda/día/partido específico (por ejemplo: Total de puntos conseguidos en partidos de una
-            conferencia específica, Equipo que ha marcados más/menos, Mercados de recuento de yardas de jugador, etc.).
-            Todos los partidos/eventos relacionados (incluidos los que se han vuelto a programar dentro del periodo de
-            tiempo anteriormente definido) deben completarse y validarse en la semana/ronda/día/día del partido
-            especificado para que las apuestas sean válidas, a excepción de aquellos cuyos resultados se hayan decidido
-            antes de la suspensión y que posiblemente no puedan modificarse independientemente de los eventos futuros,
-            que se establecerán según el resultado decidido. Además, las ofertas relacionadas con la actuación de jugadores
-            específicos requieren que todos los jugadores específicos sean participantes activos en cualquier punto del
-            partido aplicable para que las apuestas sean válidas.<br><br>
-            7) Las Apuestas de temporada, sin importar que incluyan resultados obtenidos durante los Playoffs o demás, así
-            como las ofertas referidas a equipos en particular o actuaciones de jugador seguirán siendo válidas sin que
-            interfieran los eventuales cambios en los intercambios de jugadores, movimientos del equipo, cambios de
-            nombre, duración de la temporada o formato de playoff en cualquier momento de la temporada.<br><br>
-            8) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de yardas de pase
-            conseguidas por el jugador X durante los Playoffs) o comparar actuaciones de 2 jugadores individuales durante
-            un periodo/torneo/temporada en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará
-            más touchdowns durante la temporada normal), requiere que todos los jugadores individuales sean participantes
-            activos en como mínimo una función más aplicable a la oferta tras aceptar la apuesta para que las apuestas sean
-            válidas. Las apuestas realizadas tras o cualquier novedad que pueda reducir el número de funciones
-            potencialmente sobre un jugador involucrado para que sea apto para la competición (como
-            lesiones/intercambios/novedades de cambios) y por lo tanto afecte las cuotas incluso si solo es teóricamente a
-            favor de cualquier resultado individual sin que esas cuotas se hayan ajustado para reflejar el estado actual de la
-            apuesta, serán declaradas nulas.<br><br>
-            9) Las apuestas con doble resultado (como predecir el marcador en el primer tiempo combinado con el resultado
-            al final del 4º cuarto) no tendrán en cuenta los resultados derivados del tiempo añadido.<br><br>
-            10) Los mercados de juego ofensivo Primero/Siguiente se definen según las jugadas ofensivas primera/siguiente
-            de la pelea (cuando sea aplicable), excepto los penaltis. Si un inicio de partido debe ser repetido por un
-            touchdown, las apuestas se resolverán con el resultado del consiguiente inicio. Para establecer los resultados de
-            las apuestas, los pasos incompletos/interceptados, los bloqueos o pérdidas de balón de los quarterbacks serán
-            considerados como "Jugadas de pase" a menos que el quarterback haya pasado la línea de pelea, en cuyo punto
-            se considera "Jugada de run". Las pérdidas de balón en intercambios con el runningback serán consideradas
-            "Jugada de run".<br><br>
-            11) Las decisiones de las apuestas que se refieran a "Yardas ofensivas" se basarán en el número neto de yardas
-            incluyendo las pérdidas de yardas.<br><br>
-            12) Las ofertas que hacen referencia a las puntuaciones de equipos que marquen con éxito un número sucesivo
-            de veces especificado sin respuesta se considerarán puntos anotados durante el tiempo añadido eventual, pero
-            excluyen los PATs (puntos tras touchdowns o conversiones de 2 puntos).<br><br>
-            13) "Las ofertas de "Equipos que pidan primero/siguientes tiempos muertos" no tomarán en consideración para
-            su resolución los tiempos muertos perdidos a través de otros medios como ataques fallidos, enfrentamientos de
-            entrenadores y/o lesiones.<br><br>
-            14) Las resoluciones de todas las ofertas de penaltis se basarán en si es aceptado o no el penal. Los penales
-            declinados no cuentan.<br><br>
-            15) Las apuestas que hacen referencia al resultado de un ataque en particular se declararán como nulas en caso
-            de un ataque incompleto. En casos donde el equipo A tiene la pelota y la pierde tras lo cual el quipo B la
-            recupera y el equipo A la vuelve a recuperar, el resultado se clasifica como "Cesión". Las cesiones en downs
-            (fallo al intentar el 4º down), también se considerarán como "Cesión". Si un punt es derribado por el equipo
-            receptor y recuperado por el equipo que patea, las apuestas se resolverán como "Punt".<br><br>
-            16) Las apuestas relativas a la consecución de un 1º down hacen referencia únicamente al equipo que esté en ese
-            momento pueda alcanzar dicho resultado. El mercado lo resolverá como “SÍ” si se materializase una serie de
-            “Downs” ya sea mediante carrera, pase (incluyendo los casos en los que se consigue un touchdown) o una falta
-            automáticamente garantiza el 1º down. “Safety”, “field goal” (al margen de si se materializa el field goal o no),
-            fumbles o cualquier cambio en la posesión tendrá como resolución de la oferta un “NO”. Cualquier down
-            repetido debido a una falta no será considerado como resolutivo en relación con la apuesta a no ser que se realice
+            programado en el 4.º cuarto/2.ª parte, lo que aplique. Se efectuará la excepción de aquellas cuyos resultados
+            se hayan decidido antes de la suspensión y que posiblemente no puedan modificarse independientemente de los eventos
+            futuros, que se establecerán según el resultado decidido.<br><br>
+            3) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total de
+            yardas aéreas lanzadas por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el curso
+            de un partido (por ejemplo: Cuál de entre el jugador X y el jugador Y lanzará Más yardas aéreas), requieren que todos
+            los involucrados participen en al menos una jugada del encuentro, tras la aceptación de las apuestas, para que las
+            apuestas sean válidas.<br><br>
+            4) A menos que se establezca específicamente o sea implícito en las características de la oferta, las decisiones de las
+            apuestas de temporada se basarán en las clasificaciones, definiciones y reglas de resoluciones a seguir según la NFL.com,
+            o la página web oficial de la competición (como sea aplicable).<br><br>
+            5) A menos que se especifique lo contrario, una semana/ronda de la NFL programada se considera activa de jueves al miércoles
+            siguiente, según los horarios del estadio local. Los eventos/ofertas no completados en el periodo mencionado anteriormente se
+            anularán, a excepción de aquellas ofertas cuyos resultados se hayan decidido antes de la decisión y que posiblemente no puedan
+            modificarse independientemente de los eventos futuros, que se establecerán según el resultado decidido. Las apuestas
+            relacionadas a eventos que han sido programados de nuevo en la misma semana/ronda seguirán siendo válidas siempre que dichos
+            eventos se jueguen en el periodo de tiempo descrito anteriormente.<br><br>
+            6) Las propuestas del día/semana de partido es donde se puede apostar en las actuaciones y resultados de una selección
+            predefinida de equipos y/o jugadores individuales que se produzcan en una gama de partidos/eventos en una semana/ronda/día/partido
+            específico (por ejemplo: Total de puntos conseguidos en partidos de una conferencia específica, Equipo que ha marcados más/menos,
+            Mercados de recuento de yardas de jugador, etc.). Todos los partidos/eventos relacionados (incluidos los que se han vuelto a
+            programar dentro del periodo de tiempo anteriormente definido) deben completarse y validarse en la semana/ronda/día/día del
+            partido especificado para que las apuestas sean válidas, a excepción de aquellos cuyos resultados se hayan decidido antes de
+            la suspensión y que posiblemente no puedan modificarse independientemente de los eventos futuros, que se establecerán según el
+            resultado decidido. Además, las ofertas relacionadas con la actuación de jugadores específicos requieren que todos los jugadores
+            específicos participen en al menos una jugada del encuentro, tras la aceptación de las apuestas, para que las apuestas sean válidas.<br><br>
+            7) Las Apuestas de temporada, sin importar que incluyan resultados obtenidos durante los Playoffs o demás, así como las ofertas
+            referidas a equipos en particular o actuaciones de jugador seguirán siendo válidas sin que interfieran los eventuales cambios en
+            los intercambios de jugadores, movimientos del equipo, cambios de nombre, duración de la temporada o formato de playoff en
+            cualquier momento de la temporada.<br><br>
+            8) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de yardas de pase conseguidas por el
+            jugador X durante los Playoffs) o comparar actuaciones de 2 jugadores individuales durante un periodo/torneo/temporada en
+            particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más touchdowns durante la temporada normal),
+            requiere que todos los jugadores individuales sean participantes activos en como mínimo una función más aplicable a la oferta
+            tras aceptar la apuesta para que las apuestas sean válidas.<br><br>
+            9) Las apuestas con doble resultado (como predecir el marcador en el primer tiempo combinado con el resultado al final del 4º
+            cuarto) no tendrán en cuenta los resultados derivados del tiempo añadido.<br><br>
+            10) Los mercados de juego ofensivo Primero/Siguiente se definen según las jugadas ofensivas primera/siguiente de la pelea
+            (cuando sea aplicable), excepto los penaltis. Si un inicio de partido debe ser repetido por un touchdown, las apuestas se
+            resolverán con el resultado del consiguiente inicio. Para establecer los resultados de las apuestas, los pasos incompletos/interceptados,
+            los bloqueos o pérdidas de balón de los quarterbacks serán considerados como "Jugadas de pase" a menos que el quarterback haya pasado
+            la línea de pelea, en cuyo punto se considera "Jugada de run". Las pérdidas de balón en intercambios con el runningback serán
+            consideradas "Jugada de run".<br><br>
+            11) Las decisiones de las apuestas que se refieran a "Yardas ofensivas" se basarán en el número neto de yardas incluyendo
+            las pérdidas de yardas.<br><br>
+            12) Las ofertas que hacen referencia a las puntuaciones de equipos que marquen con éxito un número sucesivo de veces especificado
+            sin respuesta se considerarán puntos anotados durante el tiempo añadido eventual, pero excluyen los PATs (puntos tras touchdowns
+            o conversiones de 2 puntos).<br><br>
+            13) Las ofertas de "Equipos que pidan primero/siguientes tiempos muertos" no tomarán en consideración para su resolución los tiempos
+            muertos perdidos a través de otros medios como ataques fallidos, enfrentamientos de entrenadores y/o lesiones.<br><br>
+            14) Las resoluciones de todas las ofertas de penaltis se basarán en si es aceptado o no el penal. Los penales declinados no cuentan.<br><br>
+            15) Las apuestas que hacen referencia al resultado de un ataque en particular se declararán como nulas en caso de un ataque incompleto.
+            En casos donde el equipo A tiene la pelota y la pierde tras lo cual el quipo B la recupera y el equipo A la vuelve a recuperar, el
+            resultado se clasifica como "Cesión". Las cesiones en downs (fallo al intentar el 4º down), también se considerarán como "Cesión".
+            Si un punt es derribado por el equipo receptor y recuperado por el equipo que patea, las apuestas se resolverán como "Punt".<br><br>
+            16) Las apuestas relativas a la consecución de un 1º down hacen referencia únicamente al equipo que esté en ese momento pueda alcanzar
+            dicho resultado. El mercado lo resolverá como "SÍ" si se materializase una serie de "Downs" ya sea mediante carrera, pase (incluyendo
+            los casos en los que se consigue un touchdown) o una falta automáticamente garantiza el 1º down. "Safety", "field goal" (al margen
+            de si se materializa el field goal o no), fumbles o cualquier cambio en la posesión tendrá como resolución de la oferta un "NO".
+            Cualquier down repetido debido a una falta no será considerado como resolutivo en relación con la apuesta a no ser que se realice
             con 5 o menos yardas restantes.<br><br>
-            17) La resolución sobre qué equipo conseguirá más yardas de Pase/Carrera se basará en el número bruto de
-            yardas lanzadas/recorridas, incluyendo las yardas negativas en las carreras.<br><br>
-            18) Para las resoluciones, las apuestas en los anotadores de touchdown requieren que los jugadores enumerados
-            sean parte de la alineación activa de ese partido. Las apuestas sobre jugadores que no estén en la alineación
-            activa serán devueltas. En casos de "Touchdowns de pase" además de "Pases de touchdown", solo el jugador que
-            recibe la pelota será considerado como el anotador del touchdown.<br><br>
-            19) Las apuestas basadas en jugadores y otras estadísticas se solventan según los informes oficiales de los
-            partidos tal y como se publican tras el partido por la asociación organizadora.<br><br>
-            20) A menos que se especifique en conjunción con la oferta de la apuesta, las apuestas a los resultados
-            relacionados con la 2.ª parte, solo considerarán los puntos y ocurrencias generadas/obtenidas durante el periodo
-            de tiempo especificado y no considerarán puntos y ocurrencias generadas/obtenidas durante el tiempo extra.`,
-      
+            17) La resolución sobre qué equipo conseguirá más yardas de Pase/Carrera se basará en el número bruto de yardas lanzadas/recorridas,
+            incluyendo las yardas negativas en las carreras.<br><br>
+            18) Para las resoluciones, las apuestas en los anotadores de touchdown requieren que los jugadores enumerados sean parte de la alineación
+            activa de ese partido. Las apuestas sobre jugadores que no estén en la alineación activa serán devueltas. En casos de "Touchdowns de pase"
+            además de "Pases de touchdown", solo el jugador que recibe la pelota será considerado como el anotador del touchdown.<br><br>
+            19) Las apuestas basadas en jugadores y otras estadísticas se solventan según los informes oficiales de los partidos tal y como se publican
+            tras el partido por el órgano organizador.<br><br>
+            20) A menos que se especifique en conjunción con la oferta de la apuesta, las apuestas a los resultados relacionados con la 2.ª parte solo
+            considerarán los puntos y ocurrencias generadas/obtenidas durante el periodo de tiempo especificado y no considerarán puntos y ocurrencias
+            generadas/obtenidas durante el tiempo extra.<br><br>
+            21) Las ofertas referidas a los placajes realizados se resolverán atendiendo a los placajes realizados únicamente durante las jugadas
+            defensivas específicas. Las estadísticas defensivas oficiales al final de partido determinarán los placajes realizados. `,
+
     },
     {
       id: 6,
       title: 'Boxeo',
       img: 'assets/logo_Deportes/logo_Boxeo_Cut.jpg',
-      content: `1) Todas las ofertas se realizarán según el resultado oficial que declare la correspondiente autoridad competente
-            inmediatamente después de que el locutor lo anuncie al final de la pelea. No se tendrán en consideración arreglos
-            realizados al resultado final tras su primer anuncio excepto aquellos que realice la organización oficial para
-            rectificar casis claros de errores comunes por el anunciador del ring.<br><br>
+      content: `1) Todas las ofertas se realizarán según el resultado oficial que declare la correspondiente autoridad
+            competente inmediatamente después de que el locutor lo anuncie al final de la pelea. No se tendrán en
+            consideración arreglos realizados al resultado final tras su primer anuncio excepto aquellos que realice la
+            organización oficial para rectificar casis claros de errores comunes por el anunciador del ring.<br><br>
             2) En el caso de que el combate se interrumpa por algún motivo entre asalto y asalto, por ejemplo, si se produce
-            un abandono antes del inicio del asalto se descalifica a algún boxeador o no se responde a la campana, el
-            combate se declarará finalizado una vez terminada la ronda anterior.<br><br>
-            3) Las apuestas a combates declarados como "Combate sin decisión" o "Empate técnico" se anularán, a
-            excepción de aquellas ofertas cuyos resultados se hayan decidido antes de la decisión y que posiblemente no
-            puedan modificarse independientemente de los eventos futuros, que se establecerán según el resultado decidido.<br><br>
-            4) Si por algún motivo cambiase el número de asaltos de un combate entre el momento de aceptación de la
-            apuesta y la pelea, las ofertas que hagan referencia específicamente a los asaltos, tales como "Apuestas a
-            asaltos", "Grupo de asaltos", "Más/Menos de" y "El resultado se decidirá en el último momento" se declararán
-            nulas.<br><br>
-            5) Las apuestas a asaltos o grupos de asaltos hacen referencia al luchador que ganará por KO (nocaut), TKO
-            (nocaut técnico) o descalificación durante dicho asalto o grupo de asaltos. Si por algún motivo se conceden
-            puntos antes de que finalicen todos los asaltos programados, o si se descalifica a un boxeador, las apuestas se
-            establecerán en el asalto en el que se detuvo la pelea. Las apuestas referentes a "ganar por puntos" solo serán
-            ganadoras si se han completado todos los asaltos.<br><br>
-            6) Para que un partido se decida por "puntos" (por ejemplo, lo contrario a "decisión"), deberán completarse todos los asaltos. 
-            Las demás decisiones (por ejemplo, KO, TKO, retirada, descalificación, no responder a la campana,
-            cabezazos, golpe bajo, etc.) provocarán que el boxeador gane el combate sin necesidad de decisión, es decir,
-            "antes de la campana".<br><br>
-            7) Las apuestas referentes la duración de la ronda/lucha representa el tiempo real empleado en la ronda/combate,
-            si es necesario, en función de la duración prevista de la ronda/combate. Por ejemplo, una apuesta en más de 4,5
-            rondas en total en un combate de boxeo se liquidará en cuanto que un minuto y medio en la quinta ronda se ha
-            terminado.<br><br>
-            8) Las peleas confirmadas deben completarse antes de las 23:59 hora local del día siguiente para que las apuestas
-            sean válidas. Los cambios de ubicación o instalación no serán argumentos válidos para anular las ofertas.<br><br>
-            9) En las ofertas donde sea posible un empate y las cuotas no han sido ofrecidas para dicho resultado, las
-            apuestas se considerarán nulas si el resultado es tal. En términos de resolución, las peleas con resultado "Empate
-            por mayoría" o "Empate dividido" se consideran empate y las ofertas se ajustarán respectivamente.<br><br>
-            10) Las resoluciones de ofertas basadas en estadísticas como "Boxeador X será derribado" o parecidas se
-            decidirán según los resultados declarados por el árbitro y no se permitirán interpretaciones personales.`,
-     
+            un abandono antes del inicio del asalto, se descalifica a algún boxeador o no se responde a la campana, el combate
+            se declarará finalizado una vez terminada la ronda anterior. Para todas las ofertas "Completar el combate"
+            resueltas con "sí", se deberá completar la totalidad de los asaltos oficialmente previstos. En caso de una decisión
+            técnica previa a la finalización del número de asaltos previstos, todas las apuestas serán resueltas como victoria
+            por decisión.<br><br>
+            3) Las apuestas a combates declarados como "Combate sin decisión" o "Empate técnico" (antes de que se completen los
+            4 asaltos en su totalidad) se anularán, a excepción de aquellas ofertas cuyos resultados se hayan decidido antes
+            de la decisión y que posiblemente no puedan modificarse independientemente de los eventos futuros, se establecerán
+            según el resultado decidido.<br><br>
+            4) Si por algún motivo cambiase el número de asaltos de un combate entre el momento de aceptación de la apuesta y la
+            pelea, las ofertas que hagan referencia específicamente a los asaltos, tales como "Apuestas a asaltos", "Grupo de
+            asaltos", "Más/Menos de", "modo de victoria" y "Completar el combate" se declararán nulas.<br><br>
+            5) Con fines de resolución de las apuestas, las apuestas a asaltos o grupos de asaltos hacen referencia al luchador
+            que ganará por KO (nocaut), TKO (nocaut técnico) o descalificación durante dicho asalto o grupo de asaltos. Si por
+            algún motivo se conceden puntos antes de que finalicen todos los asaltos programados (decisión técnica), las ofertas
+            como "Apuesta a asaltos alternativa", "Grupo de asaltos alternativo", "Más/Menos de" y "Completar el combate" se
+            declararán nulas a no ser que el resultado ya esté determinado.<br><br>
+            6) Las apuestas referentes la duración de la ronda/lucha representa el tiempo real empleado en la ronda/combate, si es
+            necesario, en función de la duración prevista de la ronda/combate. Por ejemplo, una apuesta en más de 4,5 rondas en
+            total en un combate de boxeo se liquidará en cuanto que un minuto y medio en la quinta ronda se ha terminado.<br><br>
+            7) Las peleas confirmadas deben completarse antes de las 23:59 hora local del día siguiente para que las apuestas sean
+            válidas. Los cambios de ubicación o instalación no serán argumentos válidos para anular las ofertas.<br><br>
+            8) En las ofertas donde sea posible un empate y las cuotas no han sido ofrecidas para dicho resultado, las apuestas se
+            considerarán nulas si el resultado es tal. En términos de resolución, las peleas con resultado "Empate por mayoría" o
+            "Empate dividido" se consideran empate y las ofertas se ajustarán respectivamente.<br><br>
+            9) Las resoluciones de ofertas basadas en estadísticas como "Boxeador X será derribado" o parecidas se decidirán según
+            los resultados declarados por el árbitro.`,
+
     },
     {
       id: 7,
       title: 'Críquet',
       img: 'assets/logo_Deportes/logo_Criquet_Cut.jpg',
-      content: `<ol type='a'><li>Reglas generales del críquet.<ol>
-                <br>
-                <li>
-            En casos donde no se han ofrecido cuotas para el empate y el partido/oferta termina en empate, las apuestas
-            serán decididas según la llamada regla del "empate", donde el pago se calcula tras dividir las cuotas y
-            multiplicarlas por la apuesta, sin tener en cuenta si el pago es inferior a la apuesta del poseedor de la cuenta.
-            En competiciones donde se usan otros medios para determinar un ganador tras un empate (por ejemplo,
-            "Bowl out" o "Super-Over"), las ofertas se decidirán según el resultado tras completar estas prolongaciones.
-            La única excepción de esta regla es para las apuestas a "Cuotas del partido" si el empate se produce en los
-            días de Test/Primera clase/3, 4 o 5 (donde ambos equipos han completado dos innings cada uno y tienen la
-            misma puntuación). Las apuestas a "Cuotas del partido" se saldarán como nulas.
-            </li>
-            <br>
-            <li>
-            Para las apuestas de "Total de carreras superior a X" (Más/menos y Pares/Impares), los "extras" y "carreras
-            de penalización" (según las tarjetas de puntos del partido) se incluyen para las resoluciones. Las apuestas
-            serán nulas si no están completas a menos que se haya determinado un resultado o el over haya llegado a su
-            "conclusión natural" (como fin de los innings/declaración). El mercado se refiere únicamente al over
-            enumerado (por ejemplo, "5º over" se refiere al over número 5, justo después del over número 4).
-            </li>
-            <br>
-            <li>
-            Para las apuestas de "Total de carreras lanzamiento X" (Más/menos y Pares/Impares), los "extras" (pero no
-            las carreras de penalización) según las tarjetas de puntos del partido, se incluyen para las resoluciones. Los
-            lanzamientos se cuentan desde el inicio del over, y los lanzamientos adicionales (resultantes de los "extras")
-            se contarán consecutivamente y por separado (por ejemplo, si el lanzamiento 1 es largo, la siguiente bola se
-            considera lanzamiento 2).
-            </li>
-            <br>
-            <li>
-            Para las apuestas a "Límite superior a X" (Sí/No), cualquier ocurrencia de la bola golpeando o superando el
-            límite sin tener en cuenta si toca el bate será considerado un límite. Esto incluye los largos, exenciones,
-            exenciones de vuelta y lanzamientos superiores (por ejemplo, una bola en juego que impacta o supera los límites se 
-            considera un sí para ese over). 4 runs que sean "all run" entre el wicket no se contarán como
-            límite. Las apuestas serán nulas si no están completas a menos que se haya determinado un resultado o el
-            over haya llegado a su "conclusión natural" (como fin de los innings, declaración). El mercado se refiere
-            únicamente al over enumerado (por ejemplo, "5º over" se refiere al over número 5, justo después del over
-            número 4).
-            </li>
-            <br>
-            <li>
-            Para las apuestas de "Wicket superior a X" (Sí/No), el over debe ser completado para que las apuestas sean
-            válidas, a menos que haya caído un wicket o los innings alcancen su conclusión natural (por ejemplo, fin de<br>
-            los innings, declaración).
-            </li>
-            <br>
-            <li>
-            Para las apuestas "Total de lanzamientos largos) (Más/Menos), las conclusiones se basarán en los "Runs"<br>
-            conseguido en "Lanzamientos largos" y no en el número de "Lanzamientos largos" logrados. Por ejemplo, si<br>
-            un lanzamiento largo alcanza el límite cuenta como 5 lanzamientos largos en total.
-            </li>
-            <br>
-            <li>
-            Para las apuestas de "Método de rechazo", las apuestas serán nulas si el jugador se retira debido a una lesión<br>
-            o cualquier otro motivo, antes de que caiga el wicket o no haya más wickets.
-            </li>
-            <br>
-            <li>
-            Nueva regla<br>
-            Para las apuestas de "Más eliminaciones en carrera", las resoluciones se basarán en el equipo que batea, no
-            el equipo de campo. (Por ejemplo, los runs out del equipo del jugador eliminado).
-            </li>
-            <br>
-            <li>
-            Para las apuestas a "Pares/Impares", se debe lanzar una bola para que la apuesta sea válida.
-            </li>
-            <br>
-            <li>
-            Para las apuestas con "ducks", el duck se define como un jugador que ha sido eliminado por una puntuación
-            de cero runs. Un jugador que no ha salido por cero runs no es considerado un duck.
-            </li>
-            <br>
-            <li>
-            Para las apuestas "Novia en el partido", una novia se considera cualquier exceso de lanzamiento sin runs
-            conseguidos. Solo cuentan los overs completados con cero runs. Se deben lanzar un mínimo de lover para
-            que las apuestas sean válidas. En términos de resolución, las exenciones de vuelta y las exenciones no se
-            aplican a esta oferta de apuesta, según la tarjeta de puntos del partido. Para las apuestas "4 ", no solo el total
-            de 4, mayor número de 4, y total de 4 del jugador, cualquier 4 "all run" no cuenta en el total. Los
-            lanzamientos largos que llegan al límite y se conceden al bateador contarán. Las bolas no válidas que
-            lleguen al límite tras batearlas y se le concedan al bateador se tendrán en cuenta. Leg-byes y byes que llegan
-            a los límites no se tienen en cuenta. Wides que llegan a los límites no se tienen en cuenta.
-            </li>
-            <br>
-            <li>
-            Los runs de penalización se cuentan para los over, intervalos e innings en términos de resolución, según la
-            tarjeta de puntos del partido. Si los runs de penalización no se conceden a un over específico, solo contarán
-            para los runs de innings.
-            </li>
-            </ol>
-            </li>
-            <br>
-            <li>
-            Reglas del jugador de críquet
+      content: `<ol type='a'><li>Reglas generales del críquet.
             <ol>
             <br>
-            <li>
-            Las apuestas a "Mejor anotador" y "Mejor wicket taker" (incluidas todas las variantes de "Equipo local",
-            "Equipo visitante", "1.ª entrada" y "2ª entrada") realizadas sobre un jugador que no esté en el 11 inicial serán
-            nulas. Las apuestas a jugadores que se hayan seleccionado, pero no bateen o entren en el campo se
-            determinarán como apuestas perdedoras.<br>
-            En caso de empate, se aplicarán las reglas de empate descritas en la (Sección C, Párrafo 10(a).1).<br>
-            <ol type="a">
-            <li>
-        Adicionalmente se aplicarán a todos los partidos con overs limitados.<br>
-            Las apuestas precisan un mínimo de 20 overs lanzados por innings de un partido de un día, a menos
-            que el equipo esté completamente fuera o el partido esté completado, o un mínimo de 5 overs
-            lanzados de un partido Twenty 20, T10 o Hundred match a menos que el equipo esté
-            completamente fuera o el partido esté completado.
-            </li>
-            <li>
-            Adicionalmente, en todos los partidos de Test y 4/5 días se aplicará lo siguiente.<br>
-            Las apuestas precisan 50 overs completados para ser válidas, a menos que los innings hayan
-            alcanzado su conclusión natural (incluyendo los "inning declaradas").
-            </li>
-            <li>
-            Todas las apuestas a "Mejor Wicket Taker" se resolverán únicamente según el número de wickets
-            recibidos sin tener en cuenta el número de runs concedidos.
-            </li>
-            <li>
-            Todas las apuestas a "Mejor Wicket Taker" será nulas si no se reciben wickets por ningún lanzador en
-            esos innings.
-            </li>
-            <li>
-            Esta regla excluye cualquier mercado de Torneo o Serie como se cubre en la (Sección C, Párrafo 10.5).
-            </li>
+            <li> En casos donde no se han ofrecido cuotas para el empate y el partido/oferta termina en empate,
+            las apuestas serán decididas según la llamada "regla del empate", donde el pago se calcula tras dividir
+            las cuotas y multiplicarlas por la apuesta, sin tener en cuenta si el pago es inferior a la apuesta del
+            poseedor de la cuenta. En aquellas competiciones donde se usan otros medios para determinar un ganador
+            tras un empate (por ejemplo, "Bowl out" o "Super-Over"), las ofertas se decidirán según el resultado tras
+            completar estas prolongaciones. La única excepción de esta regla es para las apuestas a "Cuotas del
+            partido" si el empate se produce en los días de Test/Primera clase/3, 4 o 5, donde ambos equipos han
+            completado dos innings cada uno y tienen la misma puntuación, las apuestas a "Cuotas del partido" se
+            declararán como nulas.</li><br>
+            <li> Para las apuestas de "Total de carreras superior a X" (Más/menos y Pares/Impares), los "extras" y
+            "carreras de penalización" (según las tarjetas de puntos del partido) se incluyen para las resoluciones.
+            Las apuestas serán nulas si no están completas a menos que se haya determinado un resultado o el over
+            haya llegado a su "conclusión natural" (como fin de los innings/declaración). El mercado se refiere
+            únicamente al over enumerado (por ejemplo, "5º over" se refiere al over número 5, justo después del
+            over número 4).</li><br>
+            <li> Para las apuestas de "Total de carreras lanzamiento X" (Más/menos y Pares/Impares), los "extras" (pero
+            no las carreras de penalización) según las tarjetas de puntos del partido, se incluyen para las resoluciones.
+            Los lanzamientos se cuentan desde el inicio del over, y los lanzamientos adicionales (resultantes de los "extras")
+            se contarán consecutivamente y por separado (por ejemplo, si el lanzamiento 1 es largo, la siguiente bola se
+            considera lanzamiento 2).</li><br>
+            <li> Para las apuestas a "Límite superior a X" (Sí/No), cualquier ocurrencia de la bola golpeando o superando
+            el límite sin tener en cuenta si toca el bate será considerado un límite. Esto incluye los largos, exenciones,
+            exenciones de vuelta y lanzamientos superiores (por ejemplo, una bola en juego que impacta o supera los límites
+            se considera un sí para ese over). 4 runs que sean "all run" entre el wicket no se contarán como límite. Las
+            apuestas serán nulas si no están completas a menos que se haya determinado un resultado o el over haya llegado
+            a su "conclusión natural" (como fin de los innings, declaración). El mercado se refiere únicamente al over
+            enumerado (por ejemplo, "5º over" se refiere al over número 5, justo después del over número 4).</li><br>
+            <li> Para las apuestas de "Wicket superior a X" (Sí/No), el over debe ser completado para que las apuestas
+            sean válidas, a menos que haya caído un wicket o los innings alcancen su conclusión natural (por ejemplo,
+            fin de los innings, declaración).</li><br>
+            <li> Para las apuestas "Total de lanzamientos largos) (Más/Menos), las conclusiones se basarán en los "Runs"
+            conseguido en "Lanzamientos largos" y no en el número de "Lanzamientos largos" logrados. Por ejemplo, si un
+            lanzamiento largo alcanza el límite cuenta como 5 lanzamientos largos en total.</li><br>
+            <li> Para las apuestas de "Método de rechazo", las apuestas serán nulas si el jugador se retira debido a una
+            lesión o cualquier otro motivo, antes de que caiga el wicket o no haya más wickets.</li><br>
+            <li> Nueva regla<br>
+            Para las apuestas de "Más eliminaciones en carrera", las resoluciones se basarán en el equipo que batea, no
+            el equipo de campo. (Por ejemplo, los runs out del equipo del jugador eliminado).</li><br>
+            <li> Para las apuestas a "Pares/Impares", se debe lanzar una bola para que la apuesta sea válida.</li><br>
+            <li> Para las apuestas con "ducks", el duck se define como un jugador que ha sido eliminado por una puntuación
+            de cero runs. Un jugador que no ha salido por cero runs no es considerado un duck.</li><br>
+            <li>Para las apuestas "Novia en el partido", una novia se considera cualquier exceso de lanzamiento sin runs
+            conseguidos. Solo cuentan los overs completados con cero runs. Se deben lanzar un mínimo de 1 over para que
+            las apuestas sean válidas. En términos de resolución, las exenciones de vuelta y las exenciones no se aplican
+            a esta oferta de apuesta, según la tarjeta de puntos del partido. Para las apuestas "4 ", no solo el total de
+            4, mayor número de 4, y total de 4 del jugador, cualquier 4 "all run" no cuenta en el total. Los lanzamientos
+            largos que llegan al límite y se conceden al bateador contarán. Las bolas no válidas que lleguen al límite tras
+            batearlas y se le concedan al bateador se tendrán en cuenta. Leg-byes y byes que llegan a los límites no se
+            tienen en cuenta. Wides que llegan a los límites no se tienen en cuenta. </li><br>
+            <li>Los runs de penalización se cuentan para los over, intervalos e innings en términos de resolución, según
+            la tarjeta de puntos del partido. Si los runs de penalización no se conceden a un over específico, solo
+            contarán para los runs de innings.</li>
             </ol>
             </li>
             <br>
-            <li>
-            Las apuestas a "Hombre/Jugador del partido" sobre cualquier jugador que no esté en el 11 inicial se
-            declararán nulas. Las apuestas a jugadores que se hayan seleccionado, pero no bateen o lancen se
-            determinarán como apuestas perdedoras. En caso de empate, se aplicarán las reglas de empate descritas en la
-            (Sección C, Párrafo 10(a).1).<br>
-            </li>
+            <li> Reglas del jugador de críquet
+            <ol>
             <br>
-            <li>
-            Las apuestas a "Siguiente jugador fuera" y "Primer bateador eliminado" resultarán nulas si el jugador se
-            retira debido a una lesión o cualquier otro motivo antes de que caiga el wicket o si no hay más wickets.
-            Ambos bateadores nombrados deben batear en la caída del wicket nominado para que la apuesta sea válida.
-            </li>
+            <li> Las apuestas a "Mejor anotador" y "Mejor wicket taker" (incluidas todas las variantes de "Equipo local", "Equipo
+            visitante", "1.ª entrada" y "2ª entrada") realizadas sobre un jugador que no esté en el 11 inicial serán nulas. Las
+            apuestas a jugadores que se hayan seleccionado, pero no bateen o entren en el campo se determinarán como apuestas perdedoras.<br>
+            En caso de empate, se aplicarán las reglas de empate descritas en la &lt;Section C, Para 10(a).1&gt;.
+            <ol type="a">
             <br>
-            <li>
-            Las selecciones de "Más runs" (2 modos y 3 modos) precisan que ambos/todos los jugadores lleguen al
-            punto de bateo cuando se lanza una bola, pero no es necesario que se enfrenten a una bola ni que los
-            jugadores nombrados hayan boleado juntos, de lo contrario las apuestas serán nulas. En caso de empate, si
-            no se ofrece premio por empate, se aplicarán las reglas de empate descritas en la (Sección C, Párrafo
-            10(a).1).<br>
-            </li>
-            <br>
-            <li>
-            "Las selecciones de "Más wickets" (2 modos y 3 modos) precisan que ambos/todos los jugadores lancen
-            como mínimo 1 bola para que las apuestas sean válidas. En caso de empate, si no se ofrece premio por
-            empate, se aplicarán las reglas de empate descritas en la (Sección C, Párrafo 10(a).1).
-            </li>
-            <br>
-            <li>
-            Las apuestas a "Actuación del jugador" sobre cualquier jugador que no esté en el 11 inicial se declararán
-            nulas. La resolución se basa en el siguiente sistema de puntuación:<br><br>
+            <li> Adicionalmente se aplicarán a todos los partidos con overs limitados. <br>
+            Las apuestas precisan un mínimo de 20 overs lanzados por innings de un partido de un día, a menos que el equipo esté
+            completamente fuera o el partido esté completado, o un mínimo de 5 overs lanzados de un partido Twenty 20, T10 o
+            Hundred match a menos que el equipo esté completamente fuera o el partido esté completado. </li>
+            <li> Adicionalmente, en todos los partidos de Test y 4/5 días se aplicará lo siguiente.<br>
+            Las apuestas precisan 50 overs completados para ser válidas, a menos que los innings hayan alcanzado su conclusión
+            natural (incluyendo los "inning declaradas").</li>
+            <li> Todas las apuestas a "Mejor Wicket Taker" se resolverán únicamente según el número de wickets recibidos sin tener
+            en cuenta el número de runs concedidos.</li>
+            <li> Todas las apuestas a "Mejor Wicket Taker" será nulas si no se reciben wickets por ningún lanzador en esos innings.</li>
+            <li> Esta regla excluye cualquier mercado de Torneo o Serie como se cubre en la &lt;Section C, Para 10.5&gt;.</li>
+            </ol></li><br>
+            <li> Las apuestas a "Hombre/Jugador del partido" sobre cualquier jugador que no esté en el 11 inicial se declararán
+            nulas. Las apuestas a jugadores que se hayan seleccionado, pero no bateen o lancen se determinarán como apuestas
+            perdedoras. En caso de empate, se aplicarán las reglas de empate descritas en la &lt;Section C, Para 10(a).1&gt;.</li><br>
+            <li> Las apuestas a "Siguiente jugador fuera" y "Primer bateador eliminado" resultarán nulas si el jugador se retira
+            debido a una lesión o cualquier otro motivo antes de que caiga el wicket o si no hay más wickets. Ambos bateadores
+            nombrados deben batear en la caída del wicket nominado para que la apuesta sea válida.</li><br>
+            <li> Las selecciones de "Más runs" (2 modos y 3 modos) precisan que ambos/todos los jugadores lleguen al punto de
+            bateo cuando se lanza una bola, pero no es necesario que se enfrenten a una bola ni que los jugadores nombrados hayan
+            boleado juntos, de lo contrario las apuestas serán nulas. En caso de empate, si no se ofrece premio por empate, se
+            aplicarán las reglas de empate descritas en la &lt;Section C, Para 10(a).1&gt;.</li><br>
+            <li> "Las selecciones de "Más wickets" (2 modos y 3 modos) precisan que ambos/todos los jugadores lancen como mínimo
+            1 bola para que las apuestas sean válidas. En caso de empate, si no se ofrece premio por empate, se aplicarán las reglas
+            de empate descritas en la &lt;Section C, Para 10(a).1&gt;.</li><br>
+            <li> Las apuestas a "Actuación del jugador" sobre cualquier jugador que no esté en el 11 inicial se declararán nulas.
+            La resolución se basa en el siguiente sistema de puntuación:
             <ul>
-            <li>
-            1 punto por run (solo el bateador).
-            </li>
-            <li>
-            10 puntos por pelota recogida (solo el jugador de campo o wicket keeper).
-            </li>
-            <li>
-            20 puntos por wicket (solo el lanzador);
-            </li>
-            <li>
-            25 puntos por stumping (solo el wicket keeper).
-            </li>
+            <br>
+            <li>1 punto por run (solo el bateador).</li>
+            <li>10 puntos por pelota recogida (solo el jugador de campo o wicket keeper).</li>
+            <li>20 puntos por wicket (solo el lanzador);</li>
+            <li>25 puntos por stumping (solo el wicket keeper).</li>
             </ul>
             <br>
-            Adicionalmente, en todos los partidos con overs limitados, todas las apuestas se declararán nulas si el
-            número de overs se reduce debido al tiempo (o cualquier otro motivo) desde el número de overs programado
-            normalmente en un partido de Twenty 20 o cualquier otro partido con overs limitados. Si el resultado de estas 
-            ofertas ya se ha decidido antes de la interrupción y si continúa el juego no puede influir en el resultado
-            de dichas apuestas, estas se resolverán correspondientemente.
-            </li>
-            <br>
-            <li>
-            Las apuestas de tipo "Jugador recibirá 5 wickets o más/Wickets en total del jugador/Jugador a recibir un
-            wicket" realizadas sobre cualquier jugador que no esté en el 11 inicial se declararán nulas. Las apuestas
-            también se pueden anular si el jugador no lanza una bola.
-            </li>
-            <br>
-            <li>
-            Las apuestas "Jugador realiza un duck" (Sí/No) precisan que el jugador llegue a la zona de bateo mientras se
-            lanza una bola, aunque no es necesario enfrentarse a la misma.
-            </li>
-            <br>
-            <li>
-            En las apuestas "Jugador que marcará 50 más rápido/Siglo", la resolución se basa en el menos número de
-            bolas enfrentadas para alcanzar la cantidad establecida (50 runs o 100 runs). En caso de empate, se aplicarán
-            las reglas de empate descritas en la (Sección C, Párrafo 10(a).1).
-            </li>
-            <br>
-            <li>
-            En las apuestas "Llegar a X runs", ambos jugadores deben abrir el bateo para que las apuestas sean válidas.
-            </li>
-            <br>
-            <li>
-            Las apuestas "Runs en total/Total de 4/Total de 6 del jugador" (Más/Menos) precisan que el jugador llegue a
-            la zona de bateo mientras se lanza una bola, aunque no es necesario enfrentarse a la misma. En casos donde
-            los innings de un bateador terminan por el tiempo o poca luz, todas las apuestas son resultado determinado
-            se declararán nulas. Un resultado se considera decidido si un bateador ha superado el total establecido al
-            aceptar la apuesta, ha sido expulsado o se han completado todos los innings/se ha realizado una declaración.
-            Por ejemplo, si un bateador llega a 50 "Not-Out" cuando un partido o inning ha concluido debido a poca luz
-            o lluvia, todas las apuestas a 50,5 serán anuladas a menos que el partido llegue a su conclusión natural. Sin
-            embargo, todas las apuestas a Más de 49,5 se considerarán ganados mientras que las apuesta a Menos 49,5
-            se considerarán perdidas. Si un bateador se retira por una lesión o cualquier otro motivo, su puntuación a la
-            conclusión de los innings de su equipo se considerará el resultado de esa apuesta. Adicionalmente, en todos
-            los partidos con overs limitados, todas las apuestas se declararán nulas si el número de overs se reduce
-            debido al tiempo (o cualquier otro motivo) desde el número de overs programado normalmente en un
-            partido de Twenty 20 o cualquier otro partido con overs limitados. Si el resultado de estas ofertas ya se ha
-            decidido antes de la interrupción y si continúa el juego no puede influir en el resultado de dichas apuestas,
-            estas se resolverán correspondientemente.
-            </li>
-            <br>
-            <li>
-            Las apuestas de tipo "Jugador consigue 50/Medio siglo" (Sí/No) precisan que el jugador llegue a la zona de
-            bateo mientras se lanza una bola, aunque no es necesario enfrentarse a la misma. Se considera que un
-            jugador ha consiguido 50 o un "Medio siglo" cuando su puntuación es de 50 o más runs sin que importe que
-            consiga un siglo o más. En casos donde los innings de un bateador terminan por las condiciones
-            meteorológicas o la falta de luz, todas las apuestas sin un resultado determinado se declararán nulas, a
-            menos que el partido haya llegado a su conclusión natural. Si un bateador se retira por una lesión, su
-            puntuación a la conclusión de los innings de su equipo se considerará el resultado de esa apuesta.
-            Adicionalmente, en todos los partidos con overs limitados, si interviene la lluvia (o cualquier otro retraso)
-            provoca que se reduzca el número de innings programados inicialmente en el momento de realizar las
-            apuestas, todas las apuestas pendientes (jugador en conseguir 50) se considerarán nulas si la reducción
-            consiste en un 10% o más de overs previstos en un partido. Si la reducción es menor al 10% de los overs
-            previstos en el momento en el que se aceptó la apuesta, estas serán válidas. Si los innings de un equipo son
-            de 10 overs o menos, cualquier reducción de los overs anulará las apuestas. Si el resultado de las apuestas
-            estuviera ya decidido antes de la interrupción, sin que la continuación del juego pudiese modificar el
-            resutlado de dichas apuestas, estas se resolverán en consecuencia.
-            </li>
-            <br>
-            <li>
-            Las apuestas de tipo "Jugador consigue 100/Siglo/200/Doble siglo" (Sí/No) precisan que el jugador llegue a
-            la zona de bateo mientras se lanza una bola, aunque no es necesario que se enfrenten a la misma. Un jugador
-            consigue 100 o un "Siglo" cuando su puntuación es de 100 o más runs sin que importe que consiga un doble
-            siglo o más. Del mismo modo, se considera que un jugador ha conseguido 200 o "Doble siglo" cuando su
-            puntuación es de 200 runs o más. En casos donde los innings de un bateador terminan por las condiciones
-            meteorológica o falta de luz, todas las apuestas son resultado determinado se declararán nulas. Si un
-            bateador se retira por una lesión, su puntuación a la conclusión de los innings de su equipo se considerará el
-            resultado de esa apuesta. Adicionalmente, en todos los partidos limitados, si la lluvia (o cualquier otro
-            retraso) provoca que se reduzca el número de innings de los programados inicialmente en el momento de
-            realizar la apuesta, todas las apuestas abiertas (jugador en conseguir 100/200) se considerarán nulas si la
-            reducción consiste en un 10% o más de lo previsto. Si la reducción es menor al 10% de los overs previstos
-            en el momento en el que se aceptó la apuesta, estas serán válidas. Si los innings de un equipo son de 10
-            overs o menos, cualquier reducción de los overs anulará las apuestas. Si el resultado de las apuestas
-            estuviera ya decidido antes de la interrupción, sin que la continuación del juego pudiese modificar el
-            resutlado de dichas apuestas, estas se resolverán en consecuencia.
-            </li>
+            Adicionalmente, en todos los partidos con overs limitados, todas las apuestas se declararán nulas si el número de
+            overs se reduce debido al tiempo (o cualquier otro motivo) desde el número de overs programado normalmente en un
+            partido de Twenty 20 o cualquier otro partido con overs limitados. Si el resultado de estas ofertas ya se ha decidido
+            antes de la interrupción y si continúa el juego no puede influir en el resultado de dichas apuestas, estas se
+            resolverán correspondientemente.</li><br>
+            <li> Las apuestas de tipo "Jugador recibirá 5 wickets o más/Wickets en total del jugador/Jugador a recibir un wicket"
+            realizadas sobre cualquier jugador que no esté en el 11 inicial se declararán nulas. Las apuestas también se pueden
+            anular si el jugador no lanza una bola.</li><br>
+            <li> Las apuestas "Jugador realiza un duck" (Sí/No) precisan que el jugador llegue a la zona de bateo mientras se
+            lanza una bola, aunque no es necesario enfrentarse a la misma.</li><br>
+            <li> En las apuestas "Jugador que marcará 50 más rápido/Siglo", la resolución se basa en el menos número de bolas
+            enfrentadas para alcanzar la cantidad establecida (50 runs o 100 runs). En caso de empate, se aplicarán las reglas
+            de empate descritas en la &lt;Section C, Para 10(a).1&gt;.</li><br>
+            <li> En las apuestas "Llegar a X runs", ambos jugadores deben abrir el bateo para que las apuestas sean válidas.</li><br>
+            <li> Las apuestas "Runs en total/Total de 4/Total de 6 del jugador" (Más/Menos) precisan que el jugador llegue a la
+            zona de bateo mientras se lanza una bola, aunque no es necesario enfrentarse a la misma. En casos donde los innings de
+            un bateador terminan por el tiempo o poca luz, todas las apuestas son resultado determinado se declararán nulas. Un
+            resultado se considera decidido si un bateador ha superado el total establecido al aceptar la apuesta, ha sido expulsado
+            o se han completado todos los innings/se ha realizado una declaración. Por ejemplo, si un bateador llega a 50 "Not-Out"
+            cuando un partido o inning ha concluido debido a poca luz o lluvia, todas las apuestas a 50,5 serán anuladas a menos que
+            el partido llegue a su conclusión natural. Sin embargo, todas las apuestas a Más de 49,5 se considerarán ganados mientras
+            que las apuesta a Menos 49,5 se considerarán perdidas. Si un bateador se retira por una lesión o cualquier otro motivo,
+            su puntuación a la conclusión de los innings de su equipo se considerará el resultado de esa apuesta. Adicionalmente,
+            en todos los partidos con overs limitados, todas las apuestas se declararán nulas si el número de overs se reduce debido
+            al tiempo (o cualquier otro motivo) desde el número de overs programado normalmente en un partido de Twenty 20 o cualquier
+            otro partido con overs limitados. Si el resultado de estas ofertas ya se ha decidido antes de la interrupción y si continúa
+            el juego no puede influir en el resultado de dichas apuestas, estas se resolverán correspondientemente.</li><br>
+            <li> Las apuestas de tipo "Jugador consigue 50/Medio siglo" (Sí/No) precisan que el jugador llegue a la zona de bateo
+            mientras se lanza una bola, aunque no es necesario enfrentarse a la misma. Se considera que un jugador ha conseguido 50 o un
+            "Medio siglo" cuando su puntuación es de 50 o más runs sin que importe que consiga un siglo o más. En casos donde los innings
+            de un bateador terminan por las condiciones meteorológicas o la falta de luz, todas las apuestas sin un resultado determinado
+            se declararán nulas, a menos que el partido haya llegado a su conclusión natural. Si un bateador se retira por una lesión,
+            su puntuación a la conclusión de los innings de su equipo se considerará el resultado de esa apuesta.<br>
+            Adicionalmente, en todos los partidos con overs limitados, si interviene la lluvia (o cualquier otro retraso) provoca que se
+            reduzca el número de innings programados inicialmente en el momento de realizar las apuestas, todas las apuestas pendientes
+            (jugador en conseguir 50) se considerarán nulas si la reducción consiste en un 10% o más de overs previstos en un partido.
+            Si la reducción es menor al 10% de los overs previstos en el momento en el que se aceptó la apuesta, estas serán válidas. Si
+            los innings de un equipo son de 10 overs o menos, cualquier reducción de los overs anulará las apuestas. Si el resultado de
+            las apuestas estuviera ya decidido antes de la interrupción, sin que la continuación del juego pudiese modificar el resultado
+            de dichas apuestas, estas se resolverán en consecuencia.</li><br>
+            <li> Las apuestas de tipo "Jugador consigue 100/Siglo/200/Doble siglo" (Sí/No) precisan que el jugador llegue a la zona de
+            bateo mientras se lanza una bola, aunque no es necesario que se enfrenten a la misma. Un jugador consigue 100 o un "Siglo"
+            cuando su puntuación es de 100 o más runs sin que importe que consiga un doble siglo o más. Del mismo modo, se considera que
+            un jugador ha conseguido 200 o "Doble siglo" cuando su puntuación es de 200 runs o más. En casos donde los innings de un
+            bateador terminan por las condiciones meteorológica o falta de luz, todas las apuestas son resultado determinado se declararán
+            nulas. Si un bateador se retira por una lesión, su puntuación a la conclusión de los innings de su equipo se considerará el
+            resultado de esa apuesta. Adicionalmente, en todos los partidos limitados, si la lluvia (o cualquier otro retraso) provoca
+            que se reduzca el número de innings de los programados inicialmente en el momento de realizar la apuesta, todas las apuestas
+            abiertas (jugador en conseguir 100/200) se considerarán nulas si la reducción consiste en un 10% o más de lo previsto. Si
+            la reducción es menor al 10% de los overs previstos en el momento en el que se aceptó la apuesta, estas serán válidas. Si
+            los innings de un equipo son de 10 overs o menos, cualquier reducción de los overs anulará las apuestas. Si el resultado
+            de las apuestas estuviera ya decidido antes de la interrupción, sin que la continuación del juego pudiese modificar el
+            resultado de dichas apuestas, estas se resolverán en consecuencia.</li>
             </ol>
             </li>
             <br>
@@ -801,183 +686,111 @@ export const sportsData:Array<ISportsData> = [
             Críquet con overs limitados
             <ol>
             <br>
-
-            <li>
-            Si un partido pasa a un día "de reserva", todas las apuestas siguen siendo válidas siempre que el juego
-            comience en menos de 48 horas desde el horario de inicio programado.
-            </li>
-            <br>
-            <li>
-            Las apuestas a cuotas del partido (Mano a mano) se pagan según el resultado oficial. En caso de empate se
-            aplican las reglas "dead heat" explicadas en la Cláusula 1 de las Reglas generales de cricket a menos que se
-            usa un método alternativo para determinar al ganador (como Super-Over, Bowl-Off), en cuyo caso el
-            resultado se establece según este método. Si el partido se declara como "sin resultado", todas las apuestas
-            pendientes se declaran nulas.
-            </li>
-            <br>
-            <li>
-            Si es preciso un "Super-Over" o resolución de empate, los runs, wickets y otras estadísticas que se
-            produzcan en el Super-Over/resolución de empate no cuentan en el mercado de apuestas (excepto el
-            resultado del partido), incluidas las ofertas de apuestas de jugador y totales de equipos (como Mejor
-            bateador/Lanzador, runs de jugador, totales de 6, realizar un mínimo de X wickets). Esta regla no se aplica a
-            las ofertas de apuesta específicas relacionadas con "Super-Overs" (como Total de carreras Super-Over).
-            </li>
-            <br>
-            <li>
-            En las apuestas "Hándicap de partido/Margen ganador", las resoluciones dependen de si el equipo ganador
-            batea 1º o 2º. Si el equipo que batea primero gana, se usa el hándicap de carreras para la resolución. Si el
-            equipo que batea segundo gana, se usa el hándicap de wickets para la resolución. Todas las apuestas se
-            declararán nulas si el número de overs se reduce debido al tiempo (o cualquier otro motivo) desde el número
-            de overs programado normalmente en un partido de Twenty 20 o cualquier otro partido con overs limitados.
-            </li>
-            <br>
-            <li>
-            En "Mayores 1ºs 6/15 Overs" todas las apuestas se declaran nulas si el número de overs del partido se
-            reduce debido al tiempo (o cualquier otro motivo) desde el número de overs programados en el momento de
-            aceptar la apuesta (ya sea normal o ya reducido). Si el resultado de estas ofertas ya se ha decidido antes de la
-            interrupción y si continúa el juego no puede influir en el resultado de dichas apuestas, estas se resolverán
-            correspondientemente. En caso de empate, si no se ofrece premio por empate, se aplicarán las reglas de
-            empate descritas en la Cláusula 1 de las Reglas generales del cricket.
-            </li>
-            <br>
-            <li>
-            Las apuestas a "Total mayor al 1er X overs" serán nulas si la intervención de la lluvia (o cualquier otro
-            retraso) afecta al número de overs en el partido reduciéndolo de los programados inicialmente en el momento de aceptar 
-            la apuesta. Si el resultado de estas ofertas ya se ha decidido antes de la interrupción y si
-            continuar el juego no puede influir en el resultado de dichas apuestas, estas se resolverán
-            correspondientemente.
-            </li>
-            <br>
-            <li>
-            Las apuestas a "Pareja inicial con más carreras" precisan que ambas partes completen sus asociaciones
-            iniciales con excepción de aquellas situaciones donde ya se ha establecido un resultado. Una asociación de
-            apertura se considera iniciada cuando se lanza la primera bola en un inning de equipo, y dura hasta que cae
-            el 1er wicket, o si no llega a caer 1er wicket, el inning llega a su conclusión natural. En caso de empate, si
-            no se ofrece premio por empate, se aplicarán las reglas de empate descritas en la Cláusula 1 de las Reglas
-            generales del cricket.
-            </li>
-            <br>
-            <li>
-            Además, todas las apuestas (sociedad de inicio mayor) se considerarán nulas si se reduce el
-            número de overs en el partido debido a las condiciones meteorológicas (o por cualquier otro
-            motivo) con resepcto al número de overs programado en el momento de aceptar la apuesta (ya
-            sea estándar o reducida). Si el resultado de dichas apuestas ya estuviese resuelto antes de la
-            interrupción sin que la continuación del juego pudiese modificar el resultado de dichas apuestas,
-            estas se resolverán en consecuencia.
-            </li>
-            <br>
-            <li>
-            En las apuestas "Caída del siguiente wicket" y "Asociación de apertura" (Más/Menos), si un bateador se
-            retira debido a una lesión o cualquier otro motivo antes de que se determine un resultado, todas las apuestas
-            realizadas antes de la retirada se declaran nulas, las apuestas recibidas después de la primera bola de la
-            asociación se conservan. Un resultado se considera decidido si la asociación total ha superado el total
-            establecido al aceptar la apuesta. Si un equipo consigue su objetivo, el total conseguido por el equipo
-            bateador será el resultado del mercado. Si una asociación se anula debido al mal tiempo, todas las apuestas
-            se conservan, a menos que se detenga el partido. En este caso todas las apuestas donde no se ha determinado
-            un resultado se declaran nulas. En relación al número de over a la caída del siguiente wicket, cualquier
-            mitad mencionada se refiere a número de overs completo, no a las pelotas específicas lanzadas (por ejemplo,
-            over/menos de 5,5 se refiere a "cualquier entrega en over 5 y anterior", o "cualquier entrega en over 6 y
-            posterior").<br><br>
-            Además, todas (F.O.W) las apuestas serán consideradas como nulas si el número de overs en el partido se
-            reduce por las condiciones meteorológicas (o cualquier otro motivo) en relación con el número de overs
-            previsto en el momento de cursar la apuesta (ya sea estándar o reducida). Si el resultado de dichas apuestas
-            ya estuviese resuelto antes de la interrupción sin que la continuación del juego pudiese modificar el
-            resultado de dichas apuestas, estas se resolverán en consecuencia.
-            </li>
-            <br>
-            <li>
-            En "Total de carreras - Innings X" (Más/Menos) (como en Total de carreras de equipo), todas las apuestas se
-            declaran nulas si el número de overs del partido se reduce debido al tiempo (o cualquier otro motivo) desde
-            el número de overs programados en el momento de aceptar la apuesta (ya sea normal o ya reducido). Si el
-            resultado de estas ofertas ya se ha decidido antes de la interrupción y si continuar el juego no puede influir
-            en el resultado de dichas apuestas, estas se resolverán correspondientemente. Para evitar dudas: Cualquier
-            apuesta realizada tras reducir el número de overs se conserva a menos que haya una reducción posterior.
-            </li>
-            <br>
-            <li>
-            En "Total de carreras - Innings X, Overs X-X" (Más/Menos) (como en Total de carreras - Equipo local,
-            Over 1-15), todas las apuestas se declaran nulas si el número de overs del partido se reduce debido al tiempo
-            (o cualquier otro motivo) desde el número de overs programados en el momento de aceptar la apuesta (ya sea normal 
-            o ya reducido). Si el resultado de estas ofertas ya se ha decidido antes de la interrupción y si
-            continuar el juego no puede influir en el resultado de dichas apuestas, estas se resolverán
-            correspondientemente. Para evitar dudas: Cualquier apuesta realizada tras reducir el número de overs se
-            conserva a menos que haya una reducción posterior.
-            </li>
-            <br>
-            <li>
-            En las apuestas "Total de 4/Total de 6/Límites/Wickets" (Más/Memos), todas las apuestas se declararán
-            nulas si el número de overs se reduce debido a las condiciones meteorológicas (o cualquier otro motivo) el
-            número de overs programado para el partido en el momento de cursar la apuesta (ya sea estándar o
-            reducida). Si el resultado de dichas apuestas ya estuviese resuelto antes de la interrupción sin que la
-            continuación del juego pudiese modificar el resultado de dichas apuestas, estas se resolverán en
+            <li> Si un partido pasa a un día "de reserva", todas las apuestas siguen siendo válidas siempre que el juego comience en
+            menos de 48 horas desde el horario de inicio programado.</li><br>
+            <li> Las apuestas a cuotas del partido (Mano a mano) se pagan según el resultado oficial. En caso de empate se aplican las
+            reglas "dead heat" explicadas en la Cláusula 1 de las Reglas generales de cricket a menos que se usa un método alternativo
+            para determinar al ganador (como Super-Over, Bowl-Off), en cuyo caso el resultado se establece según este método. Si el
+            partido se declara como "sin resultado", todas las apuestas pendientes se declaran nulas.</li><br>
+            <li> Si es preciso un "Super-Over" o resolución de empate, los runs, wickets y otras estadísticas que se produzcan en el
+            Super-Over/resolución de empate no cuentan en el mercado de apuestas (excepto el resultado del partido), incluidas las
+            ofertas de apuestas de jugador y totales de equipos (como Mejor bateador/Lanzador, runs de jugador, totales de 6, realizar
+            un mínimo de X wickets). Esta regla no se aplica a las ofertas de apuesta específicas relacionadas con "Super-Overs"
+            (como Total de carreras Super-Over).</li><br>
+            <li> En las apuestas "Hándicap de partido/Margen ganador", las resoluciones dependen de si el equipo ganador batea 1º o 2º.
+            Si el equipo que batea primero gana, se usa el hándicap de carreras para la resolución. Si el equipo que batea segundo gana
+            se usa el hándicap de wickets para la resolución. Todas las apuestas se declararán nulas si el número de overs se reduce
+            debido al tiempo (o cualquier otro motivo) desde el número de overs programado normalmente en un partido de Twenty 20 o
+            cualquier otro partido con overs limitados.</li><br>
+            <li> En "Mayores 1ºs 6/15 Overs" todas las apuestas se declaran nulas si el número de overs del partido se reduce debido al
+            tiempo (o cualquier otro motivo) desde el número de overs programados en el momento de aceptar la apuesta (ya sea normal o
+            ya reducido). Si el resultado de estas ofertas ya se ha decidido antes de la interrupción y si continúa el juego no puede
+            influir en el resultado de dichas apuestas, estas se resolverán correspondientemente. En caso de empate, si no se ofrece
+            premio por empate, se aplicarán las reglas de empate descritas en la Cláusula 1 de las Reglas generales del cricket.</li><br>
+            <li> Las apuestas a "Total mayor al 1er X overs" serán nulas si la intervención de la lluvia (o cualquier otro retraso)
+            afecta al número de overs en el partido reduciéndolo de los programados inicialmente en el momento de aceptar la apuesta.
+            Si el resultado de estas ofertas ya se ha decidido antes de la interrupción y si continuar el juego no puede influir en el
+            resultado de dichas apuestas, estas se resolverán correspondientemente.</li><br>
+            <li> Las apuestas a "Pareja inicial con más carreras" precisan que ambas partes completen sus asociaciones iniciales con
+            excepción de aquellas situaciones donde ya se ha establecido un resultado. Una asociación de apertura se considera iniciada
+            cuando se lanza la primera bola en un inning de equipo, y dura hasta que cae el 1er wicket, o si no llega a caer 1er wicket,
+            el inning llega a su conclusión natural. En caso de empate, si no se ofrece premio por empate, se aplicarán las reglas de
+            empate descritas en la Cláusula 1 de las Reglas generales del cricket.<br><br>
+            Además, todas las apuestas (sociedad de inicio mayor) se considerarán nulas si se reduce el número de overs en el partido
+            debido a las condiciones meteorológicas (o por cualquier otro motivo) con respecto al número de overs programado en el momento
+            de aceptar la apuesta (ya sea estándar o reducida). Si el resultado de dichas apuestas ya estuviese resuelto antes de la
+            interrupción sin que la continuación del juego pudiese modificar el resultado de dichas apuestas, estas se resolverán en
+            consecuencia. </li><br>
+            <li>En las apuestas "Caída del siguiente wicket" y "Asociación de apertura" (Más/Menos), si un bateador se retira debido
+            a una lesión o cualquier otro motivo antes de que se determine un resultado, todas las apuestas realizadas antes de la
+            retirada se declaran nulas, las apuestas recibidas después de la primera bola de la asociación se conservan. Un resultado
+            se considera decidido si la asociación total ha superado el total establecido al aceptar la apuesta. Si un equipo consigue
+            su objetivo, el total conseguido por el equipo bateador será el resultado del mercado. Si una asociación se anula debido al
+            mal tiempo, todas las apuestas se conservan, a menos que se detenga el partido. En este caso todas las apuestas donde no se
+            ha determinado un resultado se declaran nulas. En relación al número de over a la caída del siguiente wicket, cualquier
+            mitad mencionada se refiere a número de overs completo, no a las pelotas específicas lanzadas (por ejemplo, over/menos de
+            5,5 se refiere a "cualquier entrega en over 5 y anterior", o "cualquier entrega en over 6 y posterior").<br><br>
+            Además, todas (F.O.W) las apuestas serán consideradas como nulas si el número de overs en el partido se reduce por las
+            condiciones meteorológicas (o cualquier otro motivo) en relación con el número de overs previsto en el momento de cursar
+            la apuesta (ya sea estándar o reducida). Si el resultado de dichas apuestas ya estuviese resuelto antes de la interrupción
+            sin que la continuación del juego pudiese modificar el resultado de dichas apuestas, estas se resolverán en consecuencia.</li><br>
+            <li> En "Total de carreras - Innings X" (Más/Menos) (como en Total de carreras de equipo), todas las apuestas se declaran
+            nulas si el número de overs del partido se reduce debido al tiempo (o cualquier otro motivo) desde el número de overs
+            programados en el momento de aceptar la apuesta (ya sea normal o ya reducido). Si el resultado de estas ofertas ya se ha
+            decidido antes de la interrupción y si continuar el juego no puede influir en el resultado de dichas apuestas, estas se
+            resolverán correspondientemente. Para evitar dudas: Cualquier apuesta realizada tras reducir el número de overs se conserva
+            a menos que haya una reducción posterior.</li><br>
+            <li> En "Total de carreras - Innings X, Overs X-X" (Más/Menos) (como en Total de carreras - Equipo local, Over 1-15), todas
+            las apuestas se declaran nulas si el número de overs del partido se reduce debido al tiempo (o cualquier otro motivo) desde
+            el número de overs programados en el momento de aceptar la apuesta (ya sea normal o ya reducido). Si el resultado de estas
+            ofertas ya se ha decidido antes de la interrupción y si continuar el juego no puede influir en el resultado de dichas apuestas,
+            estas se resolverán correspondientemente. Para evitar dudas: Cualquier apuesta realizada tras reducir el número de overs se
+            conserva a menos que haya una reducción posterior.</li><br>
+            <li> En las apuestas "Total de 4/Total de 6/Límites/Wickets" (Más/Memos), todas las apuestas se declararán nulas si el número
+            de overs se reduce debido a las condiciones meteorológicas (o cualquier otro motivo) el número de overs programado para el partido
+            en el momento de cursar la apuesta (ya sea estándar o reducida). Si el resultado de dichas apuestas ya estuviese resuelto antes
+            de la interrupción sin que la continuación del juego pudiese modificar el resultado de dichas apuestas, estas se resolverán en
             consecuencia.<br><br>
-            Las exenciones de vuelta y de límite que alcanzan/superan los límites no cuentan de 4 y de 6 no cuentan en
-            el Total de 4/6/Límites. Los lanzamientos de más se cuentan para el bateador. Los wides que alcanzan los
-            límites no cuenta. No-balls que alcanzan los límites tras bateo se le cuentan al bateador.
-            </li>
-            <br>
-            <li>
-            Para las apuestas "Más cuatro/Seis/Largo/Carreras fuera/Límites/Ducks/Extra", si la lluvia (o cualquier otro
-            retraso) provoca que se reduzca el número de overs programados inicialmente en el momento de realizar la
-            apuesta, todas las apuestas pendientes (Más “X”) se considerarán nulas si la reducción consiste en un 10% o
-            más de los previstos. Si la reducción es menos de un 10% de los overs previstos en el momento de cursar la
-            apuesta, las apuestas seguirán en pie. Si los innings de un equipo es 10 overs o menos, cualquier reducción
-            de overs anulará las apuestas (más “X”). Si el resultado de dichas apuestas ya estuviese resuelto antes de la
-            interrupción sin que la continuación del juego pudiese modificar el resultado de dichas apuestas, estas se
-            resolverán en consecuencia. Las exenciones de vuelta y de límite que alcanzan/superan los límites no
-            cuentan de 4 y de 6 no cuentan en el Total de 4/6/Límites.
-            En caso de empate, si no se ofrece premio por empate, se aplicarán las reglas de empate descritas en la
-            Cláusula 1 de las Reglas generales del cricket.
-            </li>
-            <br>
-            <li>
-            Para las apuestas "Lanzamientos largos/Carreras fuera/Ducks/Extras/Eliminaciones" (Más/Menos), se
-            declararán nulas todas las apuestas si el número de overs se viese reducido por causa de las condiciones
-            meteorológicas (o cualquier otro motivo) con respecto al número de overs previsto en el partido en le
-            momento en el que se aceptó la apuesta (ya sea estándar o reducida). Para los lanzamientos largos (wides) y
-            extras, las conclusiones se basarán en los "Runs" conseguido en "Lanzamientos largos" y no en el número
-            de "Lanzamientos largos" logrados.
-            </li>
-            <br>
-            <li>
-            En el modo "Mayor puntuación individual", todas las apuestas se declararán nulas si el número de overs se
-            reduce debido al tiempo (o cualquier otro motivo) desde el número de overs programado normalmente en un
-            partido de Twenty 20 o cualquier otro partido con overs limitados, a menos que ya se haya conseguido un
-            "Siglo".
-            </li>
-            <br>
-            <li>
-            En las apuestas "Equipo del mejor bateador", si la lluvia (o cualquier otro retraso) provoca que se reduzca el
-            número de overs en el partido de los programados inicialmente en el momento de realizar la apuesta, todas
-            las apuestas pendientes (equipo del mejor bateador) se considerarán nulas si la reducción es de un 10% o
-            más overs de los previstos. Si la reducción es de menos del 10% de los overs previstos en el momento de
-            realizar la apuesta, se mantendrán las apuestas. Si los innings de un equipo es 10 overs o menos, la
-            reducción de overs anulará las apuestas. Si el resultado de dichas apuestas ya estuviese resuelto antes de la
-            interrupción sin que la continuación del juego pudiese modificar el resultado de dichas apuestas, estas se resolverán 
-            en consecuencia. En caso de empate, si no se ofrece premio por empate, se aplicarán las reglas de
-            empate descritas en la Cláusula 1 de las Reglas generales del cricket.
-            </li>
-            <br>
-            <li>
-            En las apuestas "Cincuenta/Siglo en el partido" (Más/Menos), si la lluvia (o cualquier otro retraso) provoca
-            que se reduzca el número de overs en el partido de los programados inicialmente en el momento de realizar
-            la apuesta, todas las apuestas pendientes (cincuenta/siglo en el partido) se considerarán nulas si la reducción
-            es de un 10% o más de los previstos. Si la reducción es de menos del 10% de los overs previstos en el
-            momento de realizar la apuesta, se mantendrán las apuestas. Si los innings de un equipo es 10 overs o
-            menos, la reducción de overs anulará las apuestas (cincuenta/siglo en el partido). Si el resultado de dichas
-            apuestas ya estuviese resuelto antes de la interrupción sin que la continuación del juego pudiese modificar el
-            resultado de dichas apuestas, estas se resolverán en consecuencia.
-            </li>
-            <br>
-            <li>
-            En las apuestas "Mayor número total de carreras en un over/Más carreras en un over" (Más/Menos) las
-            apuestas se resuelven con el mayor número de carreras (incluidos extras) en cualquier over de cualquier
-            inning del partido. Todas las apuestas se declaran nulas si el número de overs se reduce debido al tiempo (o
-            cualquier otro motivo) desde el número de overs programados en el momento de aceptar la apuesta (ya sea
-            normal o ya reducido). Si el resultado de estas ofertas ya se ha decidido antes de la interrupción y si
-            continuar el juego no puede influir en el resultado de dichas apuestas, estas se resolverán
-            correspondientemente.
-            </li>
+            Las exenciones de vuelta y de límite que alcanzan/superan los límites no cuentan de 4 y de 6 no cuentan en el Total de 4/6/Límites.
+            Los lanzamientos de más se cuentan para el bateador. Los wides que alcanzan los límites no cuenta. No-balls que alcanzan los límites
+            tras bateo se le cuentan al bateador.</li><br>
+            <li> Para las apuestas "Más cuatro/Seis/Largo/Carreras fuera/Límites/Ducks/Extra", si la lluvia (o cualquier otro retraso) provoca
+            que se reduzca el número de overs programados inicialmente en el momento de realizar la apuesta, todas las apuestas pendientes
+            (Más "X") se considerarán nulas si la reducción consiste en un 10% o más de los previstos. Si la reducción es menos de un 10% de
+            los overs previstos en el momento de cursar la apuesta, las apuestas seguirán en pie. Si los innings de un equipo es 10 overs o
+            menos, cualquier reducción de overs anulará las apuestas (más "X"). Si el resultado de dichas apuestas ya estuviese resuelto antes
+            de la interrupción sin que la continuación del juego pudiese modificar el resultado de dichas apuestas, estas se resolverán en
+            consecuencia. Las exenciones de vuelta y de límite que alcanzan/superan los límites no cuentan de 4 y de 6 no cuentan en el Total
+            de 4/6/Límites.<br>
+            En caso de empate, si no se ofrece premio por empate, se aplicarán las reglas de empate descritas en la Cláusula 1 de las Reglas
+            generales del cricket.</li><br>
+            <li> Para las apuestas "Lanzamientos largos/Carreras fuera/Ducks/Extras/Eliminaciones" (Más/Menos), se declararán nulas todas las
+            apuestas si el número de overs se viese reducido por causa de las condiciones meteorológicas (o cualquier otro motivo) con respecto
+            al número de overs previsto en el partido en le momento en el que se aceptó la apuesta (ya sea estándar o reducida). Para los
+            lanzamientos largos (wides) y extras, las conclusiones se basarán en los "Runs" conseguido en "Lanzamientos largos" y no en el
+            número de "Lanzamientos largos" logrados.</li><br>
+            <li> En el modo "Mayor puntuación individual", todas las apuestas se declararán nulas si el número de overs se reduce debido al
+            tiempo (o cualquier otro motivo) desde el número de overs programado normalmente en un partido de Twenty 20 o cualquier otro partido
+            con overs limitados, a menos que ya se haya conseguido un "Siglo".</li><br>
+            <li> En las apuestas "Equipo del mejor bateador", si la lluvia (o cualquier otro retraso) provoca que se reduzca el número de overs
+            en el partido de los programados inicialmente en el momento de realizar la apuesta, todas las apuestas pendientes (equipo del mejor
+            bateador) se considerarán nulas si la reducción es de un 10% o más overs de los previstos. Si la reducción es de menos del 10% de
+            los overs previstos en el momento de realizar la apuesta, se mantendrán las apuestas. Si los innings de un equipo es 10 overs o menos,
+            la reducción de overs anulará las apuestas. Si el resultado de dichas apuestas ya estuviese resuelto antes de la interrupción sin que
+            la continuación del juego pudiese modificar el resultado de dichas apuestas, estas se resolverán en consecuencia. En caso de empate,
+            si no se ofrece premio por empate, se aplicarán las reglas de empate descritas en la Cláusula 1 de las Reglas generales del cricket.</li><br>
+            <li> En las apuestas "Cincuenta/Siglo en el partido" (Más/Menos), si la lluvia (o cualquier otro retraso) provoca que se reduzca el
+            número de overs en el partido de los programados inicialmente en el momento de realizar la apuesta, todas las apuestas pendientes
+            (cincuenta/siglo en el partido) se considerarán nulas si la reducción es de un 10% o más de los previstos. Si la reducción es de menos
+            del 10% de los overs previstos en el momento de realizar la apuesta, se mantendrán las apuestas. Si los innings de un equipo es 10
+            overs o menos, la reducción de overs anulará las apuestas (cincuenta/siglo en el partido). Si el resultado de dichas apuestas ya
+            estuviese resuelto antes de la interrupción sin que la continuación del juego pudiese modificar el resultado de dichas apuestas, estas
+            se resolverán en consecuencia.</li><br>
+            <li> En las apuestas "Mayor número total de carreras en un over/Más carreras en un over" (Más/Menos) las apuestas se resuelven con
+            el mayor número de carreras (incluidos extras) en cualquier over de cualquier inning del partido. Todas las apuestas se declaran nulas
+            si el número de overs se reduce debido al tiempo (o cualquier otro motivo) desde el número de overs programados en el momento de aceptar
+            la apuesta (ya sea normal o ya reducido). Si el resultado de estas ofertas ya se ha decidido antes de la interrupción y si continuar el
+            juego no puede influir en el resultado de dichas apuestas, estas se resolverán correspondientemente.</li>
             </ol>
             </li>
             <br>
@@ -985,148 +798,77 @@ export const sportsData:Array<ISportsData> = [
             Apuestas de partidos/partidos de primera clase/partidos de 3, 4 o 5 días.
             <ol>
             <br>
-            <li>
-            Si un partido es abandonado oficialmente (por ejemplo, debido a condiciones peligrosas en el campo), todas
-            las apuestas del partido sin resolver se anulan.
-            </li>
-            <br>
-            <li>
-            En las apuestas a "Cuotas del partido" si el empate se produce en los días de Test/Primera clase/3, 4 o 5
-            (donde ambos equipos han completado dos innings cada uno y tienen la misma puntuación). Las apuestas a
-            "Cuotas del partido" se saldarán como nulas, procesando la devolución de las cuotas.
-            </li>
-            <br>
-            <li>
-            En las "Apuesta sin empate", en caso de empate las apuestas son nulas y se reembolsan.
-            </li>
-            <br>
-            <li>
-            En las apuestas "Double Chance", en caso de empate las apuestas son nulas y se reembolsan.
-            </li>
-            <br>
-            <li>
-            En las apuestas "Más puntos", las ofertas se establecen según quién tiene más puntos concedidos para el
-            partido (por ejemplo, Sheffield Shield). En caso de empate, si no se ofrece premio por empate, se aplicarán
-            las reglas de empate descritas en la (Sección C, Párrafo 10(a).1).
-            </li>
-            <br>
-            <li>
-            Las apuestas a "Pareja inicial con más carreras" precisan que ambas partes completen sus asociaciones
-            iniciales con excepción de aquellas situaciones donde ya se ha establecido un resultado. A menos que se
-            establezca lo contrario, la pareja inicial con más carreras solo hace referencia a los primeros innings de cada
-            equipo. En caso de empate, si no se ofrece premio por empate, se aplicarán las reglas de empate descritas en
-            la (Sección C, Párrafo 10(a).1).
-            </li>
-            <br>
-            <li>
-            En las apuestas "Caída del siguiente wicket" y "Asociación de apertura" (Más/Menos), si un bateador se
-            retira debido a una lesión o cualquier otro motivo antes de que se determine un resultado, todas las apuestas
-            realizadas antes de la retirada se declaran nulas, las apuestas serán declaradas como nulas. Un resultado se
-            considera decidido si los innings totales han superado el total establecido al aceptar la apuesta. Si un equipo
-            declara o consigue su objetivo, el total conseguido por el equipo bateador será el resultado del mercado. Si
-            una asociación se anula debido al mal tiempo, todas las apuestas se conservan, a menos que se detenga el
-            partido. En este caso todas las apuestas donde no se ha determinado un resultado se declaran nulas. Las
-            carreras extras y de penalización concedidas antes de la caída del wicket o durante la asociación según la
-            tarjeta de puntos del partido, se contará.
-            </li>
-            <br>
-            <li>
-            En las apuestas a "Total de carreras - Innings X" (Más/Menos) (como el Total de carreras del equipo), todas
-            las apuestas son nulas si no se lanzan 50 overs, a menos que un inning haya alcanzado su conclusión natural,
-            o sea declarado. Si un inning es declarado en cualquier momento, las apuestas serán establecidas en la
-            declaración total. Las carreras extras y de penalización concedidas durante los innings según la tarjeta de
-            puntos del partido, se contarán.
-            </li>
-            <br>
-            <li>
-            Las apuestas de "Carreras de sesión" precisan que se lancen 20 overs en una sesión para ser válidas. Las
-            apuestas se establecen según el número de carreras en total en la sesión sin tener en cuenta qué equipo
-            consigue las carreras. Las carreras extras y de penalización concedidas durante la sesión según la tarjeta de
-            puntos del partido, se contarán.
-            </li>
-            <br>
-            <li>
-            Las apuestas de "Wickets de sesión" precisan que se lancen 20 overs en una sesión para ser válidas. Las
-            apuestas se establecen según el número de wickets perdidos en total en la sesión sin tener en cuenta qué
-            equipo los pierde.
-            </li>
-            <br>
-            <li>
-            En las apuestas que incluyan "Sesión", se aplica la siguiente definición de cada sesión a los partidos de un
-            día.<br>
+            <li> Si un partido es abandonado oficialmente (por ejemplo, debido a condiciones peligrosas en el campo), todas las apuestas del
+            partido sin resolver se anulan.</li><br>
+            <li> En las apuestas a "Cuotas del partido" si el empate se produce en los días de Test/Primera clase/3, 4 o 5 donde ambos equipos
+            han completado dos innings cada uno y tienen la misma puntuación. Las apuestas a "Cuotas del partido" se saldarán como nulas,
+            procesando la devolución de las cuotas. En los tests de criquet y cricquet de primera clase, el ganador del encuentro se decidirá
+            atendiendo a lo determinado por el órgano correspondiente. Si dicho órgano considera que el encuentro terminó en empate, solamente
+            las apuestas a empate ganarán las cuotas de encuentro a tres modos, siendo perdedoras las apuestas por la victoria de cualquiera de
+            los equipos.</li><br>
+            <li> En las "Apuesta sin empate", en caso de empate las apuestas son nulas y se reembolsan.</li><br>
+            <li> En las apuestas "Double Chance", en caso de empate, si ambos equipos han completado dos entradas cada uno y anotado el mismo
+            número de carreras, las apuestas serán consideradas nulas y consecuentemente reembolsadas.</li><br>
+            <li> En las apuestas "Más puntos", las ofertas se establecen según quién tiene más puntos concedidos para el partido (por ejemplo,
+            Sheffield Shield). En caso de empate, si no se ofrece premio por empate, se aplicarán las reglas de empate descritas en la &lt;Section
+            C, Para 10(a).1&gt;.</li><br>
+            <li> Las apuestas a "Pareja inicial con más carreras" precisan que ambas partes completen sus asociaciones iniciales con excepción
+            de aquellas situaciones donde ya se ha establecido un resultado. A menos que se establezca lo contrario, la pareja inicial con más
+            carreras solo hace referencia a los primeros innings de cada equipo. En caso de empate, si no se ofrece premio por empate, se aplicarán
+            las reglas de empate descritas en la &lt;Section C, Para 10(a).1&gt;.</li><br>
+            <li> En las apuestas "Caída del siguiente wicket" y "Asociación de apertura" (Más/Menos), si un bateador se retira debido a una lesión
+            o cualquier otro motivo antes de que se determine un resultado, todas las apuestas realizadas antes de la retirada se declaran nulas,
+            las apuestas serán declaradas como nulas. Un resultado se considera decidido si los innings totales han superado el total establecido
+            al aceptar la apuesta. Si un equipo declara o consigue su objetivo, el total conseguido por el equipo bateador será el resultado del
+            mercado. Si una asociación se anula debido al mal tiempo, todas las apuestas se conservan, a menos que se detenga el partido. En este
+            caso todas las apuestas donde no se ha determinado un resultado se declaran nulas. Las carreras extras y de penalización concedidas antes
+            de la caída del wicket o durante la asociación según la tarjeta de puntos del partido, se contará.</li><br>
+            <li> En las apuestas a "Total de carreras - Innings X" (Más/Menos) (como el Total de carreras del equipo), todas las apuestas son nulas
+            si no se lanzan 50 overs, a menos que un inning haya alcanzado su conclusión natural, o sea declarado. Si un inning es declarado en
+            cualquier momento, las apuestas serán establecidas en la declaración total. Las carreras extras y de penalización concedidas durante
+            los innings según la tarjeta de puntos del partido, se contarán.</li><br>
+            <li> Las apuestas de "Carreras de sesión" precisan que se lancen 20 overs en una sesión para ser válidas. Las apuestas se establecen
+            según el número de carreras en total en la sesión sin tener en cuenta qué equipo consigue las carreras. Las carreras extras y de
+            penalización concedidas durante la sesión según la tarjeta de puntos del partido, se contarán.</li><br>
+            <li> Las apuestas de "Wickets de sesión" precisan que se lancen 20 overs en una sesión para ser válidas. Las apuestas se establecen
+            según el número de wickets perdidos en total en la sesión sin tener en cuenta qué equipo los pierde.</li><br>
+            <li> En las apuestas que incluyan "Sesión", se aplica la siguiente definición de cada sesión a los partidos de un día.
             <ul>
-            <li>
-            Día X, Sesión 1 (Inicio del partido hasta el almuerzo)
-            </li>
-            <li>
-            Día X, Sesión 2 (Inicio del partido hasta el té)
-            </li>
-            <li>
-            Día X, Sesión 3 (Té hasta la eliminación/Cierre del partido por el día)
-            </li>
-            </ul>
-            La siguiente definición de cada sesión a los partidos de un día/noche.<br>
+            <br>
+            <li>Día X, Sesión 1 (Inicio del partido hasta el almuerzo)</li>
+            <li>Día X, Sesión 2 (Inicio del partido hasta el té)</li>
+            <li>Día X, Sesión 3 (Té hasta la eliminación/Cierre del partido por el día)</li>
+            </ul><br>
+            La siguiente definición de cada sesión a los partidos de un día/noche.
             <ul>
-            <li>
-            Día X, Sesión 1 (Inicio del partido hasta el almuerzo)
-            </li>
-            <li>
-            Día X, Sesión 2 (Inicio del partido hasta el té)
-            </li>
-            <li>
-            Día X, Sesión 3 (Té hasta la eliminación/Cierre del partido por el día)
-            </li>
+            <br>
+            <li>Día X, Sesión 1 (Inicio del partido hasta el almuerzo)</li>
+            <li>Día X, Sesión 2 (Inicio del partido hasta el té)</li>
+            <li>Día X, Sesión 3 (Té hasta la eliminación/Cierre del partido por el día)</li>
             </ul>
-            </li>
-            <br>
-            <li>
-            En las apuestas "Cierre del partido de Test", cuando el partido termina en empate, el ganador será
-            reconocido como "Día 5, Sesión 3". Si un partido es abandonado oficialmente (por ejemplo debido a
-            condiciones peligrosas en el campo), todas las apuestas se anulan.
-            </li>
-            <br>
-            <li>
-            En las apuestas "Equipo en cabeza tras los primeros innings", ambos equipos deben lanzar o declarar sus
-            primeros inning para que las apuestas sean válidas. En caso de empate, si no se ofrece premio por empate, se
-            aplicarán las reglas de empate descritas en la (Sección C, Párrafo 10(a).1).
-            </li>
-            <br>
-            <li>
-            Las ofertas "Primer siglo en innings" precisan que se lancen 50 overs a menos que ya se haya determinado
-            un resultado o los innings hayan alcanzado su conclusión natural (incluidos los innings declarados).
-            </li>
-            <br>
-            <li>
-            En los modos "Cincuenta/Siglo/Doble siglo en partido" en los partidos de Test o Primera Clase, las apuestas
-            son nulas en los partidos empatados donde el número de overs lanzado es inferior a 200, a menos que ya se
-            haya determinado un resultado.
-            </li>
-            <br>
-            <li>
-            En los modos "Cincuenta/Siglo/Doble siglo en un partido" en "Local/Visitante 1eros innings" de los partidos
-            de Test o Primera Clase, las apuestas serán nulas a menos que los innings lleguen a su conclusión natural
-            (incluidos "innings declarados") o ya se haya determinado un resultado.
-            </li>
-            <br>
-            <li>
-            En los modos "Cincuenta/Siglo/Doble siglo en un partido" en 1eros innings de partidos de Test o Primera
-            Clase, las apuestas serán nulas a menos que ambos innings lleguen a su conclusión natural (incluidos
-            "innings declarados") o ya se haya determinado un resultado.
-            </li>
-            <br>
-            <li>
-            En los modos "Cincuenta/Siglo/Doble siglo en un partido" en "Local/Visitante 1eros innings" de los partidos
-            de Test o Primera Clase, las apuestas serán nulas si el número de innings es menos a 50 o ya se haya
-            determinado un resultado.
-            </li>
-            <br>
-            <li>
-            Las apuestas "Equipo del mejor bateador" se establecen según el jugador que haya conseguido más carreras
-            en el 1º o 2º inning de cualquier equipo, por ejemplo, el equipo con el jugado individual con más carreras en
-            el encuentro sin tener en cuenta el resultado final del encuentro. Las apuestas serán nulas en los partidos
-            empatados donde el número de overs lanzados sea menor de 200. En caso de empate, si no se ofrece premio
-            por empate, se aplicarán las reglas de empate descritas en (Section C, Para 10(a).1).
-            </li>
+            </li><br>
+            <li> En las apuestas "Cierre del partido de Test", cuando el partido termina en empate, el ganador será reconocido como "Día 5,
+            Sesión 3". Si un partido es abandonado oficialmente (por ejemplo, debido a condiciones peligrosas en el campo), todas las apuestas
+            se anulan.</li><br>
+            <li> En las apuestas "Equipo en cabeza tras los primeros innings", ambos equipos deben lanzar o declarar sus primeros innings para
+            que las apuestas sean válidas. En caso de empate, si no se ofrece premio por empate, se aplicarán las reglas de empate descritas en
+            la &lt;Section C, Para 10(a).1&gt;.</li><br>
+            <li> Las ofertas "Primer siglo en innings" precisan que se lancen 50 overs a menos que ya se haya determinado un resultado o los
+            innings hayan alcanzado su conclusión natural (incluidos los innings declarados).</li><br>
+            <li> En los modos "Cincuenta/Siglo/Doble siglo en partido" en los partidos de Test o Primera Clase, las apuestas son nulas en los
+            partidos empatados donde el número de overs lanzado es inferior a 200, a menos que ya se haya determinado un resultado.</li><br>
+            <li> En los modos "Cincuenta/Siglo/Doble siglo en un partido" en "Local/Visitante 1eros innings" de los partidos de Test o Primera
+            Clase, las apuestas serán nulas a menos que los innings lleguen a su conclusión natural (incluidos "innings declarados") o ya se
+            haya determinado un resultado.</li><br>
+            <li> En los modos "Cincuenta/Siglo/Doble siglo en un partido" en 1eros innings de partidos de Test o Primera Clase, las apuestas
+            serán nulas a menos que ambos innings lleguen a su conclusión natural (incluidos "innings declarados") o ya se haya determinado
+            un resultado.</li><br>
+            <li> En los modos "Cincuenta/Siglo/Doble siglo en un partido" en "Local/Visitante 1eros innings" de los partidos de Test o Primera
+            Clase, las apuestas serán nulas si el número de innings es menos a 50 o ya se haya determinado un resultado.</li><br>
+            <li> Las apuestas "Equipo del mejor bateador" se establecen según el jugador que haya conseguido más carreras en el 1º o 2º inning
+            de cualquier equipo, por ejemplo, el equipo con el jugado individual con más carreras en el encuentro sin tener en cuenta el resultado
+            final del encuentro. Las apuestas serán nulas en los partidos empatados donde el número de overs lanzados sea menor de 200. En caso de
+            empate, si no se ofrece premio por empate, se aplicarán las reglas de empate descritas en &lt;Section C, Para 10(a).1&gt;.</li>
             </ol>
             </li>
             <br>
@@ -1134,85 +876,58 @@ export const sportsData:Array<ISportsData> = [
             Apuestas de series/torneos<br>
             <ol>
             <br>
-            <li>
-            Si no se ofrecen cuotas de empate para la apuesta a "Ganador de la serie" y la serie concluye en empate,
-            todas las apuestas serán nulas, a menos que se especifique la regla de "Dead heat" (como se explican en la
-            (Sección C, Párrafo 10(a).1)).
-            </li>
-            <br>
-            <li>
-            Si un torneo no se completa, pero se declara un ganador o ganadores por el cuerpo gobernante, las apuestas
-            se pagan sobre los ganadores como se declare. Se pueden aplicar las reglas de empate descritas en la
-            (Sección C, Párrafo 10(a).1). Si no se declaran ganadores todas las apuestas se considerarán nulas.
-            </li>
-            <br>
-            <li>
-            Todas las apuestas del torneo incluidas las finales y Playoffs, a menos que se indique lo contrario.
-            </li>
-            <br>
-            <li>
-            En las apuestas "Resultado de la serie" (Resultado correcto de la serie), si por cualquier motivo el número de
-            partidos en una serie cambia y no refleja el número previsto en la oferta todas las apuestas se considerarán
-            nulas.
-            </li>
-            <br>
-            <li>
-            En las apuestas "Más carreras de la serie/Recibidor de wicket" y "Mejor bateador/lanzador del torneo",
-            donde se produzca un empate, se aplican las reglas del empate Dead Heat como se ha explicado previamente
-            en (Section C, Para 10(a).1). No se ofrecerán reembolsos sobre jugadores que no participen. Se debe
-            completar como mínimo un partido en el torneo/serie para que las apuestas sean válidas.
-            </li>
-            <br>
-            <li>
-            Las apuestas referentes al rendimiento de jugadores/equipos en particular en una Serie/Torneo no tendrán en
-            cuenta las estadísticas derivadas de los partidos de calentamiento.
-            </li>
-            <br>
-            <li>
-            En las apuestas de "Hándicap de la serie", todas las apuestas se establecen según los "resultados de la serie",
-            no por las carreras conseguidas en la serie. Si por cualquier motivo el número de partidos en la serie cambia,
-            todas las apuestas se declararán nulas.
-            </li>
-            <br>
-            <li>
-            En las apuestas "Gana un Test en la serie" y "Total de victorias/empates en el test”, si por cualquier motivo
-            el número de partidos en la serie cambia, todas las apuestas se declararán nulas con la excepción de aquellas
-            situaciones donde ya se ha determinado un resultado.
-            </li>
+            <li> Si no se ofrecen cuotas de empate para la apuesta a "Ganador de la serie" y la serie concluye en empate, todas las apuestas
+            serán nulas, a menos que se especifique la regla de "Dead heat" (como se explican en la &lt;Section C, Para 10(a).1&gt;).</li><br>
+            <li> Si un torneo no se completa, pero se declara un ganador o ganadores por el cuerpo gobernante, las apuestas se pagan sobre
+            los ganadores como se declare. Se pueden aplicar las reglas de empate descritas en la &lt;Section C, Para 10(a).1&gt;. Si no se declaran
+            ganadores todas las apuestas se considerarán nulas.</li><br>
+            <li> Todas las apuestas del torneo incluidas las finales y Playoffs, a menos que se indique lo contrario.</li><br>
+            <li> En las apuestas "Resultado de la serie" (Resultado correcto de la serie), si por cualquier motivo el número de partidos en
+            una serie cambia y no refleja el número previsto en la oferta todas las apuestas se considerarán nulas.</li><br>
+            <li> En las apuestas "Más carreras de la serie/Recibidor de wicket" y "Mejor bateador/lanzador del torneo", donde se produzca un
+            empate, se aplican las reglas del empate Dead Heat como se ha explicado previamente en <Section C, Para 10(a).1>. No se ofrecerán
+            reembolsos sobre jugadores que no participen. Se debe completar como mínimo un partido en el torneo/serie para que las apuestas
+            sean válidas.</li><br>
+            <li> Las apuestas referentes al rendimiento de jugadores/equipos en particular en una Serie/Torneo no tendrán en cuenta las estadísticas
+            derivadas de los partidos de calentamiento.</li><br>
+            <li> En las apuestas de "Hándicap de la serie", todas las apuestas se establecen según los "resultados de la serie", no por las
+            carreras conseguidas en la serie. Si por cualquier motivo el número de partidos en la serie cambia, todas las apuestas se declararán
+            nulas.</li><br>
+            <li> En las apuestas "Gana un Test en la serie" y "Total de victorias/empates en el test", si por cualquier motivo el número de partidos en
+            la serie cambia, todas las apuestas se declararán nulas con la excepción de aquellas situaciones donde ya se ha determinado un resultado.</li>
             </ol>
             </li>
             </ol>`,
-     
+
     },
     {
       id: 8,
       title: 'Ciclismo (Pista y Ruta)',
       img: 'assets/logo_Deportes/logo_Ciclismo_Cut.jpg',
       content: `1) Las apuestas se establecerán según el ciclista/equipo que logre el primer puesto al final de la etapa o del
-            evento.<br><br>
-            2) El factor decisivo a la hora de establecer las apuestas será el primer puesto conseguido en el evento
-            especificado según las indicaciones de la autoridad competente en el momento de la presentación en el podio, sin
-            tener en cuenta las descalificaciones posteriores, los cambios en el resultado oficial, etc.<br><br>
-            3) Todas las apuestas a "Uno contra uno" y “Más/Menos de” que hagan referencia a los resultados de uno o
-            varios ciclistas en un evento/una etapa se declararán válidas siempre que todos los ciclistas indicados empiecen
-            el evento/la etapa en cuestión y al menos uno finalice dicho evento o dicha fase.<br><br>
-            4) En el caso de que el número total de etapas de un evento no está completamente terminado, o si los
-            organizadores deciden retirar el resultado de ciertos etapas en el cálculo del resultado oficial, entonces las
-            apuestas se considerarán válidas cuando el número de etapas excluidos no supere el 25% del número
-            predeterminado de etapas (con exclusión de prólogo) al principio de la competición.<br><br>
-            5) Todas las apuestas se considerarán válidas si la situación o etapa en la que se las apuestas se refieren, se juega
-            el mismo año, a menos que otros arreglos se han acordado.<br><br>
-            6) Las apuestas en el rendimiento en una etapa particular independientemente de los cambios que los
-            organizadores estimen apropiados de considerar y aplicar para la etapa. La excepción a esta regla es cuando una
-            etapa que tiene características especiales (por ejemplo, una etapa de montaña) se modifica por los organizadores
-            antes del inicio de la etapa, para una etapa con otras características predominantes (por ejemplo, contrareloj o
-            una etapa de baja altura). En este caso, las apuestas que se colocaron antes del anuncio del cambio de fase de
-            concepto serán declaradas nulas.<br><br>
-            7) A menos que se indique otra cosa, para las apuestas en el rendimiento de un equipo/piloto en particular en un
-            evento específico (como el número de victorias total de etapas por equipo/piloto X en el Tour Y) o las apuestas "Uno contra uno " 
-            que implican el rendimiento de dos pilotos/equipos en eventos específicos, no se tomará la ocurrencia de eventos con las 
-            siguientes designaciones en cuenta: Prologo, contrarreloj por equipos.`,
-      
+          evento.<br><br>
+          2) El factor decisivo a la hora de establecer las apuestas será el primer puesto conseguido en el evento especificado
+          según las indicaciones de el órgano competente en el momento de la presentación en el podio, sin tener en cuenta las
+          descalificaciones posteriores, los cambios en el resultado oficial, etc.<br><br>
+          3) Todas las apuestas a "Uno contra uno" y "Más/Menos de" que hagan referencia a los resultados de uno o varios ciclistas
+          en un evento/una etapa se declararán válidas siempre que todos los ciclistas indicados empiecen el evento/la etapa en
+          cuestión y al menos uno finalice dicho evento o dicha fase.<br><br>
+          4) En el caso de que el número total de etapas de un evento no está completamente terminado, o si los organizadores
+          deciden retirar el resultado de ciertos etapas en el cálculo del resultado oficial, entonces las apuestas se considerarán
+          válidas cuando el número de etapas excluidos no supere el 25% del número predeterminado de etapas (con exclusión de
+          prólogo) al principio de la competición.<br><br>
+          5) Todas las apuestas se considerarán válidas si el evento o etapa en la que se las apuestas se refieren, se juega el
+          mismo año, a menos que otros arreglos se han acordado.<br><br>
+          6) Las apuestas en el rendimiento en una etapa particular independientemente de los cambios que los organizadores estimen
+          apropiados de considerar y aplicar para la etapa. La excepción a esta regla es cuando una etapa que tiene características
+          especiales (por ejemplo, una etapa de montaña) se modifica por los organizadores antes del inicio de la etapa, para una
+          etapa con otras características predominantes (por ejemplo, contrarreloj o una etapa de baja altura). En este caso, las
+          apuestas que se colocaron antes del anuncio del cambio de fase de concepto serán declaradas nulas.<br><br>
+          7) A menos que se indique otra cosa, para las apuestas en el rendimiento de un equipo/piloto en particular en un evento
+          específico (como el número de victorias total de etapas por equipo/piloto X en el Tour Y) o las apuestas "Uno contra uno"
+          que implican el rendimiento de dos pilotos/equipos en eventos específicos, no se tomará la ocurrencia de eventos con las
+          siguientes designaciones en cuenta: Prologo, contrarreloj por equipos.`,
+
     },
     {
       id: 9,
@@ -1349,7 +1064,7 @@ export const sportsData:Array<ISportsData> = [
             27) Las apuestas "Ganador juega en la agrupación de la ronda final" se refieren a si el eventual ganador del
             torneo surgirá de la bola 2 o bola 3 que están programadas para el último tee siguiendo los horarios de tee
             establecidos por la organización oficial`,
-     
+
     },
     {
       id: 10,
@@ -1387,29 +1102,28 @@ export const sportsData:Array<ISportsData> = [
         lesiones/intercambios/novedades de cambios) y por lo tanto afecte las cuotas incluso si solo es teóricamente a
         favor de cualquier resultado individual sin que esas cuotas se hayan ajustado para reflejar el estado actual de la
         apuesta, serán declaradas nulas.`
-      
+
     },
     {
       id: 11,
       title: 'Atletismo',
       img: 'assets/logo_Deportes/logo_Atletismo_Cut.jpg',
-      content: `1) A menos que se indique lo contrario, todas las apuestas a atletismo se determinarán en base al resultado
-            obtenido una vez transcurrida la fase final de dicha competición. Si ninguno de los participantes de la lista
-            participa en la fase final, todas las apuestas se declararán nulas, a menos que la autoridad competente siga los
-            procedimientos de empate especificados, en cuyo caso, se considerarán válidas.<br><br>
-            2) Todas las ofertas de apuesta se establecerán según el primer resultado oficial que se presente. Sin embargo, [el
-            Operador] tendrá en cuenta y establecerá/volverá a establecer las apuestas en consecuencia una vez producidos
-            los posibles cambios en los resultados oficiales publicados como máximo 24 horas después del evento. Para
-            tener en cuenta dicha posibilidad, la protesta debe atribuirse a incidentes que tengan lugar exclusivamente
-            durante el evento, como por ejemplo una infracción de línea, empujones o errores al pasar el testigo en una
-            carrera de relevos, etc. No se tendrán en cuenta los casos de dopaje. Los resultados disponibles transcurridas las
-            24 horas mencionadas anteriormente se considerarán vinculantes independientemente de protestas posteriores,
-            cambios en el resultado oficial, etc.<br><br>
-            3) Si existen dos o más participantes en diferentes eliminatorias de una competición, se anularán todas las ofertas
-            de apuesta a Uno contra uno entre los mismos, a menos que exista una fase posterior para la que se clasifique al
-            menos uno de ellos.<br><br>
-            4) Los participantes descalificados debido a infracciones en la salida (errores en la salida) habrán participado en
-            el evento.`,
+      content: `1) A menos que se indique lo contrario, todas las apuestas a atletismo se determinarán en base al resultado obtenido
+            una vez transcurrida la fase final de dicha competición. Si ninguno de los participantes de la lista participa en la fase
+            final, todas las apuestas se declararán nulas, a menos que el órgano competente siga los procedimientos de empate especificados,
+            en cuyo caso, se considerarán válidas.<br><br>
+            2) Todas las ofertas de apuesta se establecerán según el primer resultado oficial que se presente. Sin embargo, [the Operator]
+            tendrá en cuenta y establecerá/volverá a establecer las apuestas en consecuencia una vez producidos los posibles cambios en los
+            resultados oficiales publicados como máximo 24 horas después del evento. Para tener en cuenta dicha posibilidad, la protesta
+            debe atribuirse a incidentes que tengan lugar exclusivamente durante el evento, como por ejemplo una infracción de línea,
+            empujones o errores al pasar el testigo en una carrera de relevos, etc. No se tendrán en cuenta los casos de dopaje. Los
+            resultados disponibles transcurridas las 24 horas mencionadas anteriormente se considerarán vinculantes independientemente de
+            protestas posteriores, cambios en el resultado oficial, etc.<br><br>
+            3) Si existen dos o más participantes en diferentes eliminatorias de una competición, se anularán todas las ofertas de apuesta
+            a Uno contra uno entre los mismos, a menos que exista una fase posterior para la que se clasifique al menos uno de ellos.<br><br>
+            4) Los participantes descalificados debido a infracciones en la salida (errores en la salida) habrán participado en el evento.<br><br>
+            5) El operador se reserva el derecho de poner en práctica la regla 4 de Tattersall en caso de atletas que no tomen la salida
+            en cualquier evento de atletismo. `,
     },
     {
         id: 12,
@@ -1419,32 +1133,32 @@ export const sportsData:Array<ISportsData> = [
             entradas adicionales finales, a menos que se indique específicamente.`,
     },
 
-    
+
     {
       id: 13,
       title: 'Voleibol Playa',
       img: '',
       content: `1) Todas las apuestas siguen siendo válidas en la medida en que se juega el partido/la oferta en el torneo,
-            independientemente de los cambios de horarios, condiciones, etc., a menos que otros arreglos se han acordado.<br><br>
-            2) Las apuestas en el “partido " se basa en el principio general de la progresión en el torneo o de la victoria en el
-            torneo, dependiendo de la fase de la competición que el partido se refiere. El equipo de llegando a la siguiente
-            ronda o ganando el torneo debe ser considerado como el ganador de la apuesta, independientemente de la duración del partido, 
-            abandonos, descalificaciones, etc. Estas apuestas necesitan al menos que un set se complete
-            para que las apuestas sean válidas.<br><br>
-            3) Las apuestas en el " Más/Menos de" en partidos/eventos inacabados cuyo resultado ya está determinado antes
-            de la interrupción y/o cualquier juego extendido no pueden producir un resultado diferente a la oferta se
-            establecerá sobre la base del resultado de la interrupción. Para el cálculo de este pagamiento, se añadirá la
-            cantidad mínima de sucesos que habrían sido necesarios para llevar la oferta a la conclusión natural de ser
-            necesario, dependiendo del número de serie planeada para el partido. Si este cálculo da como resultado una
-            situación en la que no es posible enmienda podría afectar el resultado de la oferta, se pagará como tal. Vea los
-            ejemplos de la sección de tenis como referencia.<br><br>
-            4) Las apuestas en el " Handicap" requiere que todos los sets deben ser completadas para que las apuestas se
-            mantienen, con la excepción de los eventos cuyo resultado ya está determinado antes de la interrupción y/o
-            cualquier continuación de juego no puede producir un resultado diferente y se ajustarán en consecuencia. Vea los
-            ejemplos de la sección de tenis como referencia.<br><br>
-            5) Todas las apuestas en el " Resultado correcto ", " Par/Impar " y las ofertas que hacen referencia al ganador de
-            un período determinado en el partido (por ejemplo, " el equipo ganó el primer set") requiere que la parte
-            pertinente del partido se completa`,
+            independientemente de los cambios de horarios, condiciones, etc.<br><br>
+            2) Las apuestas en el "partido" se basa en el principio general de la progresión en el torneo o de la victoria en
+            el torneo, dependiendo de la fase de la competición que el partido se refiere. El equipo de llegando a la siguiente
+            ronda o ganando el torneo debe ser considerado como el ganador de la apuesta, independientemente de la duración del
+            partido, abandonos, descalificaciones, etc. Estas apuestas necesitan al menos que un set se complete para que las
+            apuestas sean válidas.<br><br>
+            3) Las apuestas en el "Más/Menos de" en partidos/eventos inacabados cuyo resultado ya está determinado antes de la
+            interrupción y/o cualquier juego extendido no pueden producir un resultado diferente a la oferta se establecerá
+            sobre la base del resultado de la interrupción. Para el cálculo de este pagamiento, se añadirá la cantidad mínima
+            de sucesos que habrían sido necesarios para llevar la oferta a la conclusión natural de ser necesario, dependiendo
+            del número de serie planeada para el partido. Si este cálculo da como resultado una situación en la que no es
+            posible enmienda podría afectar el resultado de la oferta, se pagará como tal. Vea los ejemplos de la sección de
+            tenis como referencia.<br><br>
+            4) Las apuestas en el "Hándicap" requiere que todos los sets deben ser completadas para que las apuestas se mantienen,
+            con la excepción de los eventos cuyo resultado ya está determinado antes de la interrupción y/o cualquier continuación
+            de juego no puede producir un resultado diferente y se ajustarán en consecuencia. Vea los ejemplos de la sección de
+            tenis como referencia.<br><br>
+            5) Todas las apuestas en el "Resultado correcto", "Par/Impar" y las ofertas que hacen referencia al ganador de un
+            período determinado en el partido (por ejemplo, "el equipo ganó el primer set") requiere que la parte pertinente del
+            partido se completa.`,
     },
     {
       id: 14,
@@ -1457,66 +1171,69 @@ export const sportsData:Array<ISportsData> = [
       id: 15,
       title: 'Eventos Olímpicos y de Campeonatos',
       img: '',
-      content: `1) Todas las condiciones que aparecen en esta sección tienen prioridad con respecto a cualquier otra regla o
-            condición.<br><br>
-            2) Todas las apuestas serán válidas siempre que el evento se celebre y decida durante el campeonato y el año a
-            los que haga referencia, independientemente de los cambios que se produzcan en el lugar de celebración del
-            evento.<br><br>
-            3) Esta cláusula se aplica a las ofertas que cumplan razonablemente con cualquiera de los siguientes criterios:<br>
-            <ol type="a">
-            <li>
-             la apuesta hace referencia a eventos programados para la fase final de los eventos que forman parte de
-             Olimpiadas, competiciones mundiales y competiciones continentales;
-            </li>
-            <li>
-             la fase final del evento tiene una limitación de tiempo.
-            </li>
-             </ol>`,
+      content: `1) Todas las condiciones que aparecen en esta sección tienen prioridad con respecto a cualquier otra regla o condición.<br><br>
+
+                2) Todas las apuestas serán válidas siempre que el evento se celebre y decida durante el campeonato y el año a los que
+                haga referencia, independientemente de los cambios que se produzcan en el lugar de celebración del evento.<br><br>
+
+                3) La cláusula anterior se aplica a las ofertas que cumplan razonablemente con cualquiera de los siguientes criterios:<br><br>
+                <ol type="a">
+                <li> la apuesta hace referencia a eventos programados para la fase final de los eventos que forman parte de Olimpiadas,
+                competiciones mundiales y competiciones continentales.</li><br>
+                <li> la fase final del evento tiene una limitación de tiempo.</li>
+                </ol>
+      `,
     },
     {
       id: 16,
       title: 'Reglas del Fútbol Australiano',
       img: '',
-      content: `1) A menos que se indique de forma explícita, si un partido o un periodo especificado (por ejemplo, 1.ª mitad,
-                3.er cuarto, etc.) finalizan en empate, todas las apuestas se establecerán según la regla conocida como regla del
-                “empate”. En dicho caso, el pago se calculará una vez divididas las cuotas y multiplicadas por la apuesta,
-                independientemente de si el pago neto es inferior a la apuesta del titular de la cuenta.<br><br>
-                2) A menos que se indique lo contrario, todas las apuestas relacionadas con partidos se establecerán según el
-                resultado obtenido al final del 4.º cuarto (tiempo reglamentario).<br><br>
-                3) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total
-                de puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el
-                curso de un partido (por ejemplo: Cuál de entre el jugador X y el jugador Y anotará más puntos), requieren que
-                todos los involucrados jueguen desde el inicio del partido para que las apuestas sean válidas.<br><br>
-                4) Primer anotador del partido/1.er cuarto: se reembolsarán las apuestas realizadas a aquellos jugadores que no
-                estén entre los 21 primeros. Las apuestas al Primer anotador del partido no exigen que el gol se anote en el 1.er
+      content: `1) A menos que se indique de forma explícita, si un partido o un periodo especificado (por ejemplo,
+                1.ª mitad, 3.er cuarto, etc.) finalizan en empate, todas las apuestas se establecerán según la regla conocida
+                como regla del "empate". &lt;Section B, Para 5.14&gt;).  En dicho caso, el pago se calculará una vez divididas las
+                cuotas y multiplicadas por la apuesta, independientemente de si el pago neto es inferior a la apuesta del
+                titular de la cuenta.<br><br>
+                2) A menos que se indique lo contrario, todas las apuestas relacionadas con partidos se establecerán según
+                el resultado obtenido al final del 4.º cuarto (tiempo reglamentario).<br><br>
+                3) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo:
+                Total de puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante
+                el curso de un partido (por ejemplo: Cuál de entre el jugador X y el jugador Y anotará más puntos), requieren
+                que todos los involucrados jueguen desde el inicio del partido para que las apuestas sean válidas.<br><br>
+                4) Primer anotador del partido/1º cuarto: se anularán las apuestas realizadas a aquellos jugadores que no estén
+                entre los 21 primeros. Las apuestas al Primer anotador del partido no exigen que el gol se anote en el 1.er
                 cuarto. Si no se anotan goles durante el periodo especificado, todas las apuestas se declararán nulas.<br><br>
-                5) Primer anotador del 2.º, 3.er o 4.º cuartos: todas las apuestas serán válidas independientemente de la
+                5) Primer anotador del 2.º, 3º o 4.º cuartos: todas las apuestas serán válidas independientemente de la
                 participación (o la no participación) del jugador en el cuarto indicado y en el partido. Si no se anotan goles
                 durante el cuarto especificado, todas las apuestas se declararán nulas.<br><br>
-                6) La apuesta “Siempre en cabeza” hace referencia al equipo (si existe) que liderará el partido al final de cada
-                cuarto.<br><br>
-                7) En el caso de que sea necesario repetir un partido o disputar partidos adicionales para determinar un puesto de
-                la clasificación, los ganadores de la liga, etc., los resultados que se obtengan en estas repeticiones o partidos
-                adicionales se utilizarán para establecer la oferta de apuesta en cuestión.<br><br>
-                8) En relación a las apuestas de partido para una Gran Final, la apuesta hará referencia específicamente al
-                próximo partido que se celebrará, o bien, al partido actual, en el caso de las apuestas en vivo. Las apuestas no se
-                pospondrán a repeticiones posteriores y se añadirá un nuevo mercado para los siguientes partidos.<br><br>
+                6) La apuesta "Siempre en cabeza" hace referencia al equipo (si existe) que liderará el partido al final de
+                cada cuarto.<br><br>
+                7) En el caso de que sea necesario repetir un partido o disputar partidos adicionales para determinar un puesto
+                de la clasificación, los ganadores de la liga, etc., los resultados que se obtengan en estas repeticiones o
+                partidos adicionales se utilizarán para establecer la oferta de apuesta en cuestión.<br><br>
+                8) En relación con las apuestas de partido para una Gran Final, la apuesta hará referencia específicamente al
+                próximo partido que se celebrará, o bien, al partido actual, en el caso de las apuestas en vivo. Las apuestas
+                no se pospondrán a repeticiones posteriores y se añadirá un nuevo mercado para los siguientes partidos.<br><br>
                 9) Al establecer las ofertas relacionadas con las actuaciones de dos jugadores/equipos o más en un periodo de
                 tiempo estipulado/competición, las fases de eliminación en las "finales" afectarán el resultado. Si dos equipos
-                son eliminados en la misma fase, el equipo que termine por encima en la escala de la AFL al terminar la
-                temporada normal será considerado como ganador de una posición mejor.<br><br>
+                son eliminados en la misma fase, el equipo que termine por encima en la escala de la AFL al terminar la temporada
+                normal será considerado como ganador de una posición mejor.<br><br>
                 10) Todas las apuestas serán válidas independientemente de los cambios realizados con respecto al lugar de
                 celebración.<br><br>
                 11) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de puntos conseguidos
                 por el jugador X durante los Playoffs) o comparar actuaciones de 2 jugadores individuales durante un
-                periodo/torneo/temporada en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará
-                más puntos durante la temporada normal), requiere que todos los jugadores individuales sean participantes
-                activos en como mínimo una función más aplicable a la oferta tras aceptar la apuesta para que las apuestas sean
-                válidas. Las apuestas realizadas tras o cualquier novedad que pueda reducir el número de funciones
-                potencialmente sobre un jugador involucrado para que sea apto para la competición (como
-                lesiones/intercambios/novedades de cambios) y por lo tanto afecte las cuotas incluso si solo es teóricamente a
-                favor de cualquier resultado individual sin que esas cuotas se hayan ajustado para reflejar el estado actual de la
-                apuesta, serán declaradas nulas.`,
+                periodo/torneo/temporada en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más
+                puntos durante la temporada normal), requiere que todos los jugadores individuales sean participantes activos en
+                como mínimo una función más aplicable a la oferta tras aceptar la apuesta para que las apuestas sean válidas.<br><br>
+                12) Para las ofertas de "momento del gol" (por ejemplo, momento de anotación del primer gol), no se incluirán los
+                paros del cronómetro. Todas las apuestas ser resolverán según la cronología del sitio web oficial de la AFL (sin
+                paros de cronómetro, se incluye el tiempo de juego, el cronometraje es ascendente).<br><br>
+                13) Para las ofertas de cuartos de mayor anotación, el resultado "misma cantidad" se resuelve cuando 2 (o más)
+                cuartos finaliza con igual puntuación.<br><br>
+                14) Para las ofertas de temporada que se resuelvan al final de la temporada regular, la clasificación oficial
+                será empleada como factor determinante (por ejemplo, el porcentaje determina las posiciones empatadas).<br>
+                Del mismo modo, las ofertas "equipo(s) con el mayor número de derrotas", en caso de que dos o más equipos sufran el
+                mismo número de derrotas, se determinará como ganador al equipo con peor clasificación (esto es, el porcentaje
+                determina la posición en caso de empate).`,
     },
     {
       id: 17,
@@ -1865,7 +1582,7 @@ export const sportsData:Array<ISportsData> = [
         4) Los participantes descalificados debido a infracciones en la salida (errores en la salida) habrán participado en
         el evento.`
     },
-    
+
     {
         id: 29,
         title: 'Bádminton',
@@ -2275,5 +1992,29 @@ export const sportsData:Array<ISportsData> = [
         (por ejemplo: King of the Oche, etc.) requerirán que todas las connotaciones relacionas con esa apuesta se
         deberán cumplir de manera plena e incuestionable. Si 1 o más parte de la oferta finalizasen en empate, se
         considerarán las apuestas como PERDIDA.`
-    }
+    },
+    {
+      id: 36,
+      title: 'Carreras de drones',
+      img: '',
+      content: `1) Las apuestas se resuelven según se publique el tiempo y la clasificación en directo en la TV/streaming
+        público en el momento de la entrega de premios en el podio o al final de la manga/semifinal/final/nivel (según
+        corresponda). Si la información necesaria para la resolución de la apuesta faltase/no se mostrase y/o estuviese
+        incomplete, la primera información oficial en el sitio web oficial será considerada como vinculante al margen de
+        posibles promociones, degradaciones, apelaciones y/o sanciones, aplicados tras la finalización de la sesión/nivel
+        al que la apuesta haga referencia. En caso de eventos no completados o abandonados, aquellas ofertas cuyos resultados
+        ya se hayan establecido antes de la suspensión del juego y cualquier reanudación del juego que posiblemente no
+        produzca un resultado diferente serán consideradas válidas y consecuentemente resueltas.<br><br>
+        2) Los eventos acortados debido a las condiciones meteorológicas o de otro tipo pero que mantengan su carácter oficial
+        por indicación del órgano correspondiente serán resueltas en consecuencia, al margen de cualquier cambio que dicho órgano
+        pudiera realizar debido a la no conclusión de la fase.<br><br>
+        3) Si una manga/semifinal/final/nivel debiera reiniciarse desde el comienzo, las apuestas se mantendrán y se resolverán
+        según el resultado emitido tras el reinicio, excepto para aquellas apuestas cuyo resultado ya hubiera sido determinado.<br><br>
+        4) Para fines de resolución, se considerará que un piloto que haya participado en la manga habrá participado en la
+        semifinal/final/nivel.<br><br>
+        5) En las apuestas "uno contra uno", todos los pilotos enumerados deberán participar en al menos una manga para que las
+        apuestas tengan validez, al margen de si el piloto es cronometrado de manera oficial.<br><br>
+        6) En las apuestas a ganador o por clasificación, no se realizarán devoluciones por aquellos pilotos que no participen,
+        por la razón que fuere, en la manga/semifinal/final/nivel al que la apuesta haga referencia.`
+  }
   ];

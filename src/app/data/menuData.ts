@@ -65,6 +65,7 @@ export const menuData: Array<IMenuData> = [
       'Mixed Martial Arts (MMA)',
       'Snooker',
       'Dardos',
+      'Carreras de drones'
     ],
   },
   { title: 'Carreras', icon: 'assets/icons/flag.svg', options: ['Carreras de caballos', 'Galgos'] },
