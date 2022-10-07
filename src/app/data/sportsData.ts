@@ -6,192 +6,174 @@ export const sportsData:Array<ISportsData> = [
       title: 'Fútbol',
       img: 'assets/logo_Deportes/logo_Futbol_Cut.jpg',
       content: `1) Primer/Siguiente Goleador - Las apuestas referentes un jugador en particular que es el autor del gol indicado
-            dentro del periodo correspondiente, o por ser el primer goleador de su equipo (ejemplo: "primer Goleador -
-            equipo X”). Las apuestas serán reembolsadas con respecto a los jugadores que no participan en el partido o que
-            entran en el campo después que el gol indicado fuera anotado. Los goles en su propia meta no cuentan para el
-            establecimiento de esta oferta de apuesta. Si el gol en la que la apuesta se refiere es un gol en su propia meta, el
-            jugador que marcó el siguiente gol que no es un gol en su propia meta y cumple con los parámetros de la apuesta
-            se considerará el resultado ganador. En caso que no existan goles (o más goles, según el caso), los cuales no sean
-            en propia meta y se cumplan el resto de parámetros de la apuesta, todas las apuestas se consideraran perdedoras,
-            a no ser que la opción correspondiente fuera parte de la oferta.<br><br>
-            2) Último Goleador - Las apuestas hace referencia a un jugador en particular que es el autor del último gol, o
-            durante un período determinado de evento (por ejemplo, "El último gol en el partido" o "el último gol en la
-            segunda parte "), o para ser el último goleador de su equipo (ejemplo: " ultimo Goleador - equipo X) " las
-            apuestas serán reembolsadas con respecto a los jugadores que no participan en el partido o que entran en el
-            campo después que el último gol fue anotado. Los goles en su propia meta no cuentan para el establecimiento de
-            esta oferta de apuesta. Si el gol en la que la apuesta se refiere es un gol en su propia meta, el jugador que marcó
-            el siguiente gol que no es un gol en su propia meta y cumple con los parámetros de la apuesta se considerará el
-            resultado ganador. Donde ningún gol está/están marcados (o no más goles, según el caso) y que no son goles en
-            su propia meta, y cumplir con los demás parámetros de la oferta de apuestas, todas las apuestas se considerarán
-            perdidas.<br><br>
-            3) "Scorecast" es un tipo de apuesta en el que es posible apostar por un acontecimiento en concreto (por ejemplo,
-            Primer goleador) y, al mismo tiempo, por otro acontecimiento del mismo evento o de un evento relacionado (por
-            ejemplo, Resultado correcto). Si las apuestas se refieren al primer o último goleador, los términos y condiciones
-            establecidos en (Section C, Para 14.1) y (Section C, Para 14.2) se aplican, si los hubiere. Las apuestas serán
-            reembolsadas en los jugadores que no participan en el partido en absoluto. En todos los demás casos, las
-            apuestas siguen siendo válidas, independientemente del momento de la inclusión/sustitución del jugador. Las
-            apuestas se anularán si el gol en cuestión es en propia meta.<br><br>
-            4) A menos que se especifique lo contrario, o se indique en conjunción con la oferta de la apuesta, todas las
-            apuestas realizadas antes del inicio del partido relacionadas con si un jugador específico conseguirá marca un
-            número de goles, para ser válidas requieren que los jugadores mencionados jueguen desde el inicio del partido.
-            Las apuestas de tipo similar realizadas cuando el partido en cuestión ha comenzado se considerarán nulas si los
-            jugadores mencionados no participan en el partido por cualquier motivo tras la aceptación de apuestas. Los goles
-            en propia puerta no contarán como goles marcados por el jugador seleccionado.<br><br>
-            5) En todas las apuestas relacionadas con tarjetas amarillas/rojas, puntos por tarjeta, etc., solo serán válidas
-            las tarjetas que se muestren a los jugadores que en ese momento estén en el campo. Las tarjetas, las medidas
-            disciplinarias o las suspensiones que se impongan a otras personas que en el momento de la sanción no estén, o
-            no deberían estar, jugando en el campo, así como las medidas disciplinarias que se tomen una vez finalizado el
-            partido oficialmente, no se tendrán en cuenta.<br><br>
-            6) A menos que se especifique lo contrario, o se indique en conjunción con la oferta de la apuesta, todas las
-            apuestas relacionadas con la disciplina realizadas antes del inicio del partido relacionadas con un jugador
-            específico (tarjeta amarilla, tarjeta roja, número de faltas), para ser válidas requieren que los jugadores
-            mencionados jueguen desde el inicio del partido. Las apuestas de tipo similar realizadas cuando el partido en
-            cuestión ha comenzado se considerarán nulas si los jugadores mencionados no participan en el partido por
-            cualquier motivo tras la aceptación de apuestas.<br><br>
-            7) Los "Puntos por tarjeta" de las apuestas prepartido se calculan según las siguientes reglas: Tarjeta amarilla =
-            10 puntos, Tarjeta roja = 25 puntos. El número máximo de puntos para un jugador es 35.<br><br>
-            8) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total
-            de puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el
-            curso de un partido (por ejemplo: Cuál de entre el jugador X y el jugador Y anotará más goles), requieren que
-            todos los involucrados jueguen desde el inicio del partido para que las apuestas sean válidas.<br><br>
-            9) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de puntos conseguidos
-            por el jugador X durante la World Cup) o comparar actuaciones de 2 jugadores individuales durante un<br>
-            periodo/torneo/temporada en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará
-            más touchdowns durante la liga), requiere que todos los jugadores individuales sean participantes activos en
-            como mínimo una función más aplicable a la oferta tras aceptar la apuesta para que las apuestas sean válidas. Las
-            apuestas realizadas tras o cualquier novedad que pueda reducir el número de funciones potencialmente sobre un
-            jugador involucrado para que sea apto para la competición (como lesiones/intercambios/novedades de cambios)
-            y por lo tanto afecte las cuotas incluso si solo es teóricamente a favor de cualquier resultado individual sin que
-            esas cuotas se hayan ajustado para reflejar el estado actual de la apuesta, serán declaradas nulas.<br><br>
+            dentro del periodo correspondiente, o por ser el primer goleador de su equipo (ejemplo: "primer Goleador - equipo X").
+            Las apuestas serán consideradas nulas con respecto a los jugadores que no participan en el partido o que entran en el
+            campo después que el gol indicado fuera anotado. Los goles en su propia meta no cuentan para el establecimiento de esta
+            oferta de apuesta. Si el gol en la que la apuesta se refiere es un gol en su propia meta, el jugador que marcó el
+            siguiente gol que no es un gol en su propia meta y cumple con los parámetros de la apuesta se considerará el resultado
+            ganador. En caso que no existan goles (o más goles, según el caso), los cuales no sean en propia meta y se cumplan el
+            resto de parámetros de la apuesta, todas las apuestas se consideraran perdedoras, a no ser que la opción correspondiente
+            fuera parte de la oferta.<br><br>
+            2) Último Goleador - Las apuestas hace referencia a un jugador en particular que es el autor del último gol, o durante
+            un período determinado de evento (por ejemplo, "El último gol en el partido" o "el último gol en la segunda parte "),
+            o para ser el último goleador de su equipo (ejemplo: "ultimo Goleador - equipo X") las apuestas serán consideradas nulas
+            con respecto a los jugadores que no participan en el partido o que entran en el campo después que el último gol fue
+            anotado. Los goles en su propia meta no cuentan para el establecimiento de esta oferta de apuesta. Si el gol en la que
+            la apuesta se refiere es un gol en su propia meta, el jugador que marcó el siguiente gol que no es un gol en su propia
+            meta y cumple con los parámetros de la apuesta se considerará el resultado ganador. Donde ningún gol está/están marcados
+            (o no más goles, según el caso) y que no son goles en su propia meta, y cumplir con los demás parámetros de la oferta de
+            apuestas, todas las apuestas se considerarán perdidas.<br><br>
+            3) "Scorecast" es un tipo de apuesta en el que es posible apostar por un acontecimiento en concreto (por ejemplo, Primer
+            goleador) y, al mismo tiempo, por otro acontecimiento del mismo evento o de un evento relacionado (por ejemplo, Resultado
+            correcto). Si las apuestas se refieren al primer o último goleador, los términos y condiciones establecidos en &lt;Section
+            C, Para 14.1&gt; y &lt;Section C, Para 14.2&gt; se aplican, si los hubiere. Las apuestas serán consideradas nulas en los jugadores
+            que no participan en el partido en absoluto. En todos los demás casos, las apuestas siguen siendo válidas, independientemente
+            del momento de la inclusión/sustitución del jugador. Las apuestas se anularán si el gol en cuestión es en propia meta.<br><br>
+            4) A menos que se especifique lo contrario, o se indique en conjunción con la oferta de la apuesta, todas las apuestas
+            realizadas antes del inicio del partido relacionadas con si un jugador específico conseguirá marca un número de goles,
+            para ser válidas requieren que los jugadores mencionados jueguen desde el inicio del partido. Las apuestas de tipo similar
+            realizadas cuando el partido en cuestión ha comenzado se considerarán nulas si los jugadores mencionados no participan en
+            el partido por cualquier motivo tras la aceptación de apuestas. Los goles en propia puerta no contarán como goles marcados
+            por el jugador seleccionado.<br><br>
+            5) En todas las apuestas relacionadas con tarjetas amarillas/rojas, puntos por tarjeta, etc., solo serán válidas las
+            tarjetas que se muestren a los jugadores que en ese momento estén en el campo. Las tarjetas, las medidas disciplinarias o
+            las suspensiones que se impongan a otras personas que en el momento de la sanción no estén, o no deberían estar, jugando
+            en el campo, así como las medidas disciplinarias que se tomen una vez finalizado el partido oficialmente, no se tendrán
+            en cuenta.<br><br>
+            6) A menos que se especifique lo contrario, o se indique en conjunción con la oferta de la apuesta, todas las apuestas
+            relacionadas con la disciplina realizadas antes del inicio del partido relacionadas con un jugador específico (tarjeta
+            amarilla, tarjeta roja, número de faltas), para ser válidas requieren que los jugadores mencionados jueguen desde el
+            inicio del partido. Las apuestas de tipo similar realizadas cuando el partido en cuestión ha comenzado se considerarán
+            nulas si los jugadores mencionados no participan en el partido por cualquier motivo tras la aceptación de apuestas.<br><br>
+            7) Los "Puntos por tarjeta" de las apuestas prepartido se calculan según las siguientes reglas: Tarjeta amarilla = 10
+            puntos, Tarjeta roja = 25 puntos. El número máximo de puntos para un jugador es 35. <br><br>
+            8) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total de
+            puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el curso de un
+            partido (por ejemplo: Cuál de entre el jugador X y el jugador Y anotará más goles), requieren que todos los involucrados
+            jueguen desde el inicio del partido para que las apuestas sean válidas.<br><br>
+            9) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de puntos conseguidos por el
+            jugador X durante la World Cup) o comparar actuaciones de 2 jugadores individuales durante un periodo/torneo/temporada
+            en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más touchdowns durante la liga),
+            requiere que todos los jugadores individuales sean participantes activos en como mínimo una función más aplicable a la
+            oferta tras aceptar la apuesta para que las apuestas sean válidas.<br><br>
             10) Todas las ofertas referentes a Totales del torneo (como Goles, Saques de esquina, Tarjetas, Penaltis, etc.) se
-            establecerán en base a las estadísticas oficiales de la autoridad competente. A menos que se indique lo contrario,
-            las cantidades acumulativas de dichas apuestas incluirán prolongaciones (por ejemplo, Prórroga), pero no los<br>
-            Lanzamientos de penalti.<br><br>
+            establecerán en base a las estadísticas oficiales de el órgano competente. A menos que se indique lo contrario, las
+            cantidades acumulativas de dichas apuestas incluirán prolongaciones (por ejemplo, Prórroga), pero no los Lanzamientos
+            de penalti.<br><br>
             11) A menos que se indique específicamente, todas las apuestas referentes a un equipo en particular que gane un
-            número/una selección de trofeos en la misma temporada se basarán en los resultados de dicho equipo en las
-            siguientes competiciones: la liga nacional, el equivalente correspondiente a la FA Cup y la League Cup, así
-            como la Liga de Campeones o la Europa League. Otros trofeos (por ejemplo, la Supercopa nacional y la
-            Supercopa de Europa, el Mundial de Clubes) no se tendrán en cuenta.<br><br>
-            12) El "Doblete nacional" se considera la victoria del equipo en el equivalente correspondiente a la liga nacional
-            en cuestión y a la FA Cup.<br><br>
-            13) A afectos de la resolución, las apuestas que hagan referencia al número de tarjetas mostradas por el árbitro
-            contarán de la siguiente forma:<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;• Tarjeta amarilla = 1<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;• Tarjeta roja = 2<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;• Una tarjeta amarilla y una roja = 3<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;• Dos tarjetas amarillas y una roja = 3<br><br>
-            El número máximo de tarjetas por jugador es de 3. Solo se tendrán en cuenta las tarjetas mostradas a los
-            jugadores actualmente aptos, según C.14.5.<br><br>
-            14) Las apuestas en si un jugador (s) en particular logró marcar desde ciertas áreas del campo (por ejemplo, fuera
-            del "área de penal") se ajustará de acuerdo con la posición de la pelota cuando la pelota salió golpeado por el
-            jugador, sin tener en cuenta las desviaciones que pudieran cambiar la trayectoria de la pelota con respecto al tiro
-            inicial. Para mayor claridad, se debe entender que los límites del "área de penalti" deben ser considerados como
-            parte del área. Por lo tanto, si se produce un tiro mientras la pelota está por encima o incluso llave incluso
-            parcialmente en línea, el tiro no se considerará que ha ocurrido fuera del área.<br><br>
-            15) Las apuestas relativas a si un jugador (o jugadores) le da al larguero, al poste o a cualquier otra parte que
-            limite la zona de gol se considerarán como ganadas si el disparo no termina en gol inmediatamente después de
-            haber golpeado la superficie objeto de la apuesta. Solo se tendrán en consideración los disparos a la portería
-            contraria defendida por el equipo contrario del jugador (o jugadores) en cuestión. Si un jugador efectúa un
-            disparo que golpea en el poste de la portería defendida por su propio equipo no se considerará como válido en
-            relación con la apuesta en cuestión.<br><br>
-            16) Durante ciertos eventos BetPlay podría decidir de ofrecer una pequeña selección de participantes para
-            apostar (por ejemplo, un jugador fuera de la lista del equipo X) o un solo participante como una representación
-            de todo el equipo (Por ejemplo: "cualquier jugador del equipo X"). En ambos casos, para los efectos del
-            establecimiento, todos los miembros del equipo que no figuran deben ser considerados titulares (y se pagarán
-            como tal), incluyendo los sustitutos independientemente de que participen en el partido o no.<br><br>
-            17) Las apuestas en el rendimiento de los jugadores que empiezan el partido en el banquillo se considerarán
-            nulas si el jugador está titular o no participa en el partido en absoluto.<br><br>
-            18) En ofertas como Siguiente goleador, Siguiente jugador amonestado con tarjeta, Siguiente asistencia y
-            Jugador del partido, las apuestas se reembolsarán si el jugador elegido no participa en el partido o no ha tenido la
-            posibilidad de conseguir lo establecido en el epacio de tiempo indicado.<br><br>
-            19) Las apuestas sobre el siguiente asistente para un gol en particular se considerarán nulas si la federación
-            responsable considera que el gol en cuestión no fue objeto de una asistencia, es un gol en propia meta y/o no se
-            marcan más goles en el partido en el espacio de tiempo indicado.<br><br>
-            20) Las apuestas relativas a la transformación y/o al resultado de las tandas de penaltis se resolverán según lo
-            ocurrido en el terreno de juego atendiendo a las reglas de los organizadores de dicho evento; en el caso de las
-            tandas de penaltis, estas serán válidas al margen del formato para su desarrollo que los organizadores decidan.
-            Las apuestas seguirán siendo válidas en caso de que se mande repetir el penalti, siendo válido el resultado del
-            nuevo lanzamiento.<br><br>
-            Como norma general, el resultado se basará en el principio según el cual a no ser que el penalti se transforme y
-            se conceda el tanto (y resuelta la apuesta consecuentemente), la primera persona/objeto/ubicación (si procediese)
-            que el balón toque en primer lugar tras el golpeo se considerará el resultado ganador al margen de las demás
-            personas/objetos que el balón pudiere tocar en su trayectoria tras el primer contacto. Los siguientes ejemplos
-            sirven como norma general para resolver las apuestas:<br><br>
-            “Gol” sería la opción ganadora en caso de que se produzcan las siguientes circunstancias ante un penalti
-            transformado:<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;• Cualquier penalti que termina en gol sin que haya sido desviado;<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;• El portero toca el balón pero termina en gol;<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;• El balón tova la madera y termina en gol;<br><br>
-            “Parada” sería la opción ganadora en caso de que se produzcan las siguientes circunstancias ante un penalti
-            transformado:<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;• El portero desvía el lanzamiento de penalti fuera de la portería;<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;• El portero desvía el lanzamiento de penalti al palo/larguero.<br><br>
-            "A la madera" sería la opción ganadora en caso de que se produzcan las siguientes circunstancias:<br><br>
-            1) El balón golpea la madera antes de que lo toque/lo ataje el portero;<br><br>
-            2) El balón golpea la madera y sale fuera de la portería.<br><br>
-            "Otro fallo" sería la opción ganadora en caso de que el balón, sin ser desviado por el portero o la madera, acabe
-            fuera de la portería:<br><br>
-            La excepción a las circunstancias arriba indicadas sería durante las tandas de penaltis si el balón toca la madera,
-            golpea al portero y termina en gol, se consideraría como gol mientras que si esa situación ocurre en cualquier
-            otra situación durante el encuentro que no sea la tanda de penaltis, el jugador que efectúe el disparo se
-            considerará que falló y "a la madera" sería la opción ganadora.<br><br>
-            21) Cualquier decisión que se base en el Videoarbitraje (VAR) y que provoque un conflicto con la decisión
-            inicialmente sancionada por los colegiados sobre el campo (incluyendo la aplicación de la ley de la ventaja antes
-            de revisar el vídeo) y que alteren el devenir del encuentro en el momento de realizar la apuesta provocarán que
-            las apuestas realizadas durante el periodo de tiempo transcurrido entre el incidente inicial y la decisión final del
-            árbitro serán consideradas nulas a no ser que las probabilidades ofrecidas en dicha apuesta no se vean afectadas
-            por el uso del VAR o ya se hayan tenido en cuenta en las probabilidades ofertadas en el momento de la
-            realización de la apuesta. La resolución de las demás apuestas que no se vieran afectadas, incluyendo aquellas
-            determinadas por cualquier jugada entre el momento del incidente original y la decisión tomada tras consultar el
-            VAR que no se viesen influidas/alteradas por el VAR seguirán siendo válidas.<br><br>
-            En lo relativo a los resultados, las revisiones del VAR y las decisiones derivadas de estas se considerarán que
-            ocurrieron en el momento original en el que el VAR hubiera sido empleado incluso si la jugada no se hubiera visto
-            interrumpida de manera inmediata. (El Operador) se reserva el derecho, en conformidad con la (Sección
-            A, Párrafo 6.2) de modificar las ofertas previamente resueltas si dicho resultado fuera inexacto tras la revisión
-            final del árbitro teniendo en cuenta que dicha decisión se toma y comunica antes de la conclusión del encuentro
-            y/o del periodo de tiempo indicado.<br><br>
-            Para evitar dudas, (El Operador) considerará que se hizo uso del VAR si se entiende, por los gestos del árbitro
-            (que detiene el partido para observar lo ocurrido) y/o se confirma por parte de la organización del encuentro a en
-            el acta del partido que se hizo uso del VAR. En los casos en los que no quede claro que se hizo uso del VAR
-            debido a la falta de cobertura televisiva o a informes contradictorios, (El Operador) resolverá la apuesta según
-            la información aportada en la retransmisión del encuentro y fuentes de confianza atendiendo a principios de
-            equidad.<br><br>
-            22) Para resolver apuestas, los mercados relativos al equipo que verá la próxima tarjeta (amonestación) y/ o
-            "tarjetas totales" considerará siempre una tarjeta roja como 2 tarjetas amarillas y actuará en consecuencia. Los
-            siguientes ejemplos se presentan a modo de explicación:<br><br>
+            número/una selección de trofeos en la misma temporada se basarán en los resultados de dicho equipo en las siguientes
+            competiciones: la liga nacional, el equivalente correspondiente a la FA Cup y la League Cup, así como la Liga de
+            Campeones o la Europa League. Otros trofeos (por ejemplo, la Supercopa nacional y la Supercopa de Europa, el Mundial
+            de Clubes) no se tendrán en cuenta.<br><br>
+            12) El "Doblete nacional" se considera la victoria del equipo en el equivalente correspondiente a la liga nacional en
+            cuestión y a la FA Cup.<br><br>
+            13) A afectos de la resolución, las apuestas que hagan referencia al número de tarjetas mostradas por el árbitro contarán
+            de la siguiente forma:
             <ul>
-            <li>
-            La primera tarjeta de un partido es una roja directa. El equipo amonestado ganará las instancias
-            "primera tarjeta del encuentro" y "segunda tarjeta del encuentro";
-            </li>
             <br>
-            <li>
-            La primera tarjeta de un partido es una amarilla seguida de una roja directa al mismo jugador
-            sin hubiese visto una segunda amarilla. El equipo amonestado ganará las instancias "primera
-            tarjeta del encuentro", "segunda tarjeta del encuentro" y "tercera tarjeta del encuentro".
-            </li>
-            <br>
-            <li>
-            La primera tarjeta de un partido es una amarilla seguida de una segunda amarilla que conlleva
-            una roja al mismo jugador. El equipo amonestado ganará las instancias "primera tarjeta del
-            encuentro", "segunda tarjeta del encuentro" y "tercera tarjeta del encuentro".
-            </li>
-            <br>
+            <li>Tarjeta amarilla = 1</li>
+            <li>Tarjeta roja = 2</li>
+            <li>Una tarjeta amarilla y una roja = 3</li>
+            <li> Dos tarjetas amarillas y una roja = 3</li>
             </ul>
-            23) Los mercados que hagan referencia a un jugador determinado que será el próximo amonestado considerarán
-            el resultado de la apuesta según el orden de los hechos en los que dicho jugador es amonestado/expulsado por el
-            árbitro. El color de la tarjeta que le muestre el árbitro no tendrá valor en esta oferta, siendo el criterio definitivo
-            el orden en el que el jugador es amonestado por el árbitro en el acta. Para resolver la apuesta es posible que se
-            considera que un mismo jugador aparezca dos veces como "próximo jugador en ver una tarjeta" si ambas
-            amonestaciones ocurren en sendos lances del juego. Si en el mismo lanza dos o más jugadores son amonestados,
-            la apuesta se considerará como nula.<br><br>
-            24) Cualquier referencia a “tiros libres”, bien sea cuando se presenten como evendo independiente o como
-            suceso, tendrán también en consideración situaciones concedidas por fueras de juego y otras faltas excepto las
-            señaladas como penalti.<br><br>
-            25) Las ofertas relacionadas con jugadores específicos que jueguen el partido completo requieren que el jugador
-            o jugadores mencionados comiencen el partido para ser válidas. Para establecer la validez, las apuestas solo se
-            resolverán como SÍ si los jugadores mencionados no son sustituidos o expulsados durante el tiempo
-            reglamentario. El tiempo añadido si existe no cuenta.`,
+            El número máximo de tarjetas por jugador es de 3. Solo se tendrán en cuenta las tarjetas mostradas a los jugadores actualmente
+            aptos, según C.14.5.<br><br>
+            14) Las apuestas en si un jugador (s) en particular logró marcar desde ciertas áreas del campo (por ejemplo, fuera del "área de
+            penal") se ajustará de acuerdo con la posición de la pelota cuando la pelota salió golpeada por el jugador, sin tener en cuenta
+            las desviaciones que pudieran cambiar la trayectoria de la pelota con respecto al tiro inicial. Para mayor claridad, se debe
+            entender que los límites del "área de penalti" deben ser considerados como parte del área. Por lo tanto, si se produce un tiro
+            mientras la pelota está por encima o incluso llave incluso parcialmente en línea, el tiro no se considerará que desde fuera del
+            área.<br><br>
+            15) Las apuestas relativas a si un jugador (o jugadores) le da al larguero, al poste o a cualquier otra parte que limite la zona
+            de gol se considerarán como ganadas si el disparo no termina en gol inmediatamente después de haber golpeado la superficie objeto
+            de la apuesta. Solo se tendrán en consideración los disparos a la portería contraria defendida por el equipo contrario del jugador
+            (o jugadores) en cuestión. Si un jugador efectúa un disparo que golpea en el poste de la portería defendida por su propio equipo
+            no se considerará como válido en relación con la apuesta en cuestión.<br><br>
+            16) Durante ciertos eventos [the Operator] podría decidir de ofrecer una pequeña selección de participantes para apostar (por
+            ejemplo, un jugador fuera de la lista del equipo X) o un solo participante como una representación de todo el equipo (Por ejemplo:
+            "cualquier jugador del equipo X"). En ambos casos, para los efectos del establecimiento, todos los miembros del equipo que no
+            figuran deben ser considerados titulares (y se pagarán como tal), incluyendo los sustitutos independientemente de que participen
+            en el partido o no.<br><br>
+            17) Las apuestas en el rendimiento de los jugadores que empiezan el partido en el banquillo se considerarán nulas si el jugador
+            está titular o no participa en el partido en absoluto.<br><br>
+            18) En ofertas como Siguiente goleador, Siguiente jugador amonestado con tarjeta, Siguiente asistencia y Jugador del partido, las
+            apuestas serán anuladas si el jugador elegido no participa en el partido o no ha tenido la posibilidad de conseguir lo establecido
+            en el espacio de tiempo indicado.<br><br>
+            19) Las apuestas sobre el siguiente asistente para un gol en particular se considerarán nulas si la federación responsable considera
+            que el gol en cuestión no fue objeto de una asistencia, es un gol en propia meta y/o no se marcan más goles en el partido en el
+            espacio de tiempo indicado.<br><br>
+            20) Las apuestas relativas a la transformación y/o al resultado de las tandas de penaltis se resolverán según lo ocurrido en el
+            terreno de juego atendiendo a las reglas de los organizadores de dicho evento; en el caso de las tandas de penaltis, estas serán
+            válidas al margen del formato para su desarrollo que los organizadores decidan. Las apuestas seguirán siendo válidas en caso de que
+            se mande repetir el penalti, siendo válido el resultado del nuevo lanzamiento.<br><br>
+            Como norma general, el resultado se basará en el principio según el cual a no ser que el penalti se transforme y se conceda el
+            tanto (y resuelta la apuesta consecuentemente), la primera persona/objeto/ubicación (si procediese) que el balón toque en primer
+            lugar tras el golpeo se considerará el resultado ganador al margen de las demás personas/objetos que el balón pudiere tocar en su
+            trayectoria tras el primer contacto. Los siguientes ejemplos sirven como norma general para resolver las apuestas:<br><br>
+            "Gol" sería la opción ganadora en caso de que se produzcan las siguientes circunstancias ante un penalti transformado:<br><br>
+            <ul>
+            <li>Cualquier penalti que termina en gol sin que haya sido desviado;</li>
+            <li>El portero toca el balón, pero termina en gol;</li>
+            <li>El balón tova la madera y termina en gol;</li>
+            </ul>
+            "Parada" sería la opción ganadora en caso de que se produzcan las siguientes circunstancias ante un penalti transformado:<br><br>
+            <ul>
+            <li>El portero desvía el lanzamiento de penalti fuera de la portería;</li>
+            <li>El portero desvía el lanzamiento de penalti al palo/larguero.</li>
+            </ul>
+            "A la madera" sería la opción ganadora en caso de que se produzcan las siguientes circunstancias:<br><br>
+            <ul>
+            <li>El balón golpea la madera antes de que lo toque/lo ataje el portero;</li>
+            <li>El balón golpea la madera y sale fuera de la portería.</li>
+            </ul>
+            "Otro fallo" sería la opción ganadora en caso de que el balón, sin ser desviado por el portero o la madera, acabe fuera de
+            la portería:<br><br>
+            La excepción a las circunstancias arriba indicadas sería durante las tandas de penaltis si el balón toca la madera, golpea
+            al portero y termina en gol, se consideraría como gol mientras que, si esa situación ocurre en cualquier otra situación durante
+            el encuentro que no sea la tanda de penaltis, el jugador que efectúe el disparo se considerará que falló y "a la madera" sería
+            la opción ganadora.<br><br>
+            21) Cualquier decisión que se base en el Videoarbitraje (VAR) y que provoque un conflicto con la decisión inicialmente sancionada
+            por los colegiados sobre el campo (incluyendo la aplicación de la ley de la ventaja antes de revisar el vídeo) y que alteren el
+            devenir del encuentro en el momento de realizar la apuesta provocarán que las apuestas realizadas durante el periodo de tiempo
+            transcurrido entre el incidente inicial y la decisión final del árbitro serán consideradas nulas a no ser que las probabilidades
+            ofrecidas en dicha apuesta no se vean afectadas por el uso del VAR o ya se hayan tenido en cuenta en las probabilidades ofertadas
+            en el momento de la realización de la apuesta. La resolución de las demás apuestas que no se vieran afectadas, incluyendo
+            aquellas determinadas por cualquier jugada entre el momento del incidente original y la decisión tomada tras consultar el VAR
+            que no se viesen influidas/alteradas por el VAR seguirán siendo válidas. <br><br>
+            En lo relativo a los resultados, las revisiones del VAR y las decisiones derivadas de estas se considerarán que ocurrieron en el
+            momento original en el que el VAR hubiera sido empleado incluso si la jugada no se hubiera visto interrumpida de manera inmediata.
+            &lt;The Operator&gt; se reserva el derecho, en conformidad con la &lt;Section A, Para 6.2&gt;, de modificar las ofertas previamente resueltas
+            si dicho resultado fuera inexacto tras la revisión final del árbitro teniendo en cuenta que dicha decisión se toma y comunica antes
+            de la conclusión del encuentro y/o del periodo de tiempo indicado.<br><br>
+            Para evitar dudas, &lt;The Operator&gt; considerará que se hizo uso del VAR si se entiende, por los gestos del árbitro (que detiene el
+            partido para observar lo ocurrido) y/o se confirma por parte de la organización del encuentro a en el acta del partido que se hizo
+            uso del VAR. En los casos en los que no quede claro que se hizo uso del VAR debido a la falta de cobertura televisiva o a informes
+            contradictorios, &lt;The Operator&gt; resolverá la apuesta según la información aportada en la retransmisión del encuentro y fuentes de
+            confianza atendiendo a principios de equidad.<br><br>
+            22) Para resolver apuestas, los mercados relativos al equipo que verá la próxima tarjeta (amonestación) y/ o "tarjetas totales"
+            considerará siempre una tarjeta roja como 2 tarjetas amarillas y actuará en consecuencia. Los siguientes ejemplos se presentan
+            a modo de explicación:<br><br>
+            <ul>
+            <li>La primera tarjeta de un partido es una roja directa. El equipo amonestado ganará las instancias "primera tarjeta del encuentro"
+            y "segunda tarjeta del encuentro";</li>
+            <li>La primera tarjeta de un partido es una amarilla seguida de una roja directa al mismo jugador sin hubiese visto una segunda
+            amarilla. El equipo amonestado ganará las instancias "primera tarjeta del encuentro", "segunda tarjeta del encuentro" y "tercera
+            tarjeta del encuentro".</li>
+            <li>La primera tarjeta de un partido es una amarilla seguida de una segunda amarilla que conlleva una roja al mismo jugador. El
+            equipo amonestado ganará las instancias "primera tarjeta del encuentro", "segunda tarjeta del encuentro" y "tercera tarjeta del
+            encuentro".</li>
+            </ul>
+            23) Los mercados que hagan referencia a un jugador determinado que será el próximo amonestado considerarán el resultado de la
+            apuesta según el orden de los hechos en los que dicho jugador es amonestado/expulsado por el árbitro. El color de la tarjeta que
+            le muestre el árbitro no tendrá valor en esta oferta, siendo el criterio definitivo el orden en el que el jugador es amonestado
+            por el árbitro en el acta. Para resolver la apuesta es posible que se considera que un mismo jugador aparezca dos veces como
+            "próximo jugador en ver una tarjeta" si ambas amonestaciones ocurren en sendos lances del juego. Si en el mismo lanza dos o más
+            jugadores son amonestados, la apuesta se considerará como nula.<br><br>
+            24) Cualquier referencia a "tiros libres", bien sea cuando se presenten como evento independiente o como suceso, tendrán también
+            en consideración situaciones concedidas por fueras de juego y otras faltas excepto las señaladas como penalti.<br><br>
+            25) Las ofertas relacionadas con jugadores específicos que jueguen el partido completo requieren que el jugador o jugadores
+            mencionados comiencen el partido para ser válidas. Para establecer la validez, las apuestas solo se resolverán como SÍ si los
+            jugadores mencionados no son sustituidos o expulsados durante el tiempo reglamentario. El tiempo añadido si existe no cuenta.`,
 
     },
     {
@@ -245,81 +227,77 @@ export const sportsData:Array<ISportsData> = [
     },
     {
       id: 3,
-      title: 'Tenis y Deportes de Raqueta (Bádminton, Rackleton, Squash y Tenis de Mesa)',
+      title: 'Tenis y Deportes de Raqueta (Bádminton, Jai-alai, Squash, Pádel, Pickleball y Tenis de Mesa)',
         img:'assets/logo_Deportes/logo_Tenis_Cut.jpg',
         content: `1) Todas las apuestas seguirán siendo válidas durante el periodo de tiempo en el que tenga lugar el partido/la
-        oferta del torneo, independientemente de los cambios que puedan producirse (antes o durante el partido), las
-        condiciones (al aire libre/bajo techo) y/o el tipo de superficie, a menos que se haya llegado a otro acuerdo.<br><br>
-        2) Las ofertas de apuesta a "1X2" se basan en el principio general de progreso en el torneo o ganador del torneo,
-        según la fase de la competición a la que haga referencia el partido. El jugador/equipo que pase a la siguiente
-        ronda o gane el torneo será el ganador de la apuesta independientemente de las retiradas, las descalificaciones,
-        etc. Para que estas apuestas sean válidas, debe completarse al menos una serie.<br><br>
-        3) Las apuestas a “Más/Menos de” y "Handicap" en partidos sin finalizar cuyos resultados ya se hayan
-        establecido antes de la suspensión y/o cualquier reanudación del juego que posiblemente no produzca un
-        resultado diferente a dichas ofertas, se establecerán en función del resultado obtenido hasta la suspensión. Para
-        calcular estas apuestas, se añadirá la cantidad mínima de acontecimientos que se habrían necesitado para que la
-        oferta hubiese finalizado con naturalidad, en función del número de series que se hayan programado para el
-        partido. Si este cálculo da paso a una situación en la que ninguna modificación podría afectar al resultado de la
-        oferta, se establecerá como tal. Los siguientes ejemplos pueden tenerse en cuenta :<br><br>
-        <ul>
-        <li>
-        Ejemplo 1 - Más/Menos de: Se produce un abandono en un partido de tres sets con el resultado 7-6, 4-4.
-        Ofertas: “Juegos totales del set 2: 9,5” (o líneas inferiores a dicha cantidad) y “Juegos totales del partido:
-        22,5” (o líneas inferiores a dicha cantidad) se establecerán como ofertas ganadoras con apuestas a “Más de”
-        y como ofertas perdedoras con apuestas a “Menos de”. Las apuestas a líneas superiores a esta se declararán
-        nulas.
-        </li>
-        <li>
-        Ejemplo 2 - Handicap: Se produce un abandono al comienzo del 3.er set en un partido de 5 sets con el
-        resultado 1-1. Las apuestas a +2,5/-2,5 sets se establecerán como ganadoras y perdedoras respectivamente.
-        Las ofertas a líneas inferiores a dicha cantidad se declararán nulas.
-        </li>
-        </ul>
-        4) Todas las apuestas a “Resultado correcto” (denominadas Apuestas de set y Apuestas de juego), “Par/Impar” y
-        que hagan referencia al ganador de un periodo en concreto del partido (ejemplo “¿Qué jugador ganará el primer
-        set?” y “Set 2 - Juego 6: Ganador” requieren que se complete dicha parte del partido en cuestión.<br><br>
-        5) Todos los tipos de ofertas que no estén especificados anteriormente exigen que finalice al menos un set para
-        que las apuestas sean válidas, a excepción de aquellas ofertas cuyos resultados ya se hayan establecido antes de
-        la suspensión del juego y cualquier reanudación del juego que posiblemente no produzca un resultado diferente.<br><br>
-        6) En un partido de dobles, todas las apuestas se declararán nulas si alguno de los jugadores implicados es
-        sustituido por otro.<br><br>
-        7) Las referencias a "Grand Slams" se basarán en los torneos de dicha temporada en concreto a los que la ITF
-        atribuya dicha definición, independientemente de los cambios que se produzcan en el campo de juego, la fecha,
-        etc.<br><br>
-        8) A menos que se indique explícitamente, todas las apuestas a partidos de la Copa Davis se anularán en el caso
-        de que se jueguen en un formato diferente a “El mejor de 5 sets” (por ejemplo El mejor de 3 sets).<br><br>
-        9) Las ofertas relativas a la Copa Davis se ofrecerán suponiendo que dicho enfrentamiento formará parte de la
-        “serie de partidos” de la siguiente sesión de individuales disponible, que normalmente consta de dos partidos
-        individuales por sesión. Todas las apuestas se cancelarán si se producen cambios en los participantes de los
-        partidos de la primera y la segunda serie de partidos (normalmente partidos individuales de viernes),
-        independientemente del hecho de que pueda producirse el mismo encuentro en otros enfrentamientos del mismo
-        partido o la misma ronda.<br><br>
-        10) Los resultados obtenidos en un "Pro Set " sólo serán válidos para las siguientes ofertas: "Match", "Set
-        Handicap", "Resulta correcto " y "Total Sets". El resto de ofertas se valorarán como nulas, a excepción de las
-        ofertas cuyo resultado ya está determinado.<br><br>
-        11) Como regla general, los "tie-breaks" siempre se consideran 1 solo partido, sin tener en cuenta el número de
-        puntos necesario para ganar o cuál sea el formato del "tie-break". Los siguientes escenarios de tie-break se
-        establecen de la siguiente manera:<br><br>
-        • "Tie-break de partido": Normalmente se juega en lugar del set decisivo cuando ambos participantes han ganado
-        el mismo número de sets. Para su resolución, se considera un set completo además de un juego y se cuenta
-        consecuentemente. Sin embargo, no se considerará como tie-break para establecer las ofertas relacionadas.<br>
-        • "Tie-break a 6-6 en el set, primero en llegar a 7 puntos": Para su resolución, se considerará como 1 partido y
-        cuenta correspondientemente además de tie-break para establecer las ofertas relacionadas.<br>
-        • "Tie-break a 6-6 en el set, primero en llegar a 10 puntos": Para su resolución, se considerará como 1 partido y
-        cuenta correspondientemente además de tie-break para establecer las ofertas relacionadas.<br>
-        • "Tie-break a 12-12 en el set, primero en llegar a 7 puntos": Para su resolución, se considerará como 1 partido y
-        cuenta correspondientemente además de tie-break para establecer las ofertas relacionadas.<br>
-        • "Tie-break a 3-3 en el set, primero en llegar a 7 puntos" (también conocido como formato de 4 rápido): Para su
-        resolución, se considerará como 1 partido y cuenta correspondientemente además de tie-break para establecer las
-        ofertas relacionadas.<br>
-        • "Tie-break de dieces": Un partido que consista únicamente en un tie-break con el participante ganador siendo
-        uno de los primeros en llegar a los 10 puntos y liderado por un margen de 2. Esto se considera un tie-break y un
-        partido completo para establecer las ofertas relacionadas.<br><br>
-        12) Las apuestas a Ganar/Posición Cada-Modo hacen referencia al ganador del torneo situado entre el momento
-        de la primera publicación del sorteo principal por la asociación organizadora y el comienzo de la competición,
-        será reembolsado si el participante enumerado no toma parte en el torneo. Se realiza una excepción para los
-        participantes aún involucrados en las fases de clasificación ya que estos serán considerados como participantes
-        activos.`
+              oferta del torneo, independientemente de los cambios que puedan producirse (antes o durante el partido), las
+              condiciones (al aire libre/bajo techo) y/o el tipo de superficie, a menos que se haya llegado a otro acuerdo.<br><br>
+              2) Las ofertas de apuesta a "1X2" se basan en el principio general de progreso en el torneo o ganador del torneo,
+              según la fase de la competición a la que haga referencia el partido. El jugador/equipo que pase a la siguiente ronda
+              o gane el torneo será el ganador de la apuesta independientemente de las retiradas, las descalificaciones, etc. Para
+              que estas apuestas sean válidas, debe completarse al menos una serie.<br><br>
+              3) Las apuestas a "Más/Menos de" y "Hándicap" en partidos sin finalizar cuyos resultados ya se hayan establecido
+              antes de la suspensión y/o cualquier reanudación del juego que posiblemente no produzca un resultado diferente a
+              dichas ofertas, se establecerán en función del resultado obtenido hasta la suspensión. Para calcular estas apuestas,
+              se añadirá la cantidad mínima de acontecimientos que se habrían necesitado para que la oferta hubiese finalizado con
+              naturalidad, en función del número de series que se hayan programado para el partido. Si este cálculo da paso a una
+              situación en la que ninguna modificación podría afectar al resultado de la oferta, se establecerá como tal. Los
+              siguientes ejemplos pueden tenerse en cuenta:<br><br>
+              <ul>
+              <li>Ejemplo 1 - Más/Menos de: Se produce un abandono en un partido de tres sets con el resultado 7-6, 4-4. Ofertas:
+              "Juegos totales del set 2: 9,5" (o líneas inferiores a dicha cantidad) y "Juegos totales del partido: 22,5" (o
+              líneas inferiores a dicha cantidad) se establecerán como ofertas ganadoras con apuestas a "Más de" y como ofertas
+              perdedoras con apuestas a "Menos de". Las apuestas a líneas superiores a esta se declararán nulas.</li>
+              <li>Ejemplo 2 - Hándicap: Se produce un abandono al comienzo del 3.er set en un partido de 5 sets con el resultado
+              1-1. Las apuestas a +2,5/-2,5 sets se establecerán como ganadoras y perdedoras respectivamente. Las ofertas a líneas
+              inferiores a dicha cantidad se declararán nulas.</li>
+              </ul>
+              4) Todas las apuestas a "Resultado correcto" (denominadas Apuestas de set y Apuestas de juego), "Par/Impar" y que
+              hagan referencia al ganador de un periodo en concreto del partido (ejemplo "¿Qué jugador ganará el primer set?" y
+              "Set 2 – Juego 6: Ganador" requieren que se complete dicha parte del partido en cuestión.<br><br>
+              5) Todos los tipos de ofertas que no estén especificados anteriormente exigen que finalice al menos un set para que
+              las apuestas sean válidas, a excepción de aquellas ofertas cuyos resultados ya se hayan establecido antes de la
+              suspensión del juego y cualquier reanudación del juego que posiblemente no produzca un resultado diferente.<br><br>
+              6) En un partido de dobles, todas las apuestas se declararán nulas si alguno de los jugadores implicados es sustituido
+              por otro.<br><br>
+              7) Las referencias a "Grand Slams" se basarán en los torneos de dicha temporada en concreto a los que la ITF atribuya
+              dicha definición, independientemente de los cambios que se produzcan en el campo de juego, la fecha, etc.<br><br>
+              8) Las apuestas por partidos dobles en la fase Robin de las finales de la Copa Davis, la Copa Billie Jean King, y las
+              Copa ATO siempre serán válidas incluso si el resultado es 2-0. Los demás partidos de la Copa Davis, la Copa ATP y los
+              encuentros de la Copa Billie Jean King, los partidos de dobles serán nulos si el resultado del enfrentamiento ya hubiera
+              quedado decidido previamente.<br><br>
+              9) Los resultados obtenidos en un "Pro Set" sólo serán válidos para las siguientes ofertas: "Match", "Set Hándicap",
+              "Resulta correcto" y "Total Sets". El resto de ofertas, se valorarán como nulas, a excepción de las ofertas cuyo resultado
+              ya está determinado. Si un encuentro se disputase en un formato/número de sets diferente al previsto en el momento de
+              publicación del mercado, [the Operator] anulará los mercados correspondientes relativos a X, Y, Z excepto el número
+              necesario de actuaciones ya celebradas al margen del cambio en el formato/número de sets<br><br>
+              10) Como regla general, los "tie-breaks" siempre se consideran 1 solo partido, sin tener en cuenta el número de puntos
+              necesario para ganar o cuál sea el formato del "tie-break". Los siguientes escenarios de tie-break se establecen de la
+              siguiente manera:<br><br>
+              <ul>
+              <li>"Tie-break de partido": Normalmente se juega en lugar del set decisivo cuando ambos participantes han ganado el
+              mismo número de sets. Para su resolución, se considera un set completo además de un juego y se cuenta consecuentemente.
+              Sin embargo, no se considerará como tie-break para establecer las ofertas relacionadas.</li>
+              <li>"Tie-break a 6-6 en el set, primero en llegar a 7 puntos": Para su resolución, se considerará como 1 partido y cuenta
+              correspondientemente además de tie-break para establecer las ofertas relacionadas.</li>
+              <li>"Tie-break a 6-6 en el set, primero en llegar a 10 puntos": Para su resolución, se considerará como 1 partido y cuenta
+              correspondientemente además de tie-break para establecer las ofertas relacionadas.</li>
+              <li>"Tie-break a 12-12 en el set, primero en llegar a 7 puntos": Para su resolución, se considerará como 1 partido y
+              cuenta correspondientemente además de tie-break para establecer las ofertas relacionadas.</li>
+              <li>"Tie-break a 3-3 en el set, primero en llegar a 7 puntos" (también conocido como formato de 4 rápido): Para su
+              resolución, se considerará como 1 partido y cuenta correspondientemente además de tie-break para establecer las ofertas
+              relacionadas.</li>
+              <li>"Tie-break de dieces": Un partido que consista únicamente en un tie-break con el participante ganador siendo uno de
+              los primeros en llegar a los 10 puntos y liderado por un margen de 2. Esto se considera un tie-break y un partido completo
+              para establecer las ofertas relacionadas.</li>
+              </ul>
+              11) Las apuestas a Ganar/Posición Cada-Modo hacen referencia al ganador del torneo situado entre el momento de la primera
+              publicación del sorteo principal por la asociación organizadora y el comienzo de la competición, será reembolsado si el
+              participante enumerado no toma parte en el torneo. Se realiza una excepción para los participantes aún involucrados en las
+              fases de clasificación ya que estos serán considerados como participantes activos.<br><br>
+              NUEVA sección: Las apuestas relativas al rendimiento durante la temporada (por ejemplo, "número de títulos de Gran Slam
+              obtenidos" o "finaliza entre los 20 primeros sí/no" serán anuladas si el jugador no disputa al menos 5 eventos que puntúen
+              para el ránking durante la temporada. `
 
     },
     {
@@ -716,11 +694,11 @@ export const sportsData:Array<ISportsData> = [
             cuando se lanza la primera bola en un inning de equipo, y dura hasta que cae el 1er wicket, o si no llega a caer 1er wicket,
             el inning llega a su conclusión natural. En caso de empate, si no se ofrece premio por empate, se aplicarán las reglas de
             empate descritas en la Cláusula 1 de las Reglas generales del cricket.<br><br>
-            Además, todas las apuestas (sociedad de inicio mayor) se considerarán nulas si se reduce el número de overs en el partido
-            debido a las condiciones meteorológicas (o por cualquier otro motivo) con respecto al número de overs programado en el momento
-            de aceptar la apuesta (ya sea estándar o reducida). Si el resultado de dichas apuestas ya estuviese resuelto antes de la
-            interrupción sin que la continuación del juego pudiese modificar el resultado de dichas apuestas, estas se resolverán en
-            consecuencia. </li><br>
+            <p class="parrafo-sangria" style="margin-left:5em;">Además, todas las apuestas (sociedad de inicio mayor) se considerarán
+            nulas si se reduce el número de overs en el partido debido a las condiciones meteorológicas (o por cualquier otro motivo)
+            con respecto al número de overs programado en el momento de aceptar la apuesta (ya sea estándar o reducida). Si el resultado
+            de dichas apuestas ya estuviese resuelto antes de la interrupción sin que la continuación del juego pudiese modificar el
+            resultado de dichas apuestas, estas se resolverán en consecuencia.</p> </li>
             <li>En las apuestas "Caída del siguiente wicket" y "Asociación de apertura" (Más/Menos), si un bateador se retira debido
             a una lesión o cualquier otro motivo antes de que se determine un resultado, todas las apuestas realizadas antes de la
             retirada se declaran nulas, las apuestas recibidas después de la primera bola de la asociación se conservan. Un resultado
@@ -934,174 +912,148 @@ export const sportsData:Array<ISportsData> = [
       title: 'Golf',
       img: 'assets/logo_Deportes/logo_Golf_Cut.jpg',
       content: `1) Todas las apuestas se declararán válidas siempre que el torneo, o la ronda en cuestión a la que haga referencia
-            la apuesta, se jueguen en la misma temporada y en los 3 meses siguientes a la úlitma fecha prevista (según el
-            horario local del campo), tal y como lo indique la autoridad competente, independientemente de los
-            aplazamientos que puedan producirse, a menos que se haya llegado a otro acuerdo.<br><br>
-            2) Todas las apuestas referentes a los resultados del torneo, no solo Ganador, Posición, Cada modo, Ganador sin
-            X, Apuestas de grupo, Nacionalidad ganadora, Posición final individual, etc. se declararán válidas siempre que el
-            número mínimo de hoyos, según la oferta, y según dicte la autoridad competente (por ejemplo, 36 hoyos para
-            eventos del European Tour y 54 hoyos para eventos organizados por la PGA Tour), se hayan disputado por los
-            jugadores en cuestión y la autoridad competente haya emitido un resultado oficial. Si el formato de un torneo
-            cambia para consistir en menos rondas/hoyos de los programados originalmente, todas las apuestas aceptadas en
-            dichas ofertas tras el último giro de la última ronda completada será nulas.<br><br>
-            3) Las ofertas de apuesta que ya se hayan decidido se declararán apuestas válidas aunque no se hayan jugado 36
-            hoyos o la autoridad competente no haya publicado el resultado oficial.<br><br>
-            4) Los resultados de los play-offs aprobados oficialmente se tendrán en cuenta de cara a la determinación de las
-            ofertas de apuesta del torneo. A menos que se establezca lo contrario, las ofertas relacionadas con la actuación
-            dentro de una ronda u hoyo específico no tendrán en cuenta las actuaciones de los Playoffs.<br><br>
-            5) Las apuestas realizadas a jugadores que comiencen el torneo pero que se retiren voluntariamente o sean
-            descalificados se establecerán como apuestas perdedoras, a menos que el resultado de la oferta a la que haga
-            referencia la apuesta ya se haya establecido.<br><br>
+            la apuesta, se jueguen en la misma temporada y en los 3 meses siguientes a la última fecha prevista (según el horario
+            local del campo), tal y como lo indique el órgano competente, independientemente de los aplazamientos que puedan producirse,
+            a menos que se haya llegado a otro acuerdo.<br><br>
+            2) Todas las apuestas referentes a los resultados del torneo, no solo Ganador, Posición, Cada modo, Ganador sin X, Apuestas
+            de grupo, Nacionalidad ganadora, Posición final individual, etc. se declararán válidas siempre que el número mínimo de hoyos,
+            según la oferta, y según dicte el órgano competente (por ejemplo, 36 hoyos para eventos del European Tour y 54 hoyos para
+            eventos organizados por la PGA Tour), se hayan disputado por los jugadores en cuestión y el órgano competente haya emitido
+            un resultado oficial. Si el formato de un torneo cambia para consistir en menos rondas/hoyos de los programados originalmente,
+            todas las apuestas aceptadas en dichas ofertas tras el último giro de la última ronda completada será nulas.<br><br>
+            3) Las ofertas de apuesta que ya se hayan decidido se declararán apuestas válidas aunque no se hayan jugado 36 hoyos o el
+            órgano competente no haya publicado el resultado oficial.<br><br>
+            4) Los resultados de los play-offs aprobados oficialmente se tendrán en cuenta de cara a la determinación de las ofertas
+            de apuesta del torneo. A menos que se establezca lo contrario, las ofertas relacionadas con la actuación dentro de una ronda
+            u hoyo específico no tendrán en cuenta las actuaciones de los Playoffs. <br><br>
+            5) Las apuestas realizadas a jugadores que comiencen el torneo pero que se retiren voluntariamente o sean descalificados
+            se establecerán como apuestas perdedoras, a menos que el resultado de la oferta a la que haga referencia la apuesta ya se
+            haya establecido.<br><br>
             6) Todas las apuestas cursadas con participantes que no compitan se reembolsarán.<br><br>
-            7) En las apuestas a ganador que incluyan una selección limitada de participantes, tales como Nacionalidad
-            ganadora, Lanzador de seis, Apuestas de grupo, etc., [el Operador] se reserva el derecho a aplicar la Regla 4 de
-            Tattersalls a cualquiera que no comience el partido. Si los jugadores mencionados en las apuestas "no se
-            clasifican", el jugador con la mejor posición en ese momento de realizar la selección será considerado el
-            ganador. Se aplicarán las reglas del empate a excepción de los casos en los que un play-off haya determinado
-            una mejor posición finalista, donde sea aplicable.<br><br>
-            8) Todas las ofertas de apuesta a "Uno contra uno" exigen que todos los participantes inicien el evento o la ronda
-            a los que haga referencia la apuesta.<br><br>
-            9) En las apuestas a "Uno contra uno" que solo incluyen dos jugadores, las apuestas se reembolsarán si ambos
-            participantes comparten la misma posición finalista y no se ofrece ninguna opción de empate. En las apuestas a
-            "Uno contra uno" con tres jugadores, si dos o más participantes comparten la misma posición finalista, las
-            apuestas se dividirán según (Section B, Para 5.19).<br><br>
-            10) El establecimiento de ofertas de apuesta a "Uno contra uno" que hacen referencia a los resultados de dos o
-            más jugadores (por ejemplo, Mejor posición finalista en el torneo) se basará en la mejor posición finalista o en la
-            puntuación más baja (según corresponda) que se consigan en el evento o la ronda en concreto a los que
-            pertenezca la apuesta.<br><br>
-            11) Las referencias a Pasar/No pasar el "corte" requieren un corte/una exclusión oficial por parte de los
-            organizadores para que las apuestas sean válidas. En el caso de los torneos en los que se elimina a los jugadores
-            en más de una fase, el establecimiento de las apuestas se basará en si el jugador se ha clasificado o no después
-            del primer "corte".<br><br>
+            7) En las apuestas a ganador que incluyan una selección limitada de participantes, tales como Nacionalidad ganadora,
+            Lanzador de seis, Apuestas de grupo, etc., [the Operator] se reserva el derecho a aplicar la Regla 4 de Tattersalls a
+            cualquiera que no comience el partido. Si los jugadores mencionados en las apuestas "no se clasifican", el jugador con la
+            mejor posición en ese momento de realizar la selección será considerado el ganador. Se aplicarán las reglas del empate
+            a excepción de los casos en los que un play-off haya determinado una mejor posición finalista, donde sea aplicable.<br><br>
+            8) Todas las ofertas de apuesta a "Uno contra uno" exigen que todos los participantes inicien el evento o la ronda a
+            los que haga referencia la apuesta.<br><br>
+            9) En las apuestas a "Uno contra uno" que solo incluyen dos jugadores, las apuestas se anularán si ambos participantes
+            comparten la misma posición finalista y no se ofrece ninguna opción de empate. En las apuestas a "Uno contra uno" con
+            tres jugadores, si dos o más participantes comparten la misma posición finalista, las apuestas se dividirán según &lt;Section
+            B, Para 5.19&gt;.<br><br>
+            10) El establecimiento de ofertas de apuesta a "Uno contra uno" que hacen referencia a los resultados de dos o más jugadores
+            (por ejemplo, Mejor posición finalista en el torneo) se basará en la mejor posición finalista o en la puntuación más baja
+            (según corresponda) que se consigan en el evento o la ronda en concreto a los que pertenezca la apuesta.<br><br>
+            11) Las referencias a Pasar/No pasar el "corte" requieren un corte/una exclusión oficial por parte de los organizadores para
+            que las apuestas sean válidas. En el caso de los torneos en los que se elimina a los jugadores en más de una fase, el
+            establecimiento de las apuestas se basará en si el jugador se ha clasificado o no después del primer "corte".<br><br>
             12) Las descalificaciones/retiradas de jugadores con anterioridad al corte provocarán que se considere que dichos
             jugadores no han pasado el "corte". Las descalificaciones/retiradas posteriores al "corte" no se tendrán en cuenta
             de cara al establecimiento original de las apuestas a "Pasará el corte".<br><br>
-            13) En las apuestas a "Uno contra uno" basadas en la mejor posición finalista del torneo, en el caso de que un
-            jugador no pase el corte, el otro jugador será declarado ganador. Si ninguno de los participantes pasa el "corte",
-            el jugador con la menor puntuación en el "corte" será declarado ganador. Si ninguno de los jugadores pasa el
-            "corte" con la misma puntuación, se anulará la apuesta. Los jugadores que sean descalificados después del
-            "corte" habrán derrotado a los jugadores que no hayan pasado el "corte".<br><br>
-            14) Las referencias a "Trofeos" se basarán en los torneos de dicha temporada en concreto a los que el PGA
-            atribuya dicha definición, independientemente de los cambios que se produzcan en el campo de juego, la fecha,
-            etc.<br><br>
-            15) Si se detiene el encuentro tras comenzar una ronda y la asociación que lo rige decide cancelar todas las
-            acciones relacionadas con esa ronda y comenzar de nuevo o cancelar dicha ronda, todas las apuestas realizadas
-            tras el inicio de esa ronda sobre los mercados del Desenlace del torneo, Líder tras la ronda y Se clasifica/No se
-            clasifica serán nulas.<br><br>
-            16) Las apuestas que se refieren a un participante específico consiguiendo una posición predeterminada (por
-            ejemplo: Los 5/10/20/40 primeros) durante un torneo, la selección de torneos o cualquier clasificación en
-            particular serán clasificadas según las reglas de desempate "Dead Heat" si el participante empata en esa posición
-            en particular.<br><br>
-            17) Las ofertas relacionadas con un participante ocupando una posición en particular en el marcador en un
-            momento específico (por ejemplo: Líder al concluir la ronda X) serán establecidas con el resultado al final de la
-            ronda/periodo de tiempo especificado. Las reglas del empate Dead Heat se aplican en los empates de posición.<br>
-            18) En torneos donde se usa la "puntuación Stable modificada", las apuestas se establecen en base a los puntos
-            conseguidos y no según los intentos realizados. Los jugadores enumerados deben completar como mínimo 1
-            hoyo para que las apuestas sean válidas, de lo contrario serán anuladas.<br><br>
+            13) En las apuestas a "Uno contra uno" basadas en la mejor posición finalista del torneo, en el caso de que un jugador
+            no pase el corte, el otro jugador será declarado ganador. Si ninguno de los participantes pasa el "corte", el jugador
+            con la menor puntuación en el "corte" será declarado ganador. Si ninguno de los jugadores pasa el "corte" con la misma
+            puntuación, se anulará la apuesta. Los jugadores que sean descalificados después del "corte" habrán derrotado a los
+            jugadores que no hayan pasado el "corte".<br><br>
+            14) Las referencias a "Trofeos" se basarán en los torneos de dicha temporada en concreto a los que el PGA atribuya dicha
+            definición, independientemente de los cambios que se produzcan en el campo de juego, la fecha, etc.<br><br>
+            15) Si se detiene el encuentro tras comenzar una ronda y la asociación que lo rige decide cancelar todas las acciones
+            relacionadas con esa ronda y comenzar de nuevo o cancelar dicha ronda, todas las apuestas realizadas tras el inicio de
+            esa ronda sobre los mercados del Desenlace del torneo, Líder tras la ronda y Se clasifica/No se clasifica serán nulas.<br><br>
+            16) Las apuestas que se refieren a un participante específico consiguiendo una posición predeterminada (por ejemplo:
+            Los 5/10/20/40 primeros) durante un torneo, la selección de torneos o cualquier clasificación en particular serán
+            clasificadas según las reglas de desempate "Dead Heat" si el participante empata en esa posición en particular.<br><br>
+            17) Las ofertas relacionadas con un participante ocupando una posición en particular en el marcador en un momento
+            específico (por ejemplo: Líder al concluir la ronda X) serán establecidas con el resultado al final de la ronda/periodo
+            de tiempo especificado. Las reglas del empate Dead Heat se aplican en los empates de posición.<br><br>
+            18) En torneos donde se usa la "puntuación Stable modificada", las apuestas se establecen en base a los puntos conseguidos
+            y no según los intentos realizados. Los jugadores enumerados deben completar como mínimo 1 hoyo para que las apuestas sean
+            válidas, de lo contrario serán anuladas.<br><br>
             19) La resolución de las ofertas de las llamadas "Apuestas de acción" y similares, incluyendo sin limitarse a los
-            "Fairways/Greens en zonas de Regulación/Bunkers/Agua" se establece en el punto exacto donde la bola se haya
-            detenido. Las apuestas se establecen según la página web oficial del Tour/Evento relacionado y si no se
-            encuentra información de dicha apuesta allí se usarán las imágenes televisivas para determinar el resultado. La
-            siguiente descripción y reglas de ajuste se proporcionan para las ofertas de "Apuestas de acción":<br><br>
+            "Fairways/Greens en zonas de Regulación/Bunkers/Agua" se establece en el punto exacto donde la bola se haya detenido.
+            Las apuestas se establecen según la página web oficial del Tour/Evento relacionado y si no se encuentra información de
+            dicha apuesta allí se usarán las imágenes televisivas para determinar el resultado. La siguiente descripción y reglas de
+            ajuste se proporcionan para las ofertas de "Apuestas de acción":<br><br>
             <ul>
-            <li>
-            Fairway en regla - La apuesta se refiere al disparo con el tee en un hoyo de Par 4 o Par 5 establecido como
-            detenido en la zona de hierba conocida como “fairway”.
-            </li>
-            <br>
-            <li>
-            Green en regla - La apuesta se refiere al acercamiento del jugador establecido como detenido en la zona de
-            hierba conocida como "green" en el número de golpes establecido, que se entiende de la siguiente manera:<br><br>
-            <ul>
-            Número de regulación de golpes para hoyos de Par 3: 1 Golpe<br>
+            <li>Fairway en regla – La apuesta se refiere al disparo con el tee en un hoyo de Par 4 o Par 5 establecido como detenido
+            en la zona de hierba conocida como "fairway".</li>
+            <li>Green en regla – La apuesta se refiere al acercamiento del jugador establecido como detenido en la zona de hierba
+            conocida como "green" en el número de golpes establecido, que se entiende de la siguiente manera:<br><br>
+            <p class="parrafo-sangria">Número de regulación de golpes para hoyos de Par 3: 1 golpe<br>
             Número de regulación de golpes para hoyos de Par 4: 2 golpes<br>
-            Número de regulación de golpes para hoyos de Par 5: 3 golpes
-            </ul>
-            </li>
-            <br>
-            <li>
-            Agua en el hoyo - La apuesta se refiere al tiro del jugador establecido como detenido dentro de una zona de
-            Agua o tras la línea de límite roja de una zona de Agua y por lo tanto dentro de la zona.
-            </li>
-            <br>
-            <li>
-            Bunker en el hoyo - La apuesta se refiere al tiro del jugador establecido como detenido dentro de una
-            Búnker de Arena. Si el jugador precisa entrar en el Búnker de Arena para jugar un golpe que caiga fuera del
-            Búnker de Arena, esto NO se considerará como detenido en un Búnker de Arena.
-            </li>
-            <br>
-            <li>
-            Bandera más cercana en regla - La apuesta se refiere al jugador que consigue acercar su bola más a la
-            bandera con el tiro de regulación. La bola debe descansar sobre el green para ser válida. Si ambos jugadores
-            no logran alcanzar el Green en Regla, las apuestas se anularán.<br><br>
-            <ul>
-            Número de regulación de golpes para hoyos de Par 3: 1 Golpe<br>
+            Número de regulación de golpes para hoyos de Par 5: 3 golpes</p>
+            </li><br>
+            <li>Agua en el hoyo – La apuesta se refiere al tiro del jugador establecido como detenido dentro de una zona de Agua o
+            tras la línea de límite roja de una zona de Agua y por lo tanto dentro de la zona.</li>
+            <li>Bunker en el hoyo – La apuesta se refiere al tiro del jugador establecido como detenido dentro de una Búnker de Arena.
+            Si el jugador precisa entrar en el Búnker de Arena para jugar un golpe que caiga fuera del Búnker de Arena, esto NO se
+            considerará como detenido en un Búnker de Arena.</li>
+            <li>Bandera más cercana en regla – La apuesta se refiere al jugador que consigue acercar su bola más a la bandera con el tiro
+            de regulación. La bola debe descansar sobre el green para ser válida. Si ambos jugadores no logran alcanzar el Green en Regla,
+            las apuestas se anularán.<br><br>
+            <p class="parrafo-sangria">Número de regulación de golpes para hoyos de Par 3: 1 golpe<br>
             Número de regulación de golpes para hoyos de Par 4: 2 golpes<br>
-            Número de regulación de golpes para hoyos de Par 5: 3 golpes
-            </ul>
+            Número de regulación de golpes para hoyos de Par 5: 3 golpes</p>
             </li>
-            <br>
             </ul>
-            20) Las reglas de "Dead Heat" se aplican a las ofertas "Ganador sin X/Jugadores mencionados" si 2
-            participantes o más comparten las posiciones aplicables. Las apuestas se anulan si el jugador o jugadores
-            relacionados no participan en la competición.<br><br>
-            21) Para las apuestas de "Margen ganador" se deben jugar como mínimo 36 hoyos para que resulten válidas.<br><br>
-            22) En las ofertas de "Predicción directa", los participantes seleccionados deben concluir el torneo en 1ª y 2ª
-            posición para ser enumerados. Las reglas de Dead Heat se aplican en caso de empates. Ambos jugadores
-            enumerados deben usar el tee una vez más tras la aceptación de apuestas para que sean válidas.<br><br>
-            23) Las apuestas a "Puntuación ganadora" requieren que se completen todos los hoyos programados en el
-            torneo. Si se reduce el número de hoyos se anularán las apuestas.<br><br>
-            24) Para el "Hoyo en uno durante el torneo" se deben jugar como mínimo 36 hoyos del torneo para que las
-            apuestas sean válidas, aunque si se completa con anterioridad también se considerará como válida. Para el
-            "Hoyo en uno durante la ronda X" se debe jugar la ronda por todos los jugadores para que las apuestas sean
-            válidas, aunque si se completa con anterioridad también se considerará como válida.<br><br>
-            25) Las apuestas relacionadas con un jugador específico como "Ganador Siempre en cabeza" requieren que la
-            persona en cuestión lidere el marcador (incluyendo los empates si los hay) al terminar cada una de las
-            rondas programadas del torneo. Si se reducen los hoyos/rondas programados se anularán las apuestas.<br><br>
-            26) Las apuestas "Ganador al Birdie/Par/Bogey al hoyo 72" se refieren a la actuación del eventual ganador del
-            torneo en el hoyo 18 de su Ronda 4. Las apuestas se anulan si se reducen los hoyos/rondas del torneo. En
-            situaciones donde el juego comienza al estilo "Shotgun Start" en la ronda 4, las apuestas se anulan.<br><br>
-            27) Las apuestas "Ganador juega en la agrupación de la ronda final" se refieren a si el eventual ganador del
-            torneo surgirá de la bola 2 o bola 3 que están programadas para el último tee siguiendo los horarios de tee
-            establecidos por la organización oficial`,
+            20)	Las reglas de "Dead Heat" se aplican a las ofertas "Ganador sin X/Jugadores mencionados" si 2 participantes o más comparten
+            las posiciones aplicables. Las apuestas se anulan si el jugador o jugadores relacionados no participan en la competición.<br><br>
+            21)	Para las apuestas de "Margen ganador" se deben jugar como mínimo 36 hoyos para que resulten válidas.<br><br>
+            22)	En las ofertas de "Predicción directa", los participantes seleccionados deben concluir el torneo en 1ª y 2ª posición para
+            ser enumerados. Las reglas de Dead Heat se aplican en caso de empates. Ambos jugadores enumerados deben usar el tee una vez más
+            tras la aceptación de apuestas para que sean válidas.<br><br>
+            23)	Las apuestas a "Puntuación ganadora" requieren que se completen todos los hoyos programados en el torneo. Si se reduce el
+            número de hoyos se anularán las apuestas.<br><br>
+            24)	Para el "Hoyo en uno durante el torneo" se deben jugar como mínimo 36 hoyos del torneo para que las apuestas sean válidas,
+            aunque si se completa con anterioridad también se considerará como válida. Para el "Hoyo en uno durante la ronda X" se debe jugar
+            la ronda por todos los jugadores para que las apuestas sean válidas, aunque si se completa con anterioridad también se considerará
+            como válida.<br><br>
+            25)	Las apuestas relacionadas con un jugador específico como "Ganador Siempre en cabeza" requieren que la persona en cuestión
+            lidere el marcador (incluyendo los empates si los hay) al terminar cada una de las rondas programadas del torneo. Si se reducen
+            los hoyos/rondas programados se anularán las apuestas.<br><br>
+            26)	Las apuestas "Ganador al Birdie/Par/Bogey al hoyo 72" se refieren a la actuación del eventual ganador del torneo en el hoyo
+            18 de su Ronda 4. Las apuestas se anulan si se reducen los hoyos/rondas del torneo. En situaciones donde el juego comienza al
+            estilo "Shotgun Start" en la ronda 4, las apuestas se anulan.<br><br>
+            27)	Las apuestas "Ganador juega en la agrupación de la ronda final" se refieren a si el eventual ganador del torneo surgirá de la
+            bola 2 o bola 3 que están programadas para el último tee siguiendo los horarios de tee establecidos por la organización oficial.<br><br>
+            28)	Apuestas de temporada: relativas al jugador que gana un tour determinado en un periodo anual concreto. <br><br>
+            <ul>
+            <li>El jugador deberá disputar un mínimo de 10 eventos de dicho tour para que las apuestas tenga validez; de lo contrario, serán
+            consideradas nulas. </li>
+            <li>Únicamente se tendrán en consideración los eventos individuales; los eventos de equipo no contarán. </li>
+            </ul>
+            Terminará entre los 5, 10, 20 primeros en eventos específicos o en TODOS los majors disputados en el periodo anual determinado.
+            En caso de empate, se aplicarán las normas de desempate. `,
 
     },
     {
       id: 10,
       title: 'Voleibol',
         img: 'assets/logo_Deportes/logo_Voleibol_Cut.jpg',
-        content: `1) Todos los puntos conseguidos durante el “Set de oro” no se tendrán en cuenta en el resultado de dicho partido,
-        excepto de las apuestas refiriendo a los progresos en el torneo y los Totales del torneo.<br><br>
-        2) Las apuestas relacionadas con jugadores en partidos/eventos/torneos se establecerán en base al resultado
-        obtenido tras la prórroga, a menos que se indique lo contrario.<br><br>
-        3) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total
-        de puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el
-        curso de un partido (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más puntos), requiere
-        que todos los jugadores individuales sean participantes activos en el partido relacionado para que las apuestas
-        sean válidas.<br><br>
-        4) Las apuestas a “Más/Menos de” y "Handicap" en partidos sin finalizar cuyos resultados ya se hayan
-        establecido antes de la suspensión y/o cualquier reanudación del juego que posiblemente no produzca un
-        resultado diferente a dichas ofertas, se establecerán en función del resultado obtenido hasta la suspensión. Para
-        calcular estas apuestas, se añadirá la cantidad mínima de acontecimientos que se habrían necesitado para que la
-        oferta hubiese finalizado con naturalidad, en función del número de series que se hayan programado para el
-        partido. Si este cálculo da paso a una situación en la que ninguna modificación podría afectar al resultado de la
-        oferta, se establecerá como tal. Consulta los ejemplos de la sección de tenis para obtener referencias.<br><br>
-        5) Todas las apuestas a “Resultado correcto”, “Par/Impar” y que hagan referencia al ganador de un
-        periodo/espacio de tiempo en concreto del partido (ejemplo “¿Qué equipo ganará el 1.er set?” y “Set 2 - Primero
-        en conseguir 15 puntos” exigen que se complete la parte correspondiente del partido.<br><br>
-        6) Todos los tipos de ofertas que no estén especificados anteriormente exigen que finalice al menos un set para
-        que las apuestas sean válidas, a excepción de aquellas ofertas cuyos resultados ya se hayan establecido antes de
-        la suspensión del juego y cualquier reanudación del juego que posiblemente no produzca un resultado diferente.<br><br>
-        7) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de puntos conseguidos
-        por el jugador X durante la World Championship) o comparar actuaciones de 2 jugadores individuales durante
-        un periodo/torneo/temporada en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará
-        más puntos durante la temporada normal), requiere que todos los jugadores individuales sean participantes
-        activos en como mínimo una función más aplicable a la oferta tras aceptar la apuesta para que las apuestas sean
-        válidas. Las apuestas realizadas tras o cualquier novedad que pueda reducir el número de funciones
-        potencialmente sobre un jugador involucrado para que sea apto para la competición (como
-        lesiones/intercambios/novedades de cambios) y por lo tanto afecte las cuotas incluso si solo es teóricamente a
-        favor de cualquier resultado individual sin que esas cuotas se hayan ajustado para reflejar el estado actual de la
-        apuesta, serán declaradas nulas.`
+        content: `1) Todos los puntos conseguidos durante el "Set de oro" no se tendrán en cuenta en el resultado de dicho partido,
+              excepto de las apuestas refiriendo a los progresos en el torneo y los Totales del torneo.<br><br>
+              2) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total
+              de puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el curso
+              de un partido (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más puntos), requiere que todos
+              los jugadores individuales sean participantes activos en el partido relacionado para que las apuestas sean válidas.<br><br>
+              3) Las apuestas a "Más/Menos de" y "Hándicap" en partidos sin finalizar cuyos resultados ya se hayan establecido antes
+              de la suspensión y/o cualquier reanudación del juego que posiblemente no produzca un resultado diferente a dichas ofertas,
+              se establecerán en función del resultado obtenido hasta la suspensión. Para calcular estas apuestas, se añadirá la
+              cantidad mínima de acontecimientos que se habrían necesitado para que la oferta hubiese finalizado con naturalidad,
+              en función del número de series que se hayan programado para el partido. Si este cálculo da paso a una situación en
+              la que ninguna modificación podría afectar al resultado de la oferta, se establecerá como tal. Consulta los ejemplos
+              de la sección de tenis para obtener referencias.<br><br>
+              4) Todas las apuestas a "Resultado correcto", "Par/Impar" y que hagan referencia al ganador de un periodo/espacio de
+              tiempo en concreto del partido (ejemplo "¿Qué equipo ganará el 1.er set?" y "Set 2 – Primero en conseguir 15 puntos"
+              exigen que se complete la parte correspondiente del partido.<br><br>
+              5) Todos los tipos de ofertas que no estén especificados anteriormente exigen que finalice al menos un set para que las
+              apuestas sean válidas, a excepción de aquellas ofertas cuyos resultados ya se hayan establecido antes de la suspensión del
+              juego y cualquier reanudación del juego que posiblemente no produzca un resultado diferente.<br><br>
+              6) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de puntos conseguidos por el
+              jugador X durante la World Championship) o comparar actuaciones de 2 jugadores individuales durante un periodo/torneo/temporada
+              en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más puntos durante la temporada normal),
+              requiere que todos los jugadores individuales sean participantes activos en como mínimo una función más aplicable a la oferta
+              tras aceptar la apuesta para que las apuestas sean válidas.  `
 
     },
     {
@@ -1240,433 +1192,389 @@ export const sportsData:Array<ISportsData> = [
       title: 'Balonmano',
       img: '',
       content: `1) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total
-        de puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el
-        curso de un partido (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más puntos), requiere
-        que todos los jugadores individuales sean participantes activos en el partido relacionado para que las apuestas
-        sean válidas.<br><br>
-        2) Todas las ofertas referentes a Totales del torneo se establecerán en base a las estadísticas oficiales de la
-        autoridad competente. A menos que se indique lo contrario, las cantidades acumulativas de dichas apuestas
-        incluirán prolongaciones (por ejemplo, Prórroga), pero no los Lanzamientos de penalti.<br><br>
-        3) El pago de las apuestas en los jugadores en un partido específico se basará en el resultado después del final de
-        la segunda parte (tiempo reglamentario) a menos que se indique lo contrario.<br><br>
-        4) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de puntos conseguidos
-        por el jugador X durante la World Cup) o comparar actuaciones de 2 jugadores individuales durante un
-        periodo/torneo/temporada en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará
-        más goles durante la temporada normal), requiere que todos los jugadores individuales sean participantes activos
-        en como mínimo una función más aplicable a la oferta tras aceptar la apuesta para que las apuestas sean válidas.
-        Las apuestas realizadas tras o cualquier novedad que pueda reducir el número de funciones potencialmente sobre
-        un jugador involucrado para que sea apto para la competición (como lesiones/intercambios/novedades de
-        cambios) y por lo tanto afecte las cuotas incluso si solo es teóricamente a favor de cualquier resultado individual
-        sin que esas cuotas se hayan ajustado para reflejar el estado actual de la apuesta, serán declaradas nulas.`,
+            de puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el curso de
+            un partido (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más puntos), requiere que todos los
+            jugadores individuales sean participantes activos en el partido relacionado para que las apuestas sean válidas.<br><br>
+            2) Todas las ofertas referentes a Totales del torneo se establecerán en base a las estadísticas oficiales de el órgano
+            competente. A menos que se indique lo contrario, las cantidades acumulativas de dichas apuestas incluirán prolongaciones
+            (por ejemplo, Prórroga), pero no los Lanzamientos de penalti.<br><br>
+            3) El pago de las apuestas en los jugadores en un partido específico se basará en el resultado después del final de la
+            segunda parte (tiempo reglamentario) a menos que se indique lo contrario.<br><br>
+            4) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de puntos conseguidos por el
+            jugador X durante la World Cup) o comparar actuaciones de 2 jugadores individuales durante un periodo/torneo/temporada en
+            particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más goles durante la temporada normal),
+            requiere que todos los jugadores individuales sean participantes activos en como mínimo una función más aplicable a la
+            oferta tras aceptar la apuesta para que las apuestas sean válidas. `,
     },
     {
         id: 18,
         title: 'Trotones',
         img: '',
-        content: `1) Las apuestas a Uno contra uno en las que al menos un caballo finalice la carrera se establecerán en base al
-        resultado oficial declarado que publique la autoridad competente.<br><br>
-        2) Las apuestas a Uno contra uno en las que ninguno de los caballos obtenga resultados oficiales se declararán
-        nulas.<br><br>
-        3) Las apuestas a Uno contra uno en las que ambos caballos registren el mismo tiempo oficial se determinarán
-        según el caballo que llegue antes a la meta según el resultado; si es imposible determinar si un caballo ha llegado
-        antes que los demás en base al resultado, la apuesta se declarará nula.<br><br>
-        4) Un cuerpo a cuerpo o un cuerpo a cuerpo triple será declarado nulo si: <br><br>
-        <ol type="a">
-        <li>
-        Ningún caballo acaba la carrera; y/o
-        </li>
-        <li>
-        Ningún caballo obtiene un premio en metálico.
-        </li>
-        </ol>
-        "Premio en metálico" se entiende como la cantidad monetaria concedida dependiendo de la actuación en dicha<br>
-        carrera. Como criterio de resolución de la apuesta, las cantidades concedidas por cualquier otra razón al margen
-        de la clasificación (por ejemplo, participación/acto de presencia) no se considerará como "premios en metálico".<br><br>
-        5) En el caso de que se produzcan errores de imprenta en la información, por ejemplo, aunque no de manera
-        exclusiva, en los números de los caballos y de las carreras, los nombres de las carreras, los métodos de salida o
-        las distancias, la apuesta se declarará nula siempre que todos los caballos indicados participen en la misma
-        carrera del mismo evento.<br><br>
-        6) Todas las apuestas se refieren a la reunión/carrera. Si la carrera/reunión no se hace/complete en la fecha
-        prevista, todas las apuestas colocadas tras 0:00 CET del día se declarará nulas. Las apuestas colocadas antes 0:00
-        CET del día siguen siendo válidas si la carrera/reunión se queda en el año de referencia.`
+        content: `1) Para los eventos más importantes del calendario de trotones, se ofertarán mercados Ante Post. Para que una
+              apuesta sea considerada Ante Post, se deberá realizar antes de declarar la final. Las apuestas serán "all-in, carrera
+              o no", no siendo nulas las apuestas por no participantes ni se aplicará la Regla 4 de Tattersalls, a no ser que se
+              especifique.<br><br>
+              2) Las apuestas a Uno contra uno en las que al menos un caballo finalice la carrera se establecerán en base al
+              resultado oficial declarado que publique el órgano competente.<br><br>
+              3) Las apuestas a Uno contra uno en las que ninguno de los caballos obtenga resultados oficiales se declararán nulas.<br><br>
+              4) Una apuesta Uno contra Uno en la que ambos caballos registran el mismo tiempo oficial se resolverá según el caballo
+              que se indique que ha acabado por delante del otro; si fuera imposible de determinar si uno u otro caballo acabó por
+              delante según el resultado, la apuesta se anulará.<br><br>
+              5) Un cuerpo a cuerpo o un cuerpo a cuerpo triple será declarado nulo si:
+              <ol type="a">
+              <li>Ningún caballo acaba la carrera; y/o</li>
+              <li>Ningún caballo obtiene un premio en metálico. "Premio en metálico" se entiende como la cantidad monetaria concedida
+              dependiendo de la actuación en dicha carrera. Como criterio de resolución de la apuesta, las cantidades concedidas por
+              cualquier otra razón al margen de la clasificación (por ejemplo, participación/acto de presencia) no se considerará como
+              "premios en metálico".</li>
+              </ol><br><br>
+              6) En el caso de que se produzcan errores de imprenta en la información, por ejemplo, aunque no de manera exclusiva, en
+              los números de los caballos y de las carreras, los nombres de las carreras, los métodos de salida o las distancias, la
+              apuesta se declarará nula siempre que todos los caballos indicados participen en la misma carrera del mismo evento.<br><br>
+              7) Todas las apuestas se refieren a la reunión/carrera. Si la carrera/reunión no se hace/complete en la fecha prevista,
+              todas las apuestas colocadas tras 0:00 CET del día se declarará nulas. Las apuestas colocadas antes 0:00 CET del día siguen
+              siendo válidas si la carrera/reunión se queda en el año de referencia.`
     },
     {
         id: 19,
         title: 'Hockey Sobre Hielo',
         img: '',
-        content: `1) A menos que se indique lo contrario, los mercados se resolverán con los resultados y estadísticas al final de la
-        posible prórroga, tanda de penaltis o cualquier otra prolongación que la autoridad competente autorice.<br><br>
-        2) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total
-        de puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el
-        curso de un partido (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más goles), requiere que
-        todos los jugadores individuales sean participantes activos en el partido relacionado para que las apuestas sean
-        válidas.<br><br>
-        3) El establecimiento de las apuestas por jugadores y mercados de equipos (tales como Goles, Asistencias,
-        Puntos, Minutos de exclusión, Disparos a puerta, etc.) se resolverán atendiendo a las estadísticas oficiales de la
-        autoridad competente. A no ser que se indique lo contrario, la resolución de dichas apuestas incluirá la
-        prolongación (ej. Prórroga) pero no las Tandas de penaltis.<br><br>
-        4) Para el establecimiento de apuestas " Más/Menos de " (Total de goles) en referencia al total de goles marcados
-        en el partido incluyendo cualquier gol marcado en la prórroga y los lanzamientos de penalti, los goles marcados
-        por ambos equipos en cualquier prórroga y en la posible tanda de penaltis se contarán sólo como "1". Los
-        siguientes ejemplos se pueden utilizar para su consideración:<br><br>
-        • Ejemplo 1 - “Más/Menos de “(tiempo regular) el partido se termina con un resultado de 2-2 al final de la
-        tercera parte. El resultado de la apuesta "goles totales" se establecerá en el marcador 2-2 (4 goles en total).<br><br>
-        • Ejemplo 2 - “Más/Menos de” (incl. prórroga y penaltis): El partido se termina con un resultado de 2-2 al final
-        del tercer parte, el Equipo A marca un gol en la prórroga. El resultado de la apuesta " Total de goles " se
-        establecerá en el marcador 3-2 (5 goles en total).<br><br>
-        • Ejemplo 3 - “Más/Menos de“(incl. prórroga y penaltis): El partido se termina con un resultado de 2-2 al final
-        de la tercera parte. Las prórrogas se terminan en 0-0, mientras que en las lanzamientos de penalti, el Equipo A
-        anota un gol y el Equipo B anota 2 goles. El resultado de la apuesta " Total de goles " se establecerá en el
-        marcador 2-3 (5 goles en total).<br><br>
-        5) Todas las ofertas de "partido" de NHL y NCAA solo se considerarán válidas si hay menos de 5 minutos
-        restantes de partido programado en el 3.º cuarto. Se efectuará la excepción de aquellas cuyos resultados se hayan
-        decidido antes de la suspensión y que posiblemente no puedan modificarse independientemente de los eventos
-        futuros, que se establecerán según el resultado decidido.<br><br>
-        6) A menos que se especifique o implique en la oferta, todas las apuestas de "partido" de Hockey sobre hielo se
-        determinan en base al resultado al concluir el tiempo reglamentario (es decir, el fin del 3er periodo).<br><br>
-        7) A menos que se establezca específicamente o sea implícito en las características de la oferta, las decisiones de
-        las apuestas de temporada se basarán en las clasificaciones, definiciones y reglas de resoluciones a seguir según
-        la NHL.com, o la página web oficial de la competición (como sea aplicable).<br><br>
-        8) Las Apuestas de temporada, sin importar que incluyan resultados obtenidos durante los Playoffs o demás, así
-        como las ofertas referidas a equipos en particular o actuaciones de jugador seguirán siendo válidas sin que
-        interfieran los eventuales cambios en los intercambios de jugadores, movimientos del equipo o cambios de
-        nombre en cualquier momento de la temporada.<br><br>
-        9) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de puntos conseguidos
-        por el jugador X durante los Playoffs) o comparar actuaciones de 2 jugadores individuales durante un
-        periodo/torneo/temporada en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará
-        más puntos durante la temporada normal), requiere que todos los jugadores individuales sean participantes
-        activos en como mínimo una función más aplicable a la oferta tras aceptar la apuesta para que las apuestas sean
-        válidas. Las apuestas realizadas tras o cualquier novedad que pueda reducir el número de funciones
-        potencialmente sobre un jugador involucrado para que sea apto para la competición (como
-        lesiones/intercambios/novedades de cambios) y por lo tanto afecte las cuotas incluso si solo es teóricamente a
-        favor de cualquier resultado individual sin que esas cuotas se hayan ajustado para reflejar el estado actual de la
-        apuesta, serán declaradas nulas.<br><br>
-        10) Las apuestas basadas en jugadores y otras estadísticas se solventan según los informes oficiales de los
-        partidos tal y como se publican tras el partido por la asociación organizadora.`
+        content: `1) Los mercados de equipos/encuentros que no hagan referencia a un periodo de tiempo específico (por ejemplo, 1º
+              periodo, tiempo reglamentario, etc.) incluirán también los resultados derivados de una posible prórroga y tanda de
+              penaltis que decidan el resultado. Se considerará que el equipo ganador durante la prórroga/tanda de penaltis ha
+              anotado solo un gol, al margen de goles anotados durante la prolongación. <br><br>
+              2) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total de
+              puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el curso de un
+              partido (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más goles), requiere que todos los jugadores
+              individuales sean participantes activos (pasa tiempo en pisa, aunque no lo mencione el órgano correspondiente, serán
+              resueltas según la alineación inicial) en el partido correspondiente para que las apuestas sean válidas.<br><br>
+              3) El establecimiento de las apuestas por jugadores y mercados de equipos (tales como Goles, Asistencias, Puntos,
+              Minutos de exclusión, Disparos a puerta, etc.) se resolverán atendiendo a las estadísticas oficiales de el órgano
+              competente. A no ser que se indique lo contrario, la resolución de dichas apuestas incluirá la prolongación (ej.
+              Prórroga) pero no las Tandas de penaltis.<br><br>
+              4) Todas las ofertas de "partido" de NHL y NCAA solo se considerarán válidas si hay menos de 5 minutos restantes de
+              partido programado en el 3.º cuarto. Se efectuará la excepción de aquellas cuyos resultados se hayan decidido antes
+              de la suspensión y que posiblemente no puedan modificarse independientemente de los eventos futuros, que se establecerán
+              según el resultado decidido. <br><br>
+              5) A menos que se establezca específicamente o sea implícito en las características de la oferta, las decisiones de las
+              apuestas de temporada se basarán en las clasificaciones, definiciones y reglas de resoluciones a seguir según la página
+              web oficial de la competición (como sea aplicable). <br><br>
+              6) Las Apuestas de temporada, sin importar que incluyan resultados obtenidos durante los Playoffs o demás, así como las
+              ofertas referidas a equipos en particular o actuaciones de jugador seguirán siendo válidas sin que interfieran los eventuales
+              cambios en los intercambios de jugadores, movimientos del equipo o cambios de nombre en cualquier momento de la temporada.<br><br>
+              7) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de puntos conseguidos por el
+              jugador X durante los Playoffs) o comparar actuaciones de 2 jugadores individuales durante un periodo/torneo/temporada en
+              particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más puntos durante la temporada normal),
+              requiere que todos los jugadores individuales sean participantes activos en como mínimo una función más aplicable a la
+              oferta tras aceptar la apuesta para que las apuestas sean válidas.<br><br>
+              8) Las apuestas basadas en jugadores y otras estadísticas se solventan según los informes oficiales de los partidos tal
+              y como se publican tras el partido por el órgano organizador.	`
     },
     {
         id: 20,
         title: 'Deportes de Motor',
         img: '',
-        content: `1) Esta sección está destinada a todos los deportes relacionados con las carreras de motor, tales como: Fórmula
-        Uno, A1 GP, CART, Indy Car, Nascar, carreras en circuitos, automóviles de turismo, DTM, resistencia, rally,
-        rally-cross, motociclismo, superbikes.<br><br>
-        2) Las apuestas se realizarán según la publicación de los tiempos en directo y la clasificación que aparezca en
-        televisión en el momento de las presentaciones en el podio, o al final de la sesión, la carrera o el evento (según
-        corresponda). Si la información necesaria para establecer la oferta falta/no aparece y/o está incompleta, la
-        primera información oficial que aparezca en el sitio oficial se declarará vinculante, independientemente de las
-        promociones, los descensos de categoría, las apelaciones y/o los castigos impuestos tras la finalización de la
-        sesión/carrera a la que la apuesta haga referencia.<br><br>
-        3) Los eventos que se acortan debido a las condiciones meteorológicas u otras situaciones pero que son
-        declarados eventos oficiales por la autoridad competente se establecerán en consecuencia, independientemente
-        de los cambios que dicha autoridad pueda realizar debido a la suspensión de la carrera.<br><br>
-        4) Si un evento o una carrera/sesión/vuelta/eliminatoria vuelven a empezar desde el principio, las apuestas serán
-        válidas y se establecerán según los resultados obtenidos después del nuevo comienzo, a excepción de aquellas
-        apuestas cuyos resultados ya se hayan determinado.<br><br>
-        5) Los pilotos que hayan participado en una sesión de clasificación o en un entrenamiento aprobados
-        oficialmente habrán participado en el evento, independientemente de si participan o no en la carrera.<br><br>
-        6) En las apuestas a "Uno contra uno" todos los participantes indicados deberán participar en la sesión a la que
-        haga referencia la apuesta para que las apuestas sean válidas, independientemente de si un piloto consigue un
-        tiempo oficial.<br><br>
-        7) En las apuestas a "Ganador" o "Posición", no se aplicarán reembolsos si los participantes no participan en la
-        sesión, el evento o el campeonato a los que haga referencia la oferta por algún motivo.<br><br>
-        8) El establecimiento de las ofertas referentes a "Finalización de la carrera" se basará en la normativa oficial de
-        la autoridad competente.<br><br>
-        9) Las apuestas a "Uno contra uno" en las que ningún piloto consiga completar la carrera se determinarán en
-        base al número máximo de vueltas completadas. En el caso de que los participantes no finalicen la carrera y
-        registren el mismo número de vueltas, la apuesta se declarará nula, a excepción de los casos de carreras de rally
-        en las que al menos uno de los participantes debe completar el evento, de lo contrario, todas las apuestas se
-        declararán nulas.<br><br>
-        10) Se tendrán en cuenta las penalizaciones de tiempo que aplique la autoridad competente durante las sesiones
-        de clasificación. Se ignorarán otras subidas o bajadas de puestos en la parilla de salida.<br><br>
-        11) Una carrera se considera iniciada cuando comienza la vuelta de calentamiento (según corresponda), por lo
-        tanto, todos los pilotos que participen en la vuelta de calentamiento habrán iniciado la carrera. En el caso de un
-        participante cuyo inicio se retrase, o que empiece la carrera desde el pit lane, también se considerará que el
-        participante ha participado en la carrera.<br><br>
-        12) El establecimiento de los mercados de temporada tendrá en cuenta la clasificación publicada exactamente
-        después de la finalización de la última carrera de la temporada, incluyendo las decisiones tomadas por la
-        autoridad competente durante la temporada, dado que dicha decisión se publica antes de la última carrera de la
-        temporada. Las decisiones (incluso sobre las apelaciones) tomadas después del final de la última carrera
-        estipulada no se tendrán en cuenta.<br><br>
-        13) Todas las apuestas que hagan referencia a los resultados de los equipos serán válidas independientemente de
-        los cambios que se produzcan en los pilotos.<br><br>
-        14) Las apuestas serán válidas independientemente de los cambios que se produzcan en el calendario/la
-        ubicación/el circuito de la carrera o el evento que tengan lugar el mismo año o la misma temporada,
-        independientemente de los retrasos que se produzcan en el tiempo, el orden del calendario, etc., a excepción de
-        aquellas apuestas realizadas después de las 00:00 CET del lunes de la semana para la que esté programada la
-        carrera o el evento, apuestas que se reembolsarán si la carrera, el evento o la sesión a los que hace referencia la
-        oferta no se celebran como máximo 7 días después de la fecha programada en el momento en el que se realizó la
-        apuesta.<br><br>
-        15) Para que las apuestas referentes a los resultados de los equipos durante la carrera sean válidas, debe indicarse
-        el número estipulado de vehículos de cada equipo que comenzarán la carrera, de lo contrario, se declararán nulas
-        (por ejemplo, en la Fórmula 1, deben comenzar la carrera dos coches de cada equipo).<br><br>
-        16) El establecimiento de las apuestas en referencia a la inclusión del "coche de seguridad" no tiene en cuenta los
-        eventos en los que la carrera real comienza detrás del "coche de seguridad".<br><br>
-        17) El establecimiento de las apuestas en el primer piloto/coche de retirarse de la carrera se basa en la vuelta real
-        en el que el conductor se ha retirado de la carrera. Por lo tanto, si dos o más pilotos se retiran en la misma vuelta,
-        la apuesta se resolverá de conformidad con la (Section B, Para 5, Clausula 14).<br><br>
-        18) Las apuestas relativas al primer/siguiente piloto en retirarse durante una carrera incluirán únicamente los
-        lances ocurridos tras el comienzo oficial de la carrera. Las retiradas/abandonos anteriores al inicio del GP
-        (incluidos aquellos ocurridos durante la vuelta de calentamiento) no se tendrán en cuenta para la resolución de la
-        apuesta.`
+        content: `1) Esta sección está destinada a todos los deportes relacionados con las carreras de motor, tales como: Fórmula Uno,
+              A1 GP, CART, Indy Car, Nascar, carreras en circuitos, automóviles de turismo, DTM, resistencia, rally, rally-cross,
+              motociclismo, superbikes.<br><br>
+              2) Las apuestas se realizarán según la publicación de los tiempos en directo y la clasificación que aparezca en televisión
+              en el momento de las presentaciones en el podio, o al final de la sesión, la carrera o el evento (según corresponda). Si
+              la información necesaria para establecer la oferta falta/no aparece y/o está incompleta, la primera información oficial que
+              aparezca en el sitio oficial se declarará vinculante, independientemente de las promociones, los descensos de categoría,
+              las apelaciones y/o los castigos impuestos tras la finalización de la sesión/carrera a la que la apuesta haga referencia.<br><br>
+              3) Los eventos que se acortan debido a las condiciones meteorológicas u otras situaciones pero que son declarados eventos
+              oficiales por el órgano competente se establecerán en consecuencia, independientemente de los cambios que dicha autoridad
+              pueda realizar debido a la suspensión de la carrera.<br><br>
+              4) Si un evento o una carrera/sesión/vuelta/eliminatoria vuelven a empezar desde el principio, las apuestas serán válidas y
+              se establecerán según los resultados obtenidos después del nuevo comienzo, a excepción de aquellas apuestas cuyos resultados
+              ya se hayan determinado.<br><br>
+              5) Los pilotos que hayan participado en una sesión de clasificación o en un entrenamiento aprobados oficialmente habrán
+              participado en el evento, independientemente de si participan o no en la carrera.<br><br>
+              6) En las apuestas a "Uno contra uno" todos los participantes indicados deberán participar en la sesión a la que haga referencia
+              la apuesta para que las apuestas sean válidas, independientemente de si un piloto consigue un tiempo oficial.<br><br>
+              7) En las apuestas a "Ganador" o "Posición", no se aplicarán reembolsos si los participantes no participan en la sesión, el
+              evento o el campeonato a los que haga referencia la oferta por algún motivo.<br><br>
+              8) El establecimiento de las ofertas referentes a "Finalización de la carrera" se basará en la normativa oficial de el órgano
+              competente.<br><br>
+              9) Las apuestas a "Uno contra uno" en las que ningún piloto consiga completar la carrera se determinarán en base al número
+              máximo de vueltas completadas. En el caso de que los participantes no finalicen la carrera y registren el mismo número de
+              vueltas, la apuesta se declarará nula, a excepción de los casos de carreras de rally en las que al menos uno de los participantes
+              debe completar el evento, de lo contrario, todas las apuestas se declararán nulas.<br><br>
+              10) Se tendrán en cuenta las penalizaciones de tiempo que aplique el órgano competente durante las sesiones de clasificación.
+              Se ignorarán otras subidas o bajadas de puestos en la parilla de salida.<br><br>
+              11) Una carrera se considera iniciada cuando comienza la vuelta de calentamiento (según corresponda), por lo tanto, todos
+              los pilotos que participen en la vuelta de calentamiento habrán iniciado la carrera. En el caso de un participante cuyo inicio
+              se retrase, o que empiece la carrera desde el pit lane, también se considerará que el participante ha participado en la carrera.<br><br>
+              12) El establecimiento de los mercados de temporada tendrá en cuenta la clasificación publicada exactamente después de la
+              finalización de la última carrera de la temporada, incluyendo las decisiones tomadas por el órgano competente durante la
+              temporada, dado que dicha decisión se publica antes de la última carrera de la temporada. Las decisiones (incluso sobre las
+              apelaciones) tomadas después del final de la última carrera estipulada no se tendrán en cuenta.<br><br>
+              13) Todas las apuestas que hagan referencia a los resultados de los equipos serán válidas independientemente de los cambios
+              que se produzcan en los pilotos.<br><br>
+              14) Las apuestas serán válidas independientemente de los cambios que se produzcan en el calendario/la ubicación/el circuito
+              de la carrera o el evento que tengan lugar el mismo año o la misma temporada, independientemente de los retrasos que se produzcan
+              en el tiempo, el orden del calendario, etc., a excepción de aquellas apuestas realizadas después de las 00:00 CET del lunes de
+              la semana para la que esté programada la carrera o el evento, apuestas que se reembolsarán si la carrera, el evento o la sesión
+              a los que hace referencia la oferta no se celebran como máximo 7 días después de la fecha programada en el momento en el que se
+              realizó la apuesta.<br><br>
+              15) Para que las apuestas referentes a los resultados de los equipos durante la carrera sean válidas, debe indicarse el número
+              estipulado de vehículos de cada equipo que comenzarán la carrera, de lo contrario, se declararán nulas (por ejemplo, en la
+              Fórmula 1, deben comenzar la carrera dos coches de cada equipo).<br><br>
+              16) El establecimiento de las apuestas en referencia a la inclusión del "coche de seguridad" no tiene en cuenta los eventos
+              en los que la carrera real comienza detrás del "coche de seguridad".<br><br>
+              17) El establecimiento de las apuestas en el primer piloto/coche de retirarse de la carrera se basa en la vuelta real en el
+              que el conductor se ha retirado de la carrera. Por lo tanto, si dos o más pilotos se retiran en la misma vuelta, la apuesta
+              se resolverá de conformidad con la &lt;Section B, Para 5, Clause 14&gt;.<br><br>
+              18) Las apuestas relativas al primer/siguiente piloto en retirarse durante una carrera incluirán únicamente los lances ocurridos
+              tras el comienzo oficial de la carrera. Las retiradas/abandonos anteriores al inicio del GP (incluidos aquellos ocurridos
+              durante la vuelta de calentamiento) no se tendrán en cuenta para la resolución de la apuesta.`
     },
     {
         id: 21,
         title: 'Netball',
         img:'',
-        content: `1) A menos que se indique lo contrario, las apuestas se determinarán en base al resultado obtenido una vez
-        transcurrida la prórroga.<br><br>
-        2) Las ofertas “Apuestas de margen” y “Primer tiempo/Final del partido” se establecen según el resultado
-        obtenido al final de los 80 minutos de juego.<br><br>
-        3) Los partidos deben completarse para que las apuestas sean válidas, a excepción de aquellas ofertas cuyos
-        resultados se hayan decidido antes de la suspensión y que posiblemente no puedan modificarse
-        independientemente de los eventos futuros, que se establecerán según el resultado decidido.<br><br>
-        4) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total
-        de puntos conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el
-        curso de un partido (por ejemplo: Cuál de entre el jugador X y el jugador Y anotará más puntos), requieren que
-        todos los involucrados jueguen una parte activa avanzada aplicable al partido para que las apuestas sean válidas.<br><br>
-        5) Las ofertas relacionadas con la actuación del jugador individual durante un periodo de tiempo en particular
-        (por ejemplo: El total de puntos conseguidos por el jugador X durante la temporada normal) o comparar
-        actuaciones de 2 jugadores individuales durante el curso de la temporada, (por ejemplo: Qué jugador entre el
-        jugador X y el jugador Y anotará más goles durante la temporada), requiere que todos los jugadores individuales
-        sean participantes activos en como mínimo un partido más aplicable a la oferta tras aceptar la apuesta para que
-        las apuestas sean válidas.`
+        content: `1) A menos que se indique lo contrario, las apuestas se determinarán en base al resultado obtenido una vez transcurrida
+              la prórroga.<br><br>
+              2) Las ofertas "Apuestas de margen" y "Primer tiempo/Final del partido" se establecen según el resultado obtenido al final
+              de los 80 minutos de juego.<br><br>
+              3) Los partidos deben completarse para que las apuestas sean válidas, a excepción de aquellas ofertas cuyos resultados se
+              hayan decidido antes de la suspensión y que posiblemente no puedan modificarse independientemente de los eventos futuros,
+              que se establecerán según el resultado decidido.<br><br>
+              4) Las ofertas relacionadas con la actuación del jugador individual durante un partico único (por ejemplo: Total de puntos
+              conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores individuales durante el curso de un partido (por
+              ejemplo: Cuál de entre el jugador X y el jugador Y anotará más puntos), requieren que todos los involucrados participen en
+              al menos una jugada del encuentro tras la aceptación de la apuesta para que esta sea válida.<br><br>
+              5) Las ofertas relacionadas con la actuación del jugador individual durante un periodo de tiempo en particular (por ejemplo:
+              El total de puntos conseguidos por el jugador X durante la temporada normal) o comparar actuaciones de 2 jugadores individuales
+              durante el curso de la temporada, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más goles durante la
+              temporada), requiere que todos los jugadores individuales sean participantes activos en como mínimo un partido más aplicable
+              a la oferta tras aceptar la apuesta para que las apuestas sean válidas.`
     },
     {
         id: 22,
         title: 'Pesäpallo (Béisbol Finlandés)',
         img:'',
-        content: `1) Todas las apuestas a Pesäpallo se determinarán en función del resultado obtenido después de las dos primeras
-        rondas (entradas). A menos que se indique lo contrario, los tantos anotados en los periodos de prolongación (por
-        ejemplo, Supervuoropari) no se tendrán en cuenta.`
+        content: `1) Todas las apuestas a Pesäpallo se determinarán en función del resultado obtenido después de las dos primeras rondas
+              (entradas). A menos que se indique lo contrario, los tantos anotados en los periodos de prolongación (por ejemplo, Supervuoropari)
+              no se tendrán en cuenta.`
     },
     {
         id: 23,
         title: 'Liga de Rugby',
         img:'',
-        content: `1) A menos que se indique lo contrario, las apuestas de la Liga de rugby se determinarán en base al resultado
-        obtenido una vez transcurrida la prórroga o la Regla del punto de oro, según corresponda.<br><br>
-        2) Las ofertas “Apuestas de margen” y “Primer tiempo/Final del partido” se establecen según el resultado
-        obtenido al final de los 80 minutos de juego.<br><br>
-        3) Es posible que determinadas competiciones/eventos cuenten con ofertas relativas a un periodo/partido
-        específico que puedan finalizar en empate, ya sea al final de los 80 minutos de juego normales o incluso una vez
-        transcurrida la prórroga. En dicho caso, las apuestas se establecen según la regla denominada regla del “empate”,
-        según la cual el pago se calculará una vez divididas las cuotas y multiplicadas por la apuesta,
-        independientemente de si el pago neto es inferior a la apuesta del titular de la cuenta. Si esta condición está
-        vigente se indicará junto con la oferta de apuesta.<br><br>
-        4) Anotadores de ensayos (Primero/Último/Cualquier momento/Equipo): todas las apuestas incluyen una posible
-        prórroga. Las apuestas a jugadores en el 17.º día de partido son válidas independientemente de la participación (o
-        no participación) del jugador en el partido. Las apuestas a jugadores que no estén incluidos en el 17.º día de
-        partido serán reembolsadas.<br><br>
-        5) A menos que se especifique lo contrario, las ofertas relacionadas con la actuación del jugador individual
-        durante un partico único (por ejemplo: Total de Tries conseguidos por el jugador X) o comparación de
-        actuaciones de 2 jugadores individuales durante el curso de un partido (por ejemplo: Cuál de entre el jugador X y
-        el jugador Y anotará más Tries), requieren que todos los involucrados jueguen desde el inicio del partido
-        correspondiente para que las apuestas sean válidas.<br><br>
-        6) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de Tries conseguidos
-        por el jugador X durante la World Cup) o comparar actuaciones de 2 jugadores individuales durante un
-        periodo/torneo/temporada en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará
-        más tries durante la temporada normal), requiere que todos los jugadores individuales sean participantes activos
-        en como mínimo una función más aplicable a la oferta tras aceptar la apuesta para que las apuestas sean válidas.
-        Las apuestas realizadas tras o cualquier novedad que pueda reducir el número de funciones potencialmente sobre
-        un jugador involucrado para que sea apto para la competición (como lesiones/intercambios/novedades de
-        cambios) y por lo tanto afecte las cuotas incluso si solo es teóricamente a favor de cualquier resultado individual
-        sin que esas cuotas se hayan ajustado para reflejar el estado actual de la apuesta, serán declaradas nulas. Las
-        apuestas similares se establecerán en base al resultado obtenido tras la prórroga, a menos que se indique lo
-        contrario.<br><br>
-        7) Todas las apuestas son válidas, independientemente de los cambios realizados con respecto al lugar de
-        celebración.`
+        content: `1) A menos que se indique lo contrario, las apuestas de la Liga de rugby se determinarán en base al resultado obtenido
+              una vez transcurrida la prórroga o la Regla del punto de oro, según corresponda.<br><br>
+              2) Las ofertas "Apuestas de margen" y "Primer tiempo/Final del partido" se establecen según el resultado obtenido al final
+              de los 80 minutos de juego.<br><br>
+              3) Es posible que determinadas competiciones/eventos cuenten con ofertas relativas a un periodo/partido específico que
+              puedan finalizar en empate, ya sea al final de los 80 minutos de juego normales o incluso una vez transcurrida la prórroga.
+              En dicho caso, las apuestas se establecen según la regla denominada regla del "empate", según la cual el pago se calculará
+              una vez divididas las cuotas y multiplicadas por la apuesta, independientemente de si el pago neto es inferior a la apuesta
+              del titular de la cuenta.<br><br>
+              4) Anotadores de ensayos (Primero/Último/Cualquier momento/Equipo): todas las apuestas incluyen una posible prórroga. Las
+              apuestas a jugadores en el 17.º día de partido son válidas independientemente de la participación (o no participación)
+              del jugador en el partido. Las apuestas a jugadores que no estén incluidos en el 17.º día de partido serán reembolsadas.<br><br>
+              5) A menos que se especifique lo contrario, las ofertas relacionadas con la actuación del jugador individual durante un
+              partico único (por ejemplo: Total de Tries conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores
+              individuales durante el curso de un partido (por ejemplo: Cuál de entre el jugador X y el jugador Y anotará más Tries),
+              requieren que todos los involucrados jueguen desde el inicio del partido correspondiente para que las apuestas sean válidas.<br><br>
+              6) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de Tries conseguidos por el
+              jugador X durante la World Cup) o comparar actuaciones de 2 jugadores individuales durante un periodo/torneo/temporada
+              en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más tries durante la temporada normal),
+              requiere que todos los jugadores individuales sean participantes activos en como mínimo una función más aplicable a la
+              oferta tras aceptar la apuesta para que las apuestas sean válidas. Las apuestas realizadas tras o cualquier novedad que
+              pueda reducir el número de funciones potencialmente sobre un jugador involucrado para que sea apto para la competición
+              (como lesiones/intercambios/novedades de cambios) y por lo tanto afecte las cuotas incluso si solo es teóricamente a
+              favor de cualquier resultado individual sin que esas cuotas se hayan ajustado para reflejar el estado actual de la apuesta,
+              serán declaradas nulas. Las apuestas similares se establecerán en base al resultado obtenido tras la prórroga, a menos
+              que se indique lo contrario.<br><br>
+              7) Todas las apuestas son válidas, independientemente de los cambios realizados con respecto al lugar de celebración.`
     },
     {
         id: 24,
         title: 'Unión de Rugby',
         img:'',
-        content: `1) A menos que se especifique lo contrario, todas las apuestas relacionadas con el partido, los resultados de los
-        equipos, etc., se establecerán según el resultado obtenido al final de la 2.ª mitad (una vez transcurridos los 80
-        minutos de juego).<br><br>
-        2) Es posible que determinadas competiciones/eventos cuenten con ofertas relativas a un periodo/partido
-        específico que puedan finalizar en empate, ya sea al final de los 80 minutos de juego normales o incluso una vez
-        transcurrida la prórroga. En dicho caso, las apuestas se establecen según la regla denominada regla del “empate”,
-        según la cual el pago se calculará una vez divididas las cuotas y multiplicadas por la apuesta,
-        independientemente de si el pago neto es inferior a la apuesta del titular de la cuenta. Si esta condición está
-        vigente se indicará junto con la oferta de apuesta.<br><br>
-        3) Anotadores de ensayos (Primero/Último/Cualquier momento/Equipo): todas las apuestas incluyen una posible
-        prórroga. Las apuestas a jugadores en el 22.º día de partido son válidas independientemente de la participación (o
-        no participación) del jugador en el partido. Las apuestas a jugadores que no estén incluidos en el 23.º día de
-        partido serán reembolsadas.<br><br>
-        4) A menos que se especifique lo contrario, las ofertas relacionadas con la actuación del jugador individual
-        durante un partico único (por ejemplo: Total de Tries conseguidos por el jugador X) o comparación de
-        actuaciones de 2 jugadores individuales durante el curso de un partido (por ejemplo: Cuál de entre el jugador X y
-        el jugador Y anotará más Tries), requieren que todos los involucrados jueguen desde el inicio del partido
-        correspondiente para que las apuestas sean válidas.<br><br>
-        5) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de Tries conseguidos
-        por el jugador X durante la World Cup) o comparar actuaciones de 2 jugadores individuales durante un
-        periodo/torneo/temporada en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará
-        más tries durante la temporada normal), requiere que todos los jugadores individuales sean participantes activos
-        en como mínimo una función más aplicable a la oferta tras aceptar la apuesta para que las apuestas sean válidas.
-        Las apuestas realizadas tras o cualquier novedad que pueda reducir el número de funciones potencialmente sobre
-        un jugador involucrado para que sea apto para la competición (como lesiones/intercambios/novedades de
-        cambios) y por lo tanto afecte las cuotas incluso si solo es teóricamente a favor de cualquier resultado individual
-        sin que esas cuotas se hayan ajustado para reflejar el estado actual de la apuesta, serán declaradas nulas. Las
-        apuestas similares se establecerán en base al resultado obtenido tras la prórroga, a menos que se indique lo
-        contrario.<br><br>
-        6) Todas las apuestas son válidas, independientemente de los cambios realizados con respecto al lugar de
-        celebración.`
+        content: `1) A menos que se especifique lo contrario, todas las apuestas relacionadas con el partido, los resultados de
+              los equipos, etc., se establecerán según el resultado obtenido al final de la 2.ª mitad (una vez transcurridos los
+              80 minutos de juego).<br><br>
+              2) Es posible que determinadas competiciones/eventos cuenten con ofertas relativas a un periodo/partido específico
+              que puedan finalizar en empate, ya sea al final de los 80 minutos de juego normales o incluso una vez transcurrida
+              la prórroga. En dicho caso, las apuestas se establecen según la regla denominada regla del "empate", según la cual
+              el pago se calculará una vez divididas las cuotas y multiplicadas por la apuesta, independientemente de si el pago
+              neto es inferior a la apuesta del titular de la cuenta.<br><br>
+              3) Anotadores de ensayos (Primero/Último/Cualquier momento/Equipo): todas las apuestas incluyen una posible prórroga.
+              Las apuestas a jugadores en el 22.º día de partido son válidas independientemente de la participación (o no participación)
+              del jugador en el partido. Las apuestas a jugadores que no estén incluidos en el 23.º día de partido serán reembolsadas.<br><br>
+              4) A menos que se especifique lo contrario, las ofertas relacionadas con la actuación del jugador individual durante
+              un partico único (por ejemplo: Total de Tries conseguidos por el jugador X) o comparación de actuaciones de 2 jugadores
+              individuales durante el curso de un partido (por ejemplo: Cuál de entre el jugador X y el jugador Y anotará más Tries),
+              requieren que todos los involucrados jueguen desde el inicio del partido correspondiente para que las apuestas sean
+              válidas.<br><br>
+              5) Las ofertas relacionadas con la actuación del jugador individual (por ejemplo: El total de Tries conseguidos por el
+              jugador X durante la World Cup) o comparar actuaciones de 2 jugadores individuales durante un periodo/torneo/temporada
+              en particular, (por ejemplo: Qué jugador entre el jugador X y el jugador Y anotará más tries durante la temporada normal),
+              requiere que todos los jugadores individuales sean participantes activos en como mínimo una función más aplicable a la
+              oferta tras aceptar la apuesta para que las apuestas sean válidas. Las apuestas similares se resolverán atendiendo al
+              resultado obtenido tras la prórroga, a menos que se indique lo contrario.<br><br>
+              6) Todas las apuestas son válidas, independientemente de los cambios realizados con respecto al lugar de celebración.`
     },
-    {
+    /* {
         id: 25,
-        title: 'Squash',
+        title: 'Lacrosse',
         img:'',
-        content: `1) Se aplican todos los Términos y condiciones del tenis según proceda`
-    },
+        content: `1) Un gol de dos puntos cuenta como dos goles.<br><br>
+        2) "Total de goles" hace referencia a la suma de goles del resultado final.<br><br>
+        3) Para las apuestas por jugadores, "Número total de goles anotados por el jugador" = Puntos – Asistencias.<br><br>
+        4) Sin devolución de las cuotas de victoria.<br><br>
+        5) Se deberán disputar los 60 minutos al completo para la acción.<br><br>
+        6) Se incluirá la prórroga con fines de apuestas si no hay línea de empate.`
+    }, */
     {
         id: 26,
         title: 'Speedway',
         img:'',
-        content: `1) Todas las ofertas se establecerán según el resultado oficial que publique la autoridad competente al final de la
-        última eliminatoria programada. Las promociones, los descensos de categoría, las apelaciones y/o los castigos
-        impuestos tras la finalización del evento al que haga referencia la apuesta no se tendrán en cuenta.<br><br>
-        2) Las apuestas a "1X2" entre dos equipos/pilotos se establecerán según el resultado oficial, independientemente
-        del número de eliminatorias completadas.<br><br>
-        3) Las apuestas a “Más/Menos de” en partidos/eventos sin finalizar cuyos resultados ya se hayan establecido
-        antes de la suspensión y/o cualquier reanudación del juego que posiblemente no produzca un resultado diferente
-        a dichas ofertas, se establecerán en función del resultado obtenido hasta la suspensión. Para calcular estas
-        apuestas, se añadirá la cantidad mínima de acontecimientos que se habrían necesitado para que la oferta hubiese
-        finalizado con naturalidad, en función del número de series que se hayan programado para el partido. Si este
-        cálculo da paso a una situación en la que ninguna modificación podría afectar al resultado de la oferta, se
-        establecerá como tal. Consulta los ejemplos de la sección de tenis para obtener referencias.<br><br>
-        4) Para que las apuestas a “Handicap” sean válidas, deben completarse todas las eliminatorias programadas, a
-        excepción de aquellos eventos cuyos resultados ya se hayan establecido antes de la suspensión y/o cualquier
-        reanudación del juego que posiblemente no produzca un resultado diferente a dichas ofertas, que se establecerán
-        en consecuencia. Consulta los ejemplos de la sección de tenis para obtener referencias.<br><br>
-        5) Todas las apuestas a "Uno contra uno" y “Más/Menos de” que hagan referencia a los resultados de uno o
-        varios pilotos en un evento/una eliminatoria se declararán válidas siempre que todos los pilotos indicados
-        participen al menos en una eliminatoria.<br><br>
-        6) Para que sean válidas, las apuestas referentes a una eliminatoria específica requieren la finalización de dicha
-        eliminatoria y que todos los participantes indicados participen en la misma.`
+        content: `1) Todas las ofertas se establecerán según el resultado oficial que publique el órgano competente al final
+              de la última eliminatoria programada. Las promociones, los descensos de categoría, las apelaciones y/o los castigos
+              impuestos tras la finalización del evento al que haga referencia la apuesta no se tendrán en cuenta.<br><br>
+              2) Las apuestas a "1X2" entre dos equipos/pilotos se establecerán según el resultado oficial, independientemente
+              del número de eliminatorias completadas.<br><br>
+              3) Las apuestas a "Más/Menos de" en partidos/eventos sin finalizar cuyos resultados ya se hayan establecido antes
+              de la suspensión y/o cualquier reanudación del juego que posiblemente no produzca un resultado diferente a dichas
+              ofertas, se establecerán en función del resultado obtenido hasta la suspensión. Para calcular estas apuestas, se
+              añadirá la cantidad mínima de acontecimientos que se habrían necesitado para que la oferta hubiese finalizado con
+              naturalidad, en función del número de series que se hayan programado para el partido. Si este cálculo da paso a una
+              situación en la que ninguna modificación podría afectar al resultado de la oferta, se establecerá como tal. Consulta
+              los ejemplos de la sección de tenis para obtener referencias.<br><br>
+              4) Para que las apuestas a "Hándicap" sean válidas, deben completarse todas las eliminatorias programadas, a excepción
+              de aquellos eventos cuyos resultados ya se hayan establecido antes de la suspensión y/o cualquier reanudación del juego
+              que posiblemente no produzca un resultado diferente a dichas ofertas, que se establecerán en consecuencia. Consulta los
+              ejemplos de la sección de tenis para obtener referencias.<br><br>
+              5) Todas las apuestas a "Uno contra uno" y "Más/Menos de" que hagan referencia a los resultados de uno o varios pilotos
+              en un evento/una eliminatoria se declararán válidas siempre que todos los pilotos indicados participen al menos en una
+              eliminatoria.<br><br>
+              6) Para que sean válidas, las apuestas referentes a una eliminatoria específica requieren la finalización de dicha
+              eliminatoria y que todos los participantes indicados participen en la misma.`
     },
     {
         id: 27,
         title: 'Surf',
         img:'',
         content: `1) Todas las apuestas son válidas, independientemente de los posibles aplazamientos, cambios en el lugar de
-        celebración, etc., siempre que el evento se celebre dentro del periodo de espera oficial declarado por la autoridad
-        oficial competente.<br><br>
-        2) Los enfrentamientos relacionados con los resultados de uno o varios surferos se considerarán válidos siempre
-        que todos los surferos implicados inicien la eliminatoria/evento en cuestión.<br><br>
-        3) Es posible que algunas competiciones/eventos cuenten con ofertas relacionadas con los resultados de los
-        participantes en un evento en el que dos o más surferos sean eliminados en la misma fase. En dicho caso, las
-        apuestas se establecerán según la regla denominada regla del “empate”, según la cual el pago se calculará una
-        vez divididas las cuotas y multiplicadas por la apuesta, independientemente de si el pago neto es inferior a la
-        apuesta del titular de la cuenta. Si esta condición está vigente se indicará junto con la oferta de apuesta.`
+              celebración, etc., siempre que el evento se celebre dentro del periodo de espera oficial declarado por la autoridad
+              oficial competente.<br><br>
+              2) Los enfrentamientos relacionados con los resultados de uno o varios surferos se considerarán válidos siempre que
+              todos los surferos implicados inicien la eliminatoria/evento en cuestión.<br><br>
+              3) Es posible que algunas competiciones/eventos cuenten con ofertas relacionadas con los resultados de los participantes
+              en un evento en el que dos o más surferos sean eliminados en la misma fase. En dicho caso, las apuestas se establecerán
+              según la regla denominada regla del "empate", según la cual el pago se calculará una vez divididas las cuotas y multiplicadas
+              por la apuesta, independientemente de si el pago neto es inferior a la apuesta del titular de la cuenta. Si esta condición
+              está vigente se indicará junto con la oferta de apuesta.`
     },
     {
         id: 28,
         title: 'Natación',
         img:'',
-        content: `1) A menos que se indique lo contrario, todas las apuestas a natación se determinarán en base al resultado
-        obtenido una vez transcurrida la fase final de dicha competición. Si ninguno de los participantes de la lista
-        participa en la fase final, todas las apuestas se declararán nulas, a menos que la autoridad competente siga los
-        procedimientos de empate especificados, en cuyo caso, se considerarán válidas.<br><br>
-        2) Todas las ofertas de apuesta se establecerán según el primer resultado oficial que se presente. Sin embargo,
-        BetPlay tendrá en cuenta y establecerá/volverá a establecer las apuestas en consecuencia una vez producidos los
-        posibles cambios en los resultados oficiales publicados como máximo 24 horas después del evento. Para tener en
-        cuenta dicha posibilidad, la protesta debe atribuirse a incidentes que tengan lugar exclusivamente durante el
-        evento, como por ejemplo una infracción de calle, una salida anticipada en una carrera de relevos, etc. No se
-        tendrán en cuenta los casos de dopaje. Los resultados disponibles transcurridas las 24 horas mencionadas
-        anteriormente se considerarán vinculantes independientemente de protestas posteriores, cambios en el resultado
-        oficial, etc.<br><br>
-        3) Si existen dos o más participantes en diferentes eliminatorias de una competición, se anularán todas las ofertas
-        de apuesta a Uno contra uno entre los mismos, a menos que exista una fase posterior para la que se clasifique al
-        menos uno de ellos.<br><br>
-        4) Los participantes descalificados debido a infracciones en la salida (errores en la salida) habrán participado en
-        el evento.`
+        content: `1) A menos que se indique lo contrario, todas las apuestas a natación se determinarán en base al resultado obtenido
+              una vez transcurrida la fase final de dicha competición. Si ninguno de los participantes de la lista participa en la fase
+              final, todas las apuestas se declararán nulas, a menos que el órgano competente siga los procedimientos de empate
+              especificados, en cuyo caso, se considerarán válidas.<br><br>
+              2) Todas las ofertas de apuesta se establecerán según el primer resultado oficial que se presente. Sin embargo, [the
+              Operator] establecerá/volverá a establecer las apuestas en consecuencia una vez producidos los posibles cambios en los
+              resultados oficiales publicados como máximo 24 horas después del evento. Para tener en cuenta dicha posibilidad, la
+              protesta debe atribuirse a incidentes que tengan lugar exclusivamente durante el evento, como por ejemplo una infracción
+              de calle, una salida anticipada en una carrera de relevos, etc. No se tendrán en cuenta los casos de dopaje. Los resultados
+              disponibles transcurridas las 24 horas mencionadas anteriormente se considerarán vinculantes independientemente de protestas
+              posteriores, cambios en el resultado oficial, etc.<br><br>
+              3) Si existen dos o más participantes en diferentes eliminatorias de una competición, se anularán todas las ofertas de apuesta
+              a Uno contra uno entre los mismos, a menos que exista una fase posterior para la que se clasifique al menos uno de ellos.<br><br>
+              4) Los participantes descalificados debido a infracciones en la salida (errores en la salida) habrán participado en el evento. `
     },
 
-    {
+    /* {
         id: 29,
         title: 'Bádminton',
         img: '',
         content: `1) Se aplican los Términos y condiciones del tenis según proceda.`,
-    },
+    }, */
     {
         id: 30,
         title: 'Deportes de Invierno',
         img: '',
-        content: `1) Esta sección está destinada a los siguientes deportes: Esquí alpino, biatlón, esquí campo a través, estilo libre,
-        combinado nórdico, pista corta, salto de esquí, snowboarding y patinaje de velocidad.<br>
-        2) Los resultados de una competición se declararán válidos si la autoridad competente de dicho deporte declara
-        que la competición es válida en la categoría indicada. Esto mismo se aplica en el caso de los eventos acortados,
-        como los que consisten únicamente en una carrera o un salto en lugar de dos, o de los eventos que cambian el
-        lugar de celebración.<br>
-        3) En los casos de eventos suspendidos/no completados, todas aquellas ofertas cuyos resultados ya se hayan
-        establecido antes de la suspensión del juego y cualquier reanudación del juego que posiblemente no produzca un
-        resultado diferente se considerarán válidas y se establecerán en consecuencia.<br>
-        4) Todas las ofertas se establecerán como nulas si el formato original/indicado de un evento cambia por
-        completo, como por ejemplo el tamaño de la montaña en los saltos de esquí, el estilo en el esquí campo a través,
-        etc.<br>
-        5) BetPlay se reserva el derecho a aplicar la Regla 4 de Tattersalls en caso de que alguien no comience el partido
-        en una apuesta a “Apuestas de grupo” (“El mejor de X”).<br>
-        6) Las ofertas relacionadas con los eventos de deportes de invierno específicas ( por ejemplo, con exclusión de
-        las apuestas en referencia a la clasificación general en los Juegos Olímpicos, competiciones mundiales y
-        continentales ) están disponibles con la suposición explícita de que el especial evento será el próximo evento en
-        el deporte/disciplina específica. Si el evento especificado debe ser movido por cualquier motivo y un
-        acontecimiento muy similar al deporte/disciplina se mantiene en el mismo lugar y que comienza dentro de 72
-        horas, las apuestas serán válidas para el siguiente evento programado en este deporte/disciplina. Por lo tanto, si
-        por ejemplo se han previsto dos razas distintas de un mismo deporte/disciplina para el viernes y el sábado y la
-        competencia se trasladó el viernes a sábado o domingo, las apuestas en la competición el viernes se resolverá de
-        acuerdo con la siguiente carrera programada, en este caso el sábado. En los casos en que un solo evento está
-        programado en el deporte/disciplina y la hora de salida se mueve en menos de 72 horas, las apuestas siguen
-        siendo válidas y se establecerán en consecuencia. Si en cualquier caso se lleva a cabo un evento con las mismas
-        connotaciones en el período de 72 horas después de la hora programada originalmente, las apuestas se
-        establecerán como nulas.<br>
-        7) En el " Uno contra uno " entre dos o tres participantes, al menos uno de los participantes enumeradas debe
-        terminar la carrera/paso/salto final en el que las apuestas se refieren, para que las apuestas sean válidas. Esta
-        disposición no es aplicable para el los eventos de Sprint de Cross-country que incluyen varias fases de
-        eliminación, así como los saltos de esquí. En estos casos, el establecimiento se basará en la clasificación oficial,
-        independientemente de si un participante completa la raza/estadio/salto final.`
+        content: `1) Esta sección está destinada a los siguientes deportes: Esquí alpino, biatlón, esquí campo a través,
+              estilo libre, combinado nórdico, pista corta, salto de esquí, snowboarding y patinaje de velocidad.<br><br>
+              2) Los resultados de una competición se declararán válidos si el órgano competente de dicho deporte declara
+              que la competición es válida en la categoría indicada. Esto mismo se aplica en el caso de los eventos acortados,
+              como los que consisten únicamente en una carrera o un salto en lugar de dos, o de los eventos que cambian el
+              lugar de celebración.<br><br>
+              3) En los casos de eventos suspendidos/no completados, todas aquellas ofertas cuyos resultados ya se hayan
+              establecido antes de la suspensión del juego y cualquier reanudación del juego que posiblemente no produzca
+              un resultado diferente se considerarán válidas y se establecerán en consecuencia.<br><br>
+              4) Todas las ofertas se establecerán como nulas si el formato original/indicado de un evento cambia por completo,
+              como por ejemplo el tamaño de la montaña en los saltos de esquí, el estilo en el esquí campo a través, etc.<br><br>
+              5) [the Operator] se reserva el derecho a aplicar la Regla 4 de Tattersalls en caso de que alguien no comience el
+              partido en una apuesta a "Apuestas de grupo" ("El mejor de X").<br><br>
+              6) Las ofertas relacionadas con los eventos de deportes de invierno específicas (por ejemplo, con exclusión de las
+              apuestas en referencia a la clasificación general en los Juegos Olímpicos, competiciones mundiales y continentales)
+              están disponibles con la suposición explícita de que el especial evento será el próximo evento en el deporte/disciplina
+              específica. Si el evento especificado debe ser movido por cualquier motivo y un acontecimiento muy similar al
+              deporte/disciplina se mantiene en el mismo lugar y que comienza dentro de 72 horas, las apuestas serán válidas para
+              el siguiente evento programado en este deporte/disciplina. Por lo tanto, si por ejemplo se han previsto dos razas
+              distintas de un mismo deporte/disciplina para el viernes y el sábado y la competencia se trasladó el viernes a sábado
+              o domingo, las apuestas en la competición el viernes se resolverá de acuerdo con la siguiente carrera programada,
+              en este caso el sábado. En los casos en que un solo evento está programado en el deporte/disciplina y la hora de
+              salida se mueve en menos de 72 horas, las apuestas siguen siendo válidas y se establecerán en consecuencia. Si en
+              cualquier caso se lleva a cabo un evento con las mismas connotaciones en el período de 72 horas después de la hora
+              programada originalmente, las apuestas se establecerán como nulas.<br><br>
+              7) En el "Uno contra uno" entre dos o tres participantes, al menos uno de los participantes enumerados debe terminar
+              la carrera/paso/salto final en el que las apuestas se refieren, para que las apuestas sean válidas. Esta disposición
+              no es aplicable para los eventos de Sprint de Cross-country que incluyen varias fases de eliminación, así como los
+              saltos de esquí. En estos casos, el establecimiento se basará en la clasificación oficial, independientemente de si
+              un participante completa la raza/estadio/salto final.<br><br>
+              8) Todas las ofertas de apuestas serán resueltas según los primeros resultados oficiales públicos. Sin embargo, [the
+              Operator] tendrá en consideración y resolverá/resolverá de nuevo debidamente atendiendo a cualquier cambio del
+              resultado oficial en las 24 horas siguientes a la disputa del evento. Para poder tener en cuenta estas situaciones,
+              la protesta se deberá únicamente a incidentes que hayan ocurrido durante el evento, tales como sobrepasar una línea,
+              empujones o entrega en falso del testigo en una carrera de relevos, etc. No se tendrán en cuenta casos de doping. Los
+              resultados públicos una vez transcurridas las susodichas 24 horas serán vinculantes al margen de reclamaciones ulteriores,
+              cambios de los resultados oficiales, etc.`
     },
     {
         id: 31,
-        title: 'Otros (apuestas no deportivas-especiales)',
+        title: 'Otros (apuestas no deportivas-especiales-políticas)',
         img: '',
-        content: `1) Las condiciones indicadas en esta sección hacen referencia a todas las ofertas que no estén clasificadas en las
-        diferentes categorías de deportes (por ejemplo, programas de televisión, política, galardones y premios,
-        concursos de belleza, entretenimiento y similares). Cuando corresponda, a menos que se indique lo contrario en
-        esta sección o en la oferta, estas apuestas se establecerán en base a las reglas de BetPlay que aparecen en
-        (Section B, Para 5).<br>
-        2) A menos que se especifique lo contrario a continuación o junto con la oferta de apuesta, todas las apuestas que
-        pertenezcan a esta sección serán válidas hasta que se publique un resultado oficial, independientemente de los
-        retrasos que se produzcan en el anuncio, las rondas de votación adicionales y otros acontecimientos que sean
-        necesarios para anunciar los resultados.<br>
-        3) Todas las ofertas abiertas en las que estén implicados participantes que abandonen/hayan sido expulsados de
-        programas de televisión (independientemente de si se van voluntariamente o lo hacen por decisión del
-        organizador), se declararán como ofertas perdidas. Si el mismo participante vuelve a participar en la misma
-        competición en una fecha posterior, se considerará como un nuevo participante, por lo que las apuestas
-        anteriores se establecerán como apuestas perdedoras.<br>
-        4) Las apuestas referentes a la eliminación de un participante solo serán válidas en el siguiente programa. Los
-        cambios en los métodos de expulsión, la cantidad y/o el grupo de participantes eliminados durante el mismo
-        programa, o cualquier otro factor que apareciera por sorpresa, provocarán la anulación de las apuestas referentes
-        a "Próxima expulsión" o "Próxima eliminación".<br>
-        5) En el caso de que el programa finalice antes de que haya un ganador oficial, las apuestas se establecerán como
-        empate (los mismos puntos) entre los participantes que no hayan sido eliminados. Las apuestas a Ganar/Posición
-        dirigidas a los participantes que ya hayan sido eliminados se declararán perdedoras.<br>
-        6) a. Los mercados de temática política se resloveran atendiendo a los resultados confirmados tras 12 horas
-        desde la primera publicación oficial por parte del gobierno responsable de la organización de las elecciones en el
-        sitio web oficial/redes sociales oficiales de la jurisdicción correspondiente. Resumidamente: en cuanto una
-        organización gubernamental competente declara un resultado oficial y lo confirme tras 12 horas, este se tendrá
-        en consideración como base para la resolución al margen de posibles protestas, disputas, resultados sub-judice
-        y/o subsiguientes cambios en los resultados oficiales.<br>
-        b. Para maximizar la experiencia del usuario, BetPlay se reserva al derecho, discrecional, de usar información
-        recabada de fuentes reputadas e históricamente fiables para resolver los mercados antes de la proclamación de
-        resultados oficiales según lo indicado en (Section C, Para 31, Clause 6(a)). En el supuesto caso de que tras la
-        publicación de los primeros resultados oficiales hubiese discrepancias que modifiquen el resultado del mercado,
-        BetPlay rectificará el error y concederá la victoria a las apuestas ganadoras según los resultados oficiales a la vez
-        que realizará las modificaciones necesarias según (Section A, Para 6, Clause 2). Los cambios que deriven de
-        las posibles protestas, dipustas, resultados sub-judice y/o sucesivos cambios del resultado oficial tras su
-        proclamación/confirmación no serán tenidos en consideración.`
+        content: `1) Las condiciones indicadas en esta sección hacen referencia a todas las ofertas que no estén clasificadas en
+              las diferentes categorías de deportes (por ejemplo, programas de televisión, política, galardones y premios,
+              concursos de belleza, entretenimiento y similares). Cuando corresponda, a menos que se indique lo contrario en esta
+              sección o en la oferta, estas apuestas se establecerán en base a las reglas de [the Operator] que aparecen en
+              &lt;Section B, Para 5&gt;.<br><br>
+              2) A menos que se especifique lo contrario a continuación o junto con la oferta de apuesta, todas las apuestas
+              que pertenezcan a esta sección serán válidas hasta que se publique un resultado oficial, independientemente de
+              los retrasos que se produzcan en el anuncio, las rondas de votación adicionales y otros acontecimientos que sean
+              necesarios para anunciar los resultados.<br><br>
+              3) Todas las ofertas abiertas en las que estén implicados participantes que abandonen/hayan sido expulsados de
+              programas de televisión (independientemente de si se van voluntariamente o lo hacen por decisión del organizador),
+              se declararán como ofertas perdidas. Si el mismo participante vuelve a participar en la misma competición en una
+              fecha posterior, se considerará como un nuevo participante, por lo que las apuestas anteriores se establecerán como
+              apuestas perdedoras.<br><br>
+              4) Las apuestas referentes a la eliminación de un participante solo serán válidas en el siguiente programa. Los
+              cambios en los métodos de expulsión, la cantidad y/o el grupo de participantes eliminados durante el mismo programa,
+              o cualquier otro factor que apareciera por sorpresa, provocarán la anulación de las apuestas referentes a "Próxima
+              expulsión" o "Próxima eliminación".<br><br>
+              5) En el caso de que el programa finalice antes de que haya un ganador oficial, las apuestas se establecerán como
+              empate (los mismos puntos) entre los participantes que no hayan sido eliminados. Las apuestas a Ganar/Posición
+              dirigidas a los participantes que ya hayan sido eliminados se declararán perdedoras.<br><br>
+              6) a. Los mercados de temática política se resolverán atendiendo a los resultados confirmados tras la primera
+              publicación oficial por parte del gobierno responsable de la organización de las elecciones en el sitio web
+              oficial/redes sociales oficiales de la jurisdicción correspondiente.<br><br>
+              b. [the Operator] se reserva al derecho, discrecional, de usar información recabada de fuentes de reconocida
+              reputación entre los emisores informativos nacionales para resolver los mercados antes de la proclamación y
+              conformación de resultados oficiales según lo indicado en &lt;Section C, Para 31, Clause 6(a)&gt;. Cualquier anuncio
+              público de concesión de la derrota por parte del contrincante será también un motivo para resolver las apuestas.
+              &lt;Section A, Para 6, Clause 2&gt;.<br><br>
+              c Los cambios que deriven de las posibles protestas, disputas, resultados sub-judice y/o sucesivos cambios del
+              resultado oficial tras su proclamación/confirmación no serán tenidos en consideración.`
     },
-    {
+    /* {
         id: 32,
         title: 'Limitaciones Específicas de Deportes',
         img: '',
@@ -1850,148 +1758,147 @@ export const sportsData:Array<ISportsData> = [
         a. El límite de 10 000 € se aplicará a las demás ofertas relacionadas con esta categoría. También se
         incluirán las ofertas relacionadas con los deportes, tales como Traspasos de jugadores, Próximo
         entrenador, etc.`
-    },
+    }, */
     {
         id: 33,
         title: 'Mixed Martial Arts (MMA)',
         img: '',
-        content: `1) Todas las ofertas se realizarán según el resultado oficial que declare la correspondiente autoridad competente
-        inmediatamente después de que el locutor lo anuncie al final de la pelea. No se tendrán en consideración arreglos
-        realizados al resultado final tras su primer anuncio excepto aquellos que realice la organización oficial para
-        rectificar casis claros de errores comunes por el anunciador del ring.<br>
-        2) A menos que se especifique claramente que las peleas no están confirmadas, las apuestas solo son válidas si
-        tienen lugar en la tarjeta/fecha que se anunciaron sin tener en cuenta los cambios de ubicación. Las apuestas se
-        considerarán nulas si hay anuncios oficiales por el cuerpo organizador relacionados con cambios de fecha,
-        cambio de programación de tarjeta o cambios en los jugadores incluso si dicho partido finalmente se realiza
-        como se anunció originalmente.<br>
-        3) Con la excepción de las situaciones detalladas en la (Sección C, Párrafo 33, Cláusula 4), añadir o eliminar
-        estipulaciones de título (por ejemplo: un partido anunciado inicialmente como partido no relativo al título
-        cambia a partido de titulo) o los cambios en clases de peso además de alguno de los luchadores con
-        imposibilidad de ajustarse al peso previamente establecido, no resultará en la anulación de las ofertas siempre
-        que la lucha tenga lugar en la tarjeta para la que se anunció.<br>
-        4) Si por algún motivo cambiase el número de asaltos programados de un combate entre el momento de
-        aceptación de la apuesta y la pelea, las ofertas que hagan referencia específicamente a los asaltos, tales como
-        "Apuestas a asaltos", "Grupo de asaltos", "Más/Menos de" y "El resultado se decidirá en el último momento", u
-        otras ofertas que se vean afectadas por dicho cambio, se declararán nulas.<br>
-        5) En el caso de que el combate se interrumpa por algún motivo entre asalto y asalto, por ejemplo, si se produce
-        un abandono antes del inicio del asalto, se descalifica a algún boxeador o no se responde a la campana, el
-        combate se declarará finalizado una vez terminada la ronda anterior.<br>
-        6) Las apuestas a combates declarados como "Combate sin decisión" o en las que ningún luchador se declare
-        como único ganador de la pelea, se anularán, a excepción de casos en los que dicho resultado se ofrece por
-        motivos de apuestas o de aquellas ofertas cuyos resultados se hayan decidido antes de la decisión y que
-        posiblemente no puedan modificarse independientemente de los eventos futuros, que se establecerán según el
-        resultado decidido.<br>
-        7) Las siguientes descripciones se consideran resultados aplicables para los diferentes escenarios:<br>
-        • "Cierre": Una victoria por KO (Knock-out), TKO (Knock-out técnico), DA (Descalificación),
-        Sumisión, "Tirar la toalla desde alguna de las esquinas de un luchador, el árbitro detiene la pelea
-        declarando a un luchador como único ganador de la misma.<br>
-        • "Puntos/Decisiones": Una victoria basada en las puntuaciones de los jueces.<br>
-        • "Decisión unánime": Una decisión por parte de todos los jueces declarando al mismo jugador como
-        ganador.<br>
-        • "Decisión mayoritaria": Una decisión en la que la mayoría de jueces declara al mismo luchador como
-        ganador mientras una minoría de los jueces declara la pelea como empate.<br>
-        • "Decisión dividida": Una decisión en la que la mayoría de jueces declara a un luchador como ganador
-        mientras una minoría de los jueces declara al otro luchador como ganador.<br>
-        • "Empate mayoritario": Una decisión en la que la mayoría de jueces declaran la pelea como empate
-        mientras una minoría de los jueces declara a un luchador como ganador.<br>
-        • "Empate dividido": Una decisión donde cada tarjeta de puntos de los jueces declara un resultado
-        diferente y ninguno prevalece sobre el otro.<br>
-        8) Solo se considerará que un combate se disputó en su totalidad (“the distance”) si los se concede por
-        puntos/decisión de los jueces tras la disputa de todos los asaltos previstos. En cualquier escenario en el que
-        la decisión por puntos/de los jueces se toma antes de la disputa de todos los asaltos previstos (por ejemplo,
-        se interrumpe el compate debido a un encontronazo de las cabezas de los luchadores), no se considerará que
-        el combate se haya disputado en su totalidad y se considerará que terminó en el asalto/momento en el que se
-        detuvo el combate y se resolvió en consecuencia. Las peleas que finalice por puntos/decisión de los jueces
-        antes de su completo desarrollo previsto y/o los combates considerados como “sin decisión” (“no contest”) y
-        el “método de decisión” se considerará como nulo a no ser que la resolución correspondiente fuera parte de
-        la apuesta.<br>
-        9) En las ofertas donde sea posible un empate y las cuotas no han sido ofrecidas para dicho resultado, las
-        apuestas se considerarán nulas si el resultado es tal. En términos de resolución, las peleas con resultado
-        "Empate por mayoría" o "Empate dividido" se consideran empate y las ofertas se ajustarán respectivamente.<br>
-        10) Las apuestas relacionadas con la duración de la ronda/pelea representan el tiempo real pasado en la
-        ronda/pelea como sea aplicable, según la duración de la ronda/pelea programada. Por ejemplo, una apuesta
-        sobre Más de 4,5 rondas se establecerá como Más cada dos minutos y 30 segundos en la 5ª ronda.<br>
-        11) La resolución de las ofertas basadas en estadísticas como las de "Luchador que haya tenido más
-        derribos" o "Luchador que haya realizado más ataques significantes" se resolverán según los resultados de la
-        asociación gobernante o su asociado oficial para dichas estadísticas. La resolución se basará según la
-        definición con la cual el cuerpo gobernante oficial emita dichas estadísticas. A menos que se demuestre a
-        través de pruebas no contradictorias, [el Operador] no se responsabilizará de las reclamaciones que surjan
-        debido a la interpretación personal de dichos términos. En casos en los que ambos jugadores se declaren
-        como cumplidores con el mismo resultado y dicho resultado no esté disponible como resultado posible para
-        las apuestas, las apuestas serán reembolsadas.<br>
-        12) Los mercados que confrontan o siguen peleas diferentes para la misma tarjeta como "Dos en total/TKOs
-        en la tarjeta" o "Partidos en total decididos por resolución en tarjeta" indicarán el número de peleas
-        necesario para establecerse en una tarjeta, o enumera específicamente la sección de la tarjeta a la que hace
-        referencia. Las apuestas seguirán siendo válidas si una pelea aplicable se cancela, pero el número de peleas
-        en la tarjeta o la sección específica aplicable de la misma sigue siendo igual (por ejemplo: repeticiones de
-        reservas, luchador reemplazado o partidos por debajo de la tarjeta/preliminares forzados en la tarjeta
-        principal). Si por algún motivo el número de peleas programado no tiene lugar durante la tarjeta o sección
-        específica de la misma a la que se refiere la apuesta, las apuestas se consideran nulas`
+        content: `1) Todas las ofertas se realizarán según el resultado oficial que declare la correspondiente
+              autoridad competente inmediatamente después de que el locutor lo anuncie al final de la pelea. No
+              se tendrán en consideración arreglos realizados al resultado final tras su primer anuncio excepto
+              aquellos que realice la organización oficial para rectificar casis claros de errores comunes por el
+              anunciador del ring.<br><br>
+              2) A menos que se especifique claramente que las peleas no están confirmadas, las apuestas solo son
+              válidas si tienen lugar en la tarjeta/fecha que se anunciaron sin tener en cuenta los cambios de
+              ubicación. Las apuestas se considerarán nulas si hay anuncios oficiales por el cuerpo organizador
+              relacionados con cambios de fecha, cambio de programación de tarjeta o cambios en los jugadores incluso
+              si dicho partido finalmente se realiza como se anunció originalmente. <br><br>
+              3) Con la excepción de las situaciones detalladas en la <Section C, Para 33, Clause 4>, añadir o eliminar
+              estipulaciones de título (por ejemplo: un partido anunciado inicialmente como partido no relativo al título
+              cambia a partido de titulo) o los cambios en clases de peso además de alguno de los luchadores con imposibilidad
+              de ajustarse al peso previamente establecido, no resultará en la anulación de las ofertas siempre que la lucha
+              tenga lugar en la tarjeta para la que se anunció.<br><br>
+              4) Si por algún motivo cambiase el número de asaltos programados de un combate entre el momento de aceptación
+              de la apuesta y la pelea, las ofertas que hagan referencia específicamente a los asaltos, tales como "Apuestas
+              a asaltos", "Grupo de asaltos", "Más/Menos de", "Método de victorias" y "Combate en su totalidad", u otras
+              ofertas que se vean afectadas por dicho cambio, se declararán nulas.<br><br>
+              5) En el caso de que el combate se interrumpa por algún motivo entre asalto y asalto, por ejemplo, si se produce
+              un abandono antes del inicio del asalto, se descalifica a algún boxeador o no se responde a la campana, el combate
+              se declarará finalizado una vez terminada la ronda anterior.<br><br>
+              6) Las apuestas a combates declarados como "Combate sin decisión" o en las que ningún luchador se declare como
+              único ganador de la pelea, se anularán, a excepción de casos en los que dicho resultado se ofrece por motivos de
+              apuestas o de aquellas ofertas cuyos resultados se hayan decidido antes de la decisión y que posiblemente no puedan
+              modificarse independientemente de los eventos futuros, que se establecerán según el resultado decidido.<br><br>
+              7) Las siguientes descripciones se consideran resultados aplicables para los diferentes escenarios:<br><br>
+              <ul>
+              <li>"Cierre": Una victoria por KO (Knock-out), TKO (Knock-out técnico), DA (Descalificación), Sumisión, "Tirar
+              la toalla desde alguna de las esquinas de un luchador, el árbitro detiene la pelea declarando a un luchador como
+              único ganador de la misma.</li>
+              <li>"Puntos/Decisiones": Una victoria basada en las puntuaciones de los jueces.</li>
+              <li>"Decisión unánime": Una decisión por parte de todos los jueces declarando al mismo jugador como ganador.</li>
+              <li>"Decisión mayoritaria": Una decisión en la que la mayoría de jueces declara al mismo luchador como ganador
+              mientras una minoría de los jueces declara la pelea como empate.</li>
+              <li>"Decisión dividida": Una decisión en la que la mayoría de jueces declara a un luchador como ganador mientras
+              una minoría de los jueces declara al otro luchador como ganador.</li>
+              <li>"Empate mayoritario": Una decisión en la que la mayoría de jueces declaran la pelea como empate mientras una
+              minoría de los jueces declara a un luchador como ganador.</li>
+              <li>"Empate dividido": Una decisión donde cada tarjeta de puntos de los jueces declara un resultado diferente y
+              ninguno prevalece sobre el otro.</li>
+              </ul>
+              8) Solo se considerará que un combate se disputó en su totalidad ("the distance") si los se concede por puntos/decisión
+              de los jueces tras la disputa de todos los asaltos previstos. Si se concediese una decisión por parte de los jueces o
+              árbitros antes de que se disputen todas las rondas previstas (Decisión técnica o no disputado) las ofertas como "Apuesta
+              de asalto alternativo", "Grupo de asaltos alternativos", "Más/menos" y "Combate en su totalidad" serán declaradas nulas
+              a no ser que el resultado ya estuviera decidido. Con fines de resolución de apuestas por asaltos o grupos de asaltos son
+              aquellas en las que un luchador ganará por KO, TKO, descalificación o sumisión durante ese asalto/grupo de asaltos. En
+              caso de una decisión técnica antes del final del combate, todas las apuestas serán resueltas como "Victoria por decisión".<br><br>
+              9) En las ofertas donde sea posible un empate y las cuotas no han sido ofrecidas para dicho resultado, las apuestas se
+              considerarán nulas si el resultado es tal. En términos de resolución, las peleas con resultado "Empate por mayoría" o
+              "Empate dividido" se consideran empate y las ofertas se ajustarán respectivamente.<br><br>
+              10) Las apuestas relacionadas con la duración de la ronda/pelea representan el tiempo real pasado en la ronda/pelea
+              como sea aplicable, según la duración de la ronda/pelea programada. Por ejemplo, una apuesta sobre Más de 4,5 rondas
+              se establecerá como Más cada dos minutos y 30 segundos en la 5ª ronda.<br><br>
+              11) La resolución de las ofertas basadas en estadísticas como las de "Luchador que haya tenido más derribos" o "Luchador
+              que haya realizado más ataques significantes" se resolverán según los resultados de la asociación gobernante o su asociado
+              oficial para dichas estadísticas. La resolución se basará según la definición con la cual el cuerpo gobernante oficial emita
+              dichas estadísticas. En casos en los que ambos jugadores se declaren como cumplidores con el mismo resultado y dicho resultado
+              no esté disponible como resultado posible para las apuestas, las apuestas serán reembolsadas.<br><br>
+              12) Los mercados que confrontan o siguen peleas diferentes para la misma tarjeta como "Dos en total/TKOs en la tarjeta" o
+              "Partidos en total decididos por resolución en tarjeta" indicarán el número de peleas necesario para establecerse en una
+              tarjeta, o enumera específicamente la sección de la tarjeta a la que hace referencia. Las apuestas seguirán siendo válidas
+              si una pelea aplicable se cancela, pero el número de peleas en la tarjeta o la sección específica aplicable de la misma sigue
+              siendo igual (por ejemplo: repeticiones de reservas, luchador reemplazado o partidos por debajo de la tarjeta/preliminares
+              forzados en la tarjeta principal). Si por algún motivo el número de peleas programado no tiene lugar durante la tarjeta o sección
+              específica de la misma a la que se refiere la apuesta, las apuestas se consideran nulas.`
     },
     {
         id: 34,
         title: 'Snooker',
         img: '',
         content: `1) Todas las apuestas siguen siendo válidas en la medida en que se juega el partido/la oferta en el torneo,
-        independientemente de los cambios de horarios, etc, a menos que otros arreglos se han acordado.<br>
-        2) La oferta de apuestas "Match" se basa en el principio general de la progresión en el torneo o de ganar el
-        torneo, dependiendo de la fase de la competencia que el partido se refiere. El jugador que pasa a la siguiente
-        ronda o que gana el torneo debe ser considerado como el ganador de la apuesta, independientemente de la
-        duración del partido, de los retiros, de las descalificaciones, etc. Estas apuestas necesitan que al menos una ronda
-        se complete para que las apuestas sean válidas.<br>
-        3) La oferta "Más/Menos de" en partidos/eventos inacabados cuyo resultado ya está determinado antes de la
-        interrupción y/o cualquier partido extendido no pueden producir un resultado diferente de la oferta será ajustada
-        en base del resultado obtenido hasta que se produzca la interrupción. Para el cálculo de estos pagos de estas
-        apuestas, se añadirá la cantidad mínima de evento que habría sido necesaria para llevar la oferta hasta su fin
-        natural, si es necesario, dependiendo del número de partidas programadas para el partido. Si este cálculo da
-        como resultado una situación en la que no hay posibles cambios que podrían afectar el resultado, la oferta de
-        apuestas se resolverá como tal. Vea los ejemplos de la sección de tenis como referencia.<br>
-        4) La oferta de apuestas en el "Handicap " requiere que todos las partidas deben ser completadas para que las
-        apuestas se mantienen, salvo en el caso en que el resultado ya está determinado antes de la interrupción y/o
-        cualquier juego extendido no pueden producir resultados diferentes tales ofertas se ajustarán en consecuencia.
-        Vea los ejemplos de la sección de referencia de tenis.<br>
-        5) Todas las apuestas "Resultado correcto", "Par/Impar" y éstas ofertas de apuestas referentes al ganador de un
-        período determinado en el juego (por ejemplo, " ganador del primer set" o " primer jugador a alcanzar X
-        partidas") requieren que el período correspondiente del partido se ha terminado.<br>
-        6) Todos los tipos de ofertas de apuestas nomencionadas anteriormente requieren por lo menos una partida se
-        completa para que la apuesta sea válida, a excepción de las ofertas cuyo resultado ya está determinado antes de
-        la interrupción del juego y la continuación del juego no pudo producir un resultado diferente.<br>
-        7) En casos de reasignación, todas las apuestas pendientes en ese periodo de tiempo específico serán establecidas
-        como nulas y se abrirá un nuevo mercado. Se hará una excepción de aquellas ofertas cuyo resultado ya ha sido
-        determinado antes de la reasignación y si al continuar el encuentro no se puede llegar a un resultado diverso.`
+              independientemente de los cambios de horarios, etc.<br><br>
+              2) La oferta de apuestas "Match" se basa en el principio general de la progresión en el torneo o de ganar el torneo,
+              dependiendo de la fase de la competencia que el partido se refiere. El jugador que pasa a la siguiente ronda o que gana
+              el torneo debe ser considerado como el ganador de la apuesta, independientemente de la duración del partido, de los
+              retiros, de las descalificaciones, etc. Estas apuestas necesitan que al menos una ronda se complete para que las apuestas
+              sean válidas.<br><br>
+              3) La oferta "Más/Menos de" en partidos/eventos inacabados cuyo resultado ya está determinado antes de la interrupción
+              y/o cualquier partido extendido no pueden producir un resultado diferente de la oferta será ajustada en base del resultado
+              obtenido hasta que se produzca la interrupción. Para el cálculo de estos pagos de estas apuestas, se añadirá la cantidad
+              mínima de evento que habría sido necesaria para llevar la oferta hasta su fin natural, si es necesario, dependiendo del
+              número de partidas programadas para el partido. Si este cálculo da como resultado una situación en la que no hay posibles
+              cambios que podrían afectar el resultado, la oferta de apuestas se resolverá como tal. Vea los ejemplos de la sección de
+              tenis como referencia.<br><br>
+              4) La oferta de apuestas en el "Hándicap" requiere que todas las partidas deben ser completadas para que las apuestas se
+              mantienen, salvo en el caso en que el resultado ya está determinado antes de la interrupción y/o cualquier juego extendido
+              no pueden producir resultados diferentes tales ofertas se ajustarán en consecuencia. Vea los ejemplos de la sección de
+              referencia de tenis.<br><br>
+              5) Todas las apuestas "Resultado correcto", "Par/Impar" y estas ofertas de apuestas referentes al ganador de un período
+              determinado en el juego (por ejemplo, "ganador del primer set" o "primer jugador a alcanzar X partidas") requieren que el
+              período correspondiente del partido se ha terminado.<br><br>
+              6) Todos los tipos de ofertas de apuestas no mencionadas anteriormente requieren por lo menos una partida se completa para
+              que la apuesta sea válida, a excepción de las ofertas cuyo resultado ya está determinado antes de la interrupción del juego
+              y la continuación del juego no pudo producir un resultado diferente.<br><br>
+              7) En casos de reasignación, todas las apuestas en ese periodo de tiempo específico serán establecidas como nulas y se abrirá
+              un nuevo mercado. Se hará una excepción de aquellas ofertas cuyo resultado ya ha sido determinado antes de la reasignación y
+              si al continuar el encuentro no se puede llegar a un resultado diferente.<br><br>
+              8) Todas las ofertas que hagan referencia a "{x}+break" se resolverán como sí si se producen {x} o más breaks. Por ejemplo,
+              la oferta "100+1 breaks en el frame 1" se resolverán como sí si se producen exactamente 100 breaks en el frame 1.<br><br>`
     },
     {
         id: 35,
         title: 'Dardos',
         img: '',
         content: `1) Todas las apuestas siguen siendo válidas en la medida en que se juega el partido/la oferta en el torneo,
-        independientemente de los cambios de horarios, etc, a menos que otros arreglos se han acordado.<br>
-        2) La oferta de apuestas "Match" se basa en el principio general de la progresión en el torneo o de ganar el
-        torneo, dependiendo de la fase de la competencia que el partido se refiere. El jugador que pasa a la siguiente
-        ronda o que gana el torneo debe ser considerado como el ganador de la apuesta, independientemente de la
-        duración del partido, de los retiros, de las descalificaciones, etc. Estas apuestas necesitan que al menos una ronda
-        se complete para que las apuestas sean válidas.<br>
-        3) La oferta "Más/Menos de" en partidos/eventos inacabados cuyo resultado ya está determinado antes de la
-        interrupción y/o cualquier partido extendido no pueden producir un resultado diferente de la oferta será ajustada
-        en base del resultado obtenido hasta que se produzca la interrupción. Para el cálculo de estos pagos de estas
-        apuestas, se añadirá la cantidad mínima de evento que habría sido necesaria para llevar la oferta hasta su fin
-        natural, si es necesario, dependiendo del número de partidas programadas para el partido. Si este cálculo da
-        como resultado una situación en la que no hay posibles cambios que podrían afectar el resultado, la oferta de
-        apuestas se resolverá como tal. Vea los ejemplos de la sección de tenis como referencia.<br>
-        4) La oferta de apuestas en el "Handicap " requiere que todas las partidas deben ser completadas para que las
-        apuestas se mantienen, salvo en el caso en que el resultado ya está determinado antes de la interrupción y/o
-        cualquier juego extendido no pueden producir resultados diferentes tales ofertas se ajustarán en consecuencia.
-        Vea los ejemplos de la sección de referencia de tenis.<br>
-        5) Todas las apuestas "Resultado correcto", "Par/Impar" y estas ofertas de apuestas referentes al ganador de un
-        período determinado en el juego (por ejemplo, " ganador del primer set" o " primer jugador a alcanzar X
-        partidas") requieren que el período correspondiente del partido se ha terminado.<br>
-        6) Todos los tipos de ofertas de apuestas nomencionadas anteriormente requieren por lo menos una partida se
-        completa para que la apuesta sea válida, a excepción de las ofertas cuyo resultado ya está determinado antes de
-        la interrupción del juego y la continuación del juego no pudo producir un resultado diferente. Las ofertas que
-        combinen un número de situaciones incurridas por un jugador en contreto en un encuentro/evento en particular
-        (por ejemplo: King of the Oche, etc.) requerirán que todas las connotaciones relacionas con esa apuesta se
-        deberán cumplir de manera plena e incuestionable. Si 1 o más parte de la oferta finalizasen en empate, se
-        considerarán las apuestas como PERDIDA.`
+              independientemente de los cambios de horarios, etc.<br><br>
+              2) La oferta de apuestas "Match" se basa en el principio general de la progresión en el torneo o de ganar el
+              torneo, dependiendo de la fase de la competencia que el partido se refiere. El jugador que pasa a la siguiente
+              ronda o que gana el torneo debe ser considerado como el ganador de la apuesta, independientemente de la duración
+              del partido, de los retiros, de las descalificaciones, etc, siempre y cuando el encuentro empiece.<br><br>
+              3) La oferta "Más/Menos de" en partidos/eventos inacabados cuyo resultado ya está determinado antes de la
+              interrupción y/o cualquier partido extendido no pueden producir un resultado diferente de la oferta será ajustada
+              en base del resultado obtenido hasta que se produzca la interrupción. Para el cálculo de estos pagos de estas
+              apuestas, se añadirá la cantidad mínima de evento que habría sido necesaria para llevar la oferta hasta su fin
+              natural, si es necesario, dependiendo del número de partidas programadas para el partido. Si este cálculo da como
+              resultado una situación en la que no hay posibles cambios que podrían afectar el resultado, la oferta de apuestas
+              se resolverá como tal. Vea los ejemplos de la sección de tenis como referencia.<br><br>
+              4) La oferta de apuestas en el "Hándicap" requiere que todas las partidas deben ser completadas para que las apuestas
+              se mantienen, salvo en el caso en que el resultado ya está determinado antes de la interrupción y/o cualquier juego
+              extendido no pueden producir resultados diferentes tales ofertas se ajustarán en consecuencia. Vea los ejemplos de
+              la sección de referencia de tenis.<br><br>
+              5) Todas las apuestas "Resultado correcto", "Par/Impar" y estas ofertas de apuestas referentes al ganador de un
+              período determinado en el juego (por ejemplo, "ganador del primer set" o "primer jugador a alcanzar X partidas")
+              requieren que el período correspondiente del partido se ha terminado.<br><br>
+              6) Todos los tipos de ofertas de apuestas no mencionadas anteriormente requieren por lo menos una partida se completa
+              para que la apuesta sea válida, a excepción de las ofertas cuyo resultado ya está determinado antes de la interrupción
+              del juego y la continuación del juego no pudo producir un resultado diferente.<br><br>
+              7) Las ofertas que combinen un número de situaciones incurridas por un jugador en concreto en un encuentro/evento en
+              particular (por ejemplo: King of the Oche, etc.) requerirán que todas las connotaciones relacionas con esa apuesta se
+              deberán cumplir de manera plena e incuestionable. Si 1 o más parte de la oferta finalizasen en empate, se considerarán
+              las apuestas como PERDIDA.<br><br>
+              8) Todas las ofertas que hagan referencia a "{x}+checkout" se resolverán como sí si se producen {x} o más breaks. Por
+              ejemplo, la oferta "100+checkout en 1ª manga" se resolverán como sí si se producen exactamente un checkout 100 en la
+              primera manga.`
     },
     {
       id: 36,
@@ -2016,5 +1923,16 @@ export const sportsData:Array<ISportsData> = [
         apuestas tengan validez, al margen de si el piloto es cronometrado de manera oficial.<br><br>
         6) En las apuestas a ganador o por clasificación, no se realizarán devoluciones por aquellos pilotos que no participen,
         por la razón que fuere, en la manga/semifinal/final/nivel al que la apuesta haga referencia.`
-  }
+    },
+    {
+      id: 37,
+      title: 'Lacrosse',
+      img: '',
+      content: `1) Un gol de dos puntos cuenta como dos goles.<br><br>
+      2) "Total de goles" hace referencia a la suma de goles del resultado final.<br><br>
+      3) Para las apuestas por jugadores, "Número total de goles anotados por el jugador" = Puntos – Asistencias.<br><br>
+      4) Sin devolución de las cuotas de victoria.<br><br>
+      5) Se deberán disputar los 60 minutos al completo para la acción.<br><br>
+      6) Se incluirá la prórroga con fines de apuestas si no hay línea de empate.`
+    }
   ];
