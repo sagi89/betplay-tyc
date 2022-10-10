@@ -1418,19 +1418,9 @@ export const sportsData:Array<ISportsData> = [
               resultado obtenido tras la prórroga, a menos que se indique lo contrario.<br><br>
               6) Todas las apuestas son válidas, independientemente de los cambios realizados con respecto al lugar de celebración.`
     },
-    /* {
-        id: 25,
-        title: 'Lacrosse',
-        img:'',
-        content: `1) Un gol de dos puntos cuenta como dos goles.<br><br>
-        2) "Total de goles" hace referencia a la suma de goles del resultado final.<br><br>
-        3) Para las apuestas por jugadores, "Número total de goles anotados por el jugador" = Puntos – Asistencias.<br><br>
-        4) Sin devolución de las cuotas de victoria.<br><br>
-        5) Se deberán disputar los 60 minutos al completo para la acción.<br><br>
-        6) Se incluirá la prórroga con fines de apuestas si no hay línea de empate.`
-    }, */
+
     {
-        id: 26,
+        id: 25,
         title: 'Speedway',
         img:'',
         content: `1) Todas las ofertas se establecerán según el resultado oficial que publique el órgano competente al final
@@ -1456,7 +1446,7 @@ export const sportsData:Array<ISportsData> = [
               eliminatoria y que todos los participantes indicados participen en la misma.`
     },
     {
-        id: 27,
+        id: 26,
         title: 'Surf',
         img:'',
         content: `1) Todas las apuestas son válidas, independientemente de los posibles aplazamientos, cambios en el lugar de
@@ -1471,7 +1461,7 @@ export const sportsData:Array<ISportsData> = [
               está vigente se indicará junto con la oferta de apuesta.`
     },
     {
-        id: 28,
+        id: 27,
         title: 'Natación',
         img:'',
         content: `1) A menos que se indique lo contrario, todas las apuestas a natación se determinarán en base al resultado obtenido
@@ -1490,14 +1480,8 @@ export const sportsData:Array<ISportsData> = [
               4) Los participantes descalificados debido a infracciones en la salida (errores en la salida) habrán participado en el evento. `
     },
 
-    /* {
-        id: 29,
-        title: 'Bádminton',
-        img: '',
-        content: `1) Se aplican los Términos y condiciones del tenis según proceda.`,
-    }, */
     {
-        id: 30,
+        id: 28,
         title: 'Deportes de Invierno',
         img: '',
         content: `1) Esta sección está destinada a los siguientes deportes: Esquí alpino, biatlón, esquí campo a través,
@@ -1539,7 +1523,7 @@ export const sportsData:Array<ISportsData> = [
               cambios de los resultados oficiales, etc.`
     },
     {
-        id: 31,
+        id: 29,
         title: 'Otros (apuestas no deportivas-especiales-políticas)',
         img: '',
         content: `1) Las condiciones indicadas en esta sección hacen referencia a todas las ofertas que no estén clasificadas en
@@ -1574,193 +1558,9 @@ export const sportsData:Array<ISportsData> = [
               c Los cambios que deriven de las posibles protestas, disputas, resultados sub-judice y/o sucesivos cambios del
               resultado oficial tras su proclamación/confirmación no serán tenidos en consideración.`
     },
-    /* {
-        id: 32,
-        title: 'Limitaciones Específicas de Deportes',
-        img: '',
-        content: `1) Tal y como se indica en la (Sección A, párrafo 4.1), BetPlay se reserva el derecho a limitar el pago
-        neto (una vez deducida la apuesta) de cualquier apuesta o combinación de apuestas realizada por un
-        titular de la cuenta o grupo de titulares de la cuenta que actúan de forma conjunta.<br>
-        2) A menos que se indique explícitamente, no se tendrán en cuenta las ganancias que superen los límites
-        mostrados a continuación.<br>
-        3) Los límites varían en función del deporte, el tipo de competición y el tipo de oferta de apuesta. Si una
-        apuesta contiene una combinación de ofertas de diferentes deportes/categorías/partidos y/o tipos de
-        ofertas, el pago se limitará al nivel más bajo incluido en la combinación, tal y como se especifica a
-        continuación.<br>
-        1. Fútbol:<br>
-        a. El límite de 250 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) Torneos internacionales masculinos regulados por la FIFA o la UEFA, incluidas las fases de
-        clasificación;<br>
-        (ii) Torneos de clubes internacionales masculinos regulados por la FIFA o la UEFA, incluidas las
-        fases de clasificación;<br>
-        (iii) Ligas nacionales masculinas de primer nivel en cualquiera de los siguientes países: Dinamarca,
-        Inglaterra, Francia, Alemania, Italia, Países Bajos, Noruega, Escocia, Suecia y España;<br>
-        (iv) Principales copas nacionales masculinas en cualquiera de los siguientes países: Dinamarca,
-        Inglaterra, Francia, Alemania, Italia, Países Bajos, Noruega, Escocia, Suecia y España.
-        El límite de 100 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (v) Los demás torneos internacionales;<br>
-        (vi) Los demás torneos de clubes internacionales;<br>
-        (vii) Ligas nacionales de primer nivel en cualquier otro país;<br>
-        (viii) Principales copas nacionales en cualquier otro país;<br>
-        (ix) Ligas nacionales masculinas de 2.º nivel en los siguientes países: Dinamarca, Inglaterra,
-        Francia, Alemania, Italia, Países Bajos, Noruega, Suecia y España;<br>
-        (x) Amistosos internacionales regulados por la FIFA.<br>
-        El límite de 50 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan otras categorías de fútbol, sin incluir el fútbol playa y el fútbol sala.<br>
-        b. Todas las apuestas referentes a jugadores (incluidas las tarjetas amarillas/rojas), traspasos,
-        entrenadores, medidas disciplinarias, saques de esquina, tiros a puerta y otras ofertas que no sean
-        decisivas de cara al resultado de una competición o un partido, se considerarán apuestas de
-        relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        2. Baloncesto<br>
-        a. El límite de 100 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) NBA, Euroliga, Juegos Olímpicos, Torneos internacionales y continentales masculinos
-        regulados por la FIBA<br>
-        b. El límite de 50 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de baloncesto.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        3. Hockey sobre hielo<br>
-        a. El límite de 100 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) NHL, Juegos Olímpicos, Torneos internacionales y continentales masculinos regulados por la
-        IIHF<br>
-        (ii) Ligas nacionales masculinas de primer nivel en cualquiera de los siguientes países: Finlandia y
-        Suecia.<br>
-        b. El límite de 50 000 € se aplicará a todas las ofertas relacionadas con partidos que pertenezcan a
-        cualquier otra oferta de hockey sobre hielo.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        4. Balonmano<br>
-        a. El límite de 100 000 € se aplicará a todas las ofertas relacionadas con partidos que pertenezcan a
-        cualquiera de las siguientes categorías:<br>
-        (i) Juegos Olímpicos, Torneos internacionales y continentales masculinos regulados por la IHF<br>
-        b. El límite de 25 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de balonmano.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        5. Voleibol<br>
-        a. El límite de 100 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) Juegos Olímpicos, Torneos internacionales y continentales masculinos regulados por la FIVB.<br>
-        b. El límite de 25 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de voleibol.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        6. Tenis<br>
-        a. El límite de 150 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) Torneos Grand Slam a partir de la 3.ª
-        ronda.<br>
-        b. El límite de 75 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (ii) Torneos ATP y WTA a partir de cuartos de final.<br>
-        c. El límite de 40 000 € se aplicará a todas las demás ofertas relacionadas con
-        competiciones/partidos.<br>
-        7. Béisbol y fútbol americano<br>
-        a. El límite de 50 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) NFL y MLB.<br>
-        b. El límite de 25 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de béisbol o fútbol americano.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        8. Fútbol australiano<br>
-        a. El límite de 100 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) AFL.<br>
-        b. El límite de 25 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de fútbol australiano.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        9. Críquet<br>
-        a. El límite de 100 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) Partidos internacionales yde primer nivel.<br>
-        b. El límite de 50 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de críquet.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        10. Dardos<br>
-        a. El límite de 100 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) Cualquier evento televisado en el Reino Unido.<br>
-        b. El límite de 50 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de dardos.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        11. Golf<br>
-        a. El límite de 100 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) Trofeos, campeonatos del tour de la LPGA, europeos, PGA y WGC; Ryder Cup y Solheim Cup.<br>
-        b. El límite de 25 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de golf.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        12. Rugby a 13<br>
-        a. El límite de 100 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) Partidos internacionales, primerasligas nacionales británicas, NRL y Torneos internacionales
-        masculinos regulados por la RLIF.<br>
-        b. El límite de 50 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de la Liga de rugby.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        13. Rugby a 15<br>
-        a. El límite de 100 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) Partidos internacionales, primerasligas nacionales de Australia, Nueva Zelanda y Reino Unido y
-        Torneos internacionales masculinos regulados por la IRB.<br>
-        b. El límite de 50 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de la Unión de rugby.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        14. Billar<br>
-        a. El límite de 100 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) Cualquier evento televisado en el Reino Unido.<br>
-        b. El límite de 50 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de billar.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        15. Deportes de motor<br>
-        a. El límite de 50 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquiera de las siguientes categorías:<br>
-        (i) Fórmula 1, MotoGP, Moto 2 y Moto 3.<br>
-        b. El límite de 25 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos que
-        pertenezcan a cualquier otra oferta de deportes de motor.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        16. Otros deportes<br>
-        a. El límite de 40 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos en
-        los siguientes deportes: Atletismo, bandy, boxeo, ciclismo, eSports, trote y deportes de invierno.<br>
-        b. El límite de 25 000 € se aplicará a todas las ofertas relacionadas con competiciones/partidos en
-        los demás deportes.<br>
-        c. Todas las apuestas referentes a jugadores, traspasos, entrenadores, medidas disciplinarias y otras
-        ofertas que no sean decisivas de cara al resultado de un partido/una liga/un torneo, se considerarán
-        apuestas de relaciones públicas y apuestas novedosas y estarán sujetas a los mismos límites.<br>
-        17. Apuestas no deportivas, novedosas, de poker y de relaciones públicas<br>
-        a. El límite de 10 000 € se aplicará a las demás ofertas relacionadas con esta categoría. También se
-        incluirán las ofertas relacionadas con los deportes, tales como Traspasos de jugadores, Próximo
-        entrenador, etc.`
-    }, */
+
     {
-        id: 33,
+        id: 30,
         title: 'Mixed Martial Arts (MMA)',
         img: '',
         content: `1) Todas las ofertas se realizarán según el resultado oficial que declare la correspondiente
@@ -1832,7 +1632,7 @@ export const sportsData:Array<ISportsData> = [
               específica de la misma a la que se refiere la apuesta, las apuestas se consideran nulas.`
     },
     {
-        id: 34,
+        id: 31,
         title: 'Snooker',
         img: '',
         content: `1) Todas las apuestas siguen siendo válidas en la medida en que se juega el partido/la oferta en el torneo,
@@ -1866,7 +1666,7 @@ export const sportsData:Array<ISportsData> = [
               la oferta "100+1 breaks en el frame 1" se resolverán como sí si se producen exactamente 100 breaks en el frame 1.<br><br>`
     },
     {
-        id: 35,
+        id: 32,
         title: 'Dardos',
         img: '',
         content: `1) Todas las apuestas siguen siendo válidas en la medida en que se juega el partido/la oferta en el torneo,
@@ -1901,7 +1701,7 @@ export const sportsData:Array<ISportsData> = [
               primera manga.`
     },
     {
-      id: 36,
+      id: 33,
       title: 'Carreras de drones',
       img: '',
       content: `1) Las apuestas se resuelven según se publique el tiempo y la clasificación en directo en la TV/streaming
@@ -1925,7 +1725,7 @@ export const sportsData:Array<ISportsData> = [
         por la razón que fuere, en la manga/semifinal/final/nivel al que la apuesta haga referencia.`
     },
     {
-      id: 37,
+      id: 34,
       title: 'Lacrosse',
       img: '',
       content: `1) Un gol de dos puntos cuenta como dos goles.<br><br>
