@@ -596,48 +596,5 @@ export const ReglasGralesApuestasData:Array<IDocumentData> = [
         como haber cumplido completamente lo establecido. Solo las ocurrencias enumeradas contarán en el resultado final.
         `,
     },
-    // {
-    //     id: 6,
-    //     title: 'Regla 4 de Tattersall',
-    //     content: `1) En el caso de un no corredor o de un no participante, las cuotas de los corredores o participantes
-    //     restantes se reducirán según la Regla 4 de Tattersalls.<br>
-    //     a. Apuestas a ganar:<br>
-    //     Cuotas actuales del corredor retirado/Deducciones en el porcentaje de los beneficios netos
-    //     1,30 o menos 75%<br>
-    //     Entre 1,31 y 1,40...... 70%<br>
-    //     Entre 1,41 y 1,53...... 65%<br>
-    //     Entre 1,54 y 1,62...... 60%<br>
-    //     Entre 1,63 y 1,80...... 55%<br>
-    //     Entre 1,81 y 1,95...... 50%<br>
-    //     Entre 1,96 y 2,20...... 45%<br>
-    //     Entre 2,21 y 2,50...... 40%<br>
-    //     Entre 2,51 y 2,75...... 35%<br>
-    //     Entre 2,76 y 3,25...... 30%<br>
-    //     Entre 3,26 y 4,00...... 25%<br>
-    //     Entre 4,01 y 5,00...... 20%<br>
-    //     Entre 5,01 y 6,50...... 15%<br>
-    //     Entre 6,51 y 10,00..... 10%<br>
-    //     Entre 10,01 y 15,00.... 5%<br>
-    //     15,01 o más Sin deducciones<br>
-    //     b. Apuestas a posición<br>
-    //     • Cuotas actuales del corredor retirado/Deducciones en el porcentaje de los beneficios netos
-    //     1,06 o menos 55%<br>
-    //     Entre 1,07 y 1,14...... 45%<br>
-    //     Entre 1,15 y 1,25...... 40%<br>
-    //     Entre 1,26 y 1,52...... 30%<br>
-    //     Entre 1,53 y 1,85...... 25%<br>
-    //     Entre 1,86 y 2,40...... 20%<br>
-    //     Entre 2,41 y 3,15...... 15%<br>
-    //     Entre 3,16 y 4,00...... 10%<br>
-    //     Entre 4,01 y 5,00...... 5%<br>
-    //     5,01 o más Sin deducciones<br>
-    //     2) En el caso de que existan dos o más no corredores o no participantes, la reducción total no debe
-    //     superar el 75%. En este caso, la deducción se basará en las cuotas totales de los corredores retirados.`,
-    // },
-    // {
-    //     id: 7,
-    //     title: 'Quinielas',
-    //     content: `1) Para consultar la lista completa de los Términos y condiciones de Supertoto, haz clic aquí.<br>
-    //     2) Para consultar la lista completa de los Términos y condiciones de Superscore, haz clic aquí.`,
-    // },
+
 ]
